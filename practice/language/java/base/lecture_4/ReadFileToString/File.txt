@@ -1,0 +1,20 @@
+Linus Torvalds - TED 2016
+
+It does not have the if statement. 
+
+And it doesn’t really matter
+
+I don’t want you understand why it doesn’t have the if statement, 
+but I want you to understand that 
+sometimes you can see a problem in a different way and rewrite 
+it so that a special case goes away and becomes the normal case. 
+
+And that’s good code. 
+
+But this is simple code. 
+
+This is CS 101. 
+
+This is not important – although, details are important.
+
+
