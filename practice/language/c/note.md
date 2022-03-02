@@ -2,6 +2,25 @@
 
 將 GCC 環境安裝完成後，執行如下。
 
+## GCC VS LLVM
+
+```
+> gcc -o [File Name] [File Name].c
+> ./[File Name]
+```
+
+```
+> clang -o [File Name] [File Name].c
+> ./[File Name]
+```
+
+Mac
+
+```
+brew install llvm
+```
+
+
 ## 編譯與執行
 
 ### C
