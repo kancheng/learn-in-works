@@ -4,6 +4,12 @@
 
 個人學習清單，在此紀錄閱讀書籍並記錄如下。若與程式碼跟技術有關則考慮直接實作練習，並將範例的錯誤進行研讀與修正。
 
+## Link
+
+1. Rust, https://rust-lang.tw/book-tw/
+
+2. Go, https://go.dev/doc/tutorial/getting-started
+
 ## List
 
 1. 人工智能一种现代的方法，Stuart J.Russell, Peter Norvig
