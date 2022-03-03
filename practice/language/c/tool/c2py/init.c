@@ -1,8 +1,7 @@
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
-//#include <Python/Python.h>
 
-// gcc -shared -o sample.so sample.c -framework Python
+// gcc -shared -o init.so init.c -framework Python
 // gcc -shared -o [NMAE].so [NMAE].c -framework Python
 
 int main(int argc, char *argv[])
