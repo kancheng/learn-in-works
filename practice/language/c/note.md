@@ -1,6 +1,18 @@
 # C & C++
 
-將 GCC 環境安裝完成後，執行如下。
+## C 版本
+
+```
+gcc -std=c99 init.c
+gcc -std=clx init.c
+gcc -std=cll init.c
+
+clang -std=c99 init.c
+clang -std=clx init.c
+clang -std=cll init.c
+```
+
+將 GCC & LLVM 環境安裝完成後，執行如下。
 
 ## GCC VS LLVM
 
