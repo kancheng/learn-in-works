@@ -12,6 +12,8 @@
 
 ## List
 
+0. C++ & C 教學範本，洪錦魁
+
 1. 人工智能一种现代的方法，Stuart J.Russell, Peter Norvig
 
 2. 機器學習，周志華
@@ -29,3 +31,19 @@
 8. C Primer Plus， Stephen Prata
 
 9. Python 編程和實踐數學教科書，我妻幸長
+
+## Read
+
+1. Interview
+
+https://github.com/kkbruce/reverse-interview-zh-Hant
+
+https://github.com/viraptor/reverse-interview
+
+2. NTU ML 2021
+
+https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
+
+3. Linux 核心設計/實作 (Linux Kernel Internals)
+
+http://wiki.csie.ncku.edu.tw/linux/schedule
