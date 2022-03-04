@@ -32,6 +32,29 @@
 
 9. Python 編程和實踐數學教科書，我妻幸長
 
+## Test Tool
+
+1. Cppcheck
+
+https://cppcheck.sourceforge.io/
+
+
+2. Valgrind
+
+https://github.com/LouisBrunner/valgrind-macos
+
+
+3. Instruments
+
+4. google perftools
+
+https://github.com/gperftools/gperftools
+
+5. Python Profilers 分析器
+
+https://docs.python.org/zh-cn/3.11/library/profile.html
+
+
 ## Read
 
 1. Interview
