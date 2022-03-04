@@ -77,7 +77,7 @@ python -m cProfile t.py
 
 ### Python timeit 執行時間獲取方式
 
-t.py
+1. t.py
 
 ```
 import timeit
@@ -90,6 +90,7 @@ class Debug:
 main = Debug()
 main.mainProgram()
 ```
+
 
 ### Python Pymler
 
