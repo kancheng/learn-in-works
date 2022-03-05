@@ -63,12 +63,17 @@ https://github.com/kkbruce/reverse-interview-zh-Hant
 
 https://github.com/viraptor/reverse-interview
 
+
 2. NTU ML 2021
 
 https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
+
+https://www.youtube.com/c/HungyiLeeNTU
+
 
 3. Linux 核心設計/實作 (Linux Kernel Internals)
 
 http://wiki.csie.ncku.edu.tw/linux/schedule
 
 https://www.youtube.com/c/GUTS4tech
+
