@@ -28,6 +28,11 @@
 
 7. 由片語學習 C 程式設計，劉邦鋒
 
+https://sites.google.com/view/c-programming-2ed/home
+
+https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
+
+
 8. C Primer Plus， Stephen Prata
 
 9. Python 編程和實踐數學教科書，我妻幸長
