@@ -2,7 +2,7 @@
 
 ## Details
 
-個人學習清單，在此紀錄閱讀書籍並記錄如下。若與程式碼跟技術有關則考慮直接實作練習，並將範例的錯誤進行研讀與修正。
+個人學習清單，在此紀錄閱讀的書籍、資源並記錄如下。若與程式碼跟技術有關則考慮直接實作練習，並將範例的錯誤進行研讀與修正。
 
 ## Link
 
@@ -69,14 +69,25 @@ https://github.com/kkbruce/reverse-interview-zh-Hant
 https://github.com/viraptor/reverse-interview
 
 
-2. NTU ML 2021
+2. NTU ML
+
+Hung-yi Lee
 
 https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 
 https://www.youtube.com/c/HungyiLeeNTU
 
 
+Hsuan-Tien Lin
+
+https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf
+
+https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
+
+
 3. Linux 核心設計/實作 (Linux Kernel Internals)
+
+Jim Huang
 
 http://wiki.csie.ncku.edu.tw/linux/schedule
 
