@@ -93,3 +93,7 @@ http://wiki.csie.ncku.edu.tw/linux/schedule
 
 https://www.youtube.com/c/GUTS4tech
 
+
+## Fun
+
+1. https://ruslanspivak.com/lsbasi-part1/
