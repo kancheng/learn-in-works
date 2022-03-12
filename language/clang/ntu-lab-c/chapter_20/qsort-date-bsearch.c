@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+// date
+struct date {
+	int year;
+	int month;
+	int day;
+};
+typedef struct date Date;
+// compare
+int compare (const void *data1, const void *data2) {
+	Date *ptr1 = (Date *)data1;
+	Date *ptr2 = (Date *)data2;
+	if (ptr1->year < ptr2->year)
+		return -1;
+	else if (ptr1->year > ptr2->year)
+		return 1;
+	else if (ptr1->month < ptr2->month)
+		return -1;
+	else if (ptr1->month > ptr2->month)
+		return 1;
+	else if (ptr1->day < ptr2->day)
+		return -1;
+	else if (ptr1->day > ptr2->day)
+		return 1;
+	else 
+		return 0;
+}
+// main
+#define ARRAYSIZE 10
+int main(void)
+{
+	Date array[ARRAYSIZE];
+	for (int i = 0; i < ARRAYSIZE; i++) {
+		scanf("%d", &(array[i].year));
+		scanf("%d", &(array[i].month));
+		scanf("%d", &(array[i].day));
+	}
+	qsort (array, ARRAYSIZE, sizeof(Date), compare);
+	for (int i = 0; i < ARRAYSIZE; i++)
+		printf("%d %d %d\n", array[i].year,
+			array[i].month, array[i].day);
+	Date key;
+	scanf("%d%d%d", &(key.year), &(key.month), &(key.day));
+	Date *found = bsearch(&key, array, ARRAYSIZE, sizeof(Date), compare);
+	printf("found (%d %d %d) in array [%ld]\n",
+		found->year, found->month, found->day, found - array);
+	return 0;
+}
+/*
+1999 1 1
+1950 6 6
+2000 1 1
+2010 1 1
+1999 2 1
+1951 6 6
+2000 1 1
+2010 1 3
+2010 4 4 
+2010 4 5
+*/
