@@ -53,6 +53,23 @@ https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
 
 9. Python 編程和實踐數學教科書，我妻幸長
 
+10. 算法之美，Python 語言實現，劉瑜, 車紫輝, 顧明臣, 杜璟敏
+
+11. 密碼編碼學與網路安全 - 原理與實踐, Cryptography and Network Security，William Stallings
+
+12.  深入理解計算機系統, Computer Systems: A Programmer's Perspective，Randal E. Bryant, David R. O'Hallaron
+
+13. 應用密碼學, Applied Cryptography - Protocols, Algorithm, and Source Code in C，Bruce Schneier
+
+- https://github.com/bheesham/applied-cryptography-accompanying-source-code
+
+- https://www.schneier.com/books/applied-cryptography-source
+
+- https://www.schneier.com/
+
+
+14. 編譯原理, Compilers: Principles - Techniques and Tools，Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman
+ 
 ## Test Tool
 
 1. Cppcheck
