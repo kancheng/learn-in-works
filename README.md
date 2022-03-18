@@ -69,6 +69,10 @@ https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
 
 
 14. 編譯原理, Compilers: Principles - Techniques and Tools，Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman
+
+15. 蘑菇书 EasyRL
+
+https://datawhalechina.github.io/easy-rl/#/
  
 ## Test Tool
 
@@ -132,3 +136,5 @@ https://www.youtube.com/c/GUTS4tech
 1. Let’s Build A Simple Interpreter : https://ruslanspivak.com/lsbasi-part1/
 
 2. Lima: Linux virtual machines (on macOS, in most cases) : https://github.com/lima-vm/lima
+
+
