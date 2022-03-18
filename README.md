@@ -138,3 +138,12 @@ https://www.youtube.com/c/GUTS4tech
 2. Lima: Linux virtual machines (on macOS, in most cases) : https://github.com/lima-vm/lima
 
 
+## iThome
+
+1. Rust : https://ithelp.ithome.com.tw/users/20129675/ironman/4260
+
+2. Cpp : https://ithelp.ithome.com.tw/users/20120557/ironman/2670
+
+3. React & Golang : https://ithelp.ithome.com.tw/users/20113505/ironman/4295
+
+
