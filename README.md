@@ -137,6 +137,7 @@ https://www.youtube.com/c/GUTS4tech
 
 2. Lima: Linux virtual machines (on macOS, in most cases) : https://github.com/lima-vm/lima
 
+3. Rust Programming Crafting Interpreters : https://www.youtube.com/watch?v=WdoAJ_ouWRM&list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN
 
 ## iThome
 
@@ -145,5 +146,15 @@ https://www.youtube.com/c/GUTS4tech
 2. Cpp : https://ithelp.ithome.com.tw/users/20120557/ironman/2670
 
 3. React & Golang : https://ithelp.ithome.com.tw/users/20113505/ironman/4295
+
+4. Angular : https://ithelp.ithome.com.tw/users/20090728/ironman/1600
+
+5. React : https://ithelp.ithome.com.tw/users/20116826/ironman/2278
+
+6. Vue : https://ithelp.ithome.com.tw/users/20129072/ironman/3052
+
+7. Unit Test Java : https://ithelp.ithome.com.tw/m/users/20107429/ironman/3897
+
+8. Blockchain : https://ithelp.ithome.com.tw/users/20119982/ironman/2255
 
 
