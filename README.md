@@ -45,9 +45,9 @@
 
 7. 由片語學習 C 程式設計，劉邦鋒
 
-https://sites.google.com/view/c-programming-2ed/home
+- https://sites.google.com/view/c-programming-2ed/home
 
-https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
+- https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
 
 
 8. C Primer Plus， Stephen Prata
@@ -73,7 +73,11 @@ https://github.com/pangfengliu/C-programming-with-idioms-2nd-edition
 
 15. 蘑菇书 EasyRL
 
-https://datawhalechina.github.io/easy-rl/#/
+- https://datawhalechina.github.io/easy-rl/#/
+
+16. 系統程式, 陳鍾誠
+
+- https://github.com/cccbook/sp/wiki/spbook
  
 ## Test Tool
 
