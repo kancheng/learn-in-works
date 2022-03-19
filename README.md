@@ -78,28 +78,30 @@
 16. 系統程式, 陳鍾誠
 
 - https://github.com/cccbook/sp/wiki/spbook
+
+- https://github.com/ccc-c/c6/wiki
  
 ## Test Tool
 
 1. Cppcheck
 
-https://cppcheck.sourceforge.io/
+- https://cppcheck.sourceforge.io/
 
 
 2. Valgrind
 
-https://github.com/LouisBrunner/valgrind-macos
+- https://github.com/LouisBrunner/valgrind-macos
 
 
 3. Instruments
 
 4. google perftools
 
-https://github.com/gperftools/gperftools
+- https://github.com/gperftools/gperftools
 
 5. Python Profilers 分析器
 
-https://docs.python.org/zh-cn/3.11/library/profile.html
+- https://docs.python.org/zh-cn/3.11/library/profile.html
 
 
 ## Read
@@ -132,6 +134,10 @@ https://docs.python.org/zh-cn/3.11/library/profile.html
 1. http://wiki.csie.ncku.edu.tw/linux/schedule
 
 2. https://www.youtube.com/c/GUTS4tech
+
+3. https://github.com/jserv/simplefs
+
+4. https://github.com/sysprog21/rubi
 
 
 ## Fun
