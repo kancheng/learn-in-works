@@ -25,6 +25,7 @@
 
 2. Go, https://go.dev/doc/tutorial/getting-started
 
+3. Webassembly, https://webassembly.org/getting-started/developers-guide/
 
 ## Lists
 
@@ -99,36 +100,34 @@ https://docs.python.org/zh-cn/3.11/library/profile.html
 
 ## Read
 
-1. Interview
+### Interview
 
-https://github.com/kkbruce/reverse-interview-zh-Hant
+1. https://github.com/kkbruce/reverse-interview-zh-Hant
 
-https://github.com/viraptor/reverse-interview
-
-
-2. NTU ML
-
-Hung-yi Lee
-
-https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
-
-https://www.youtube.com/c/HungyiLeeNTU
+2. https://github.com/viraptor/reverse-interview
 
 
-Hsuan-Tien Lin
+### NTU ML - Hung-yi Lee
 
-https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf
+1. https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
 
-https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
+2. https://www.youtube.com/c/HungyiLeeNTU
+
+3. https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW
 
 
-3. Linux 核心設計/實作 (Linux Kernel Internals)
+### NTU ML - Hsuan-Tien Lin
 
-Jim Huang
+1. https://www.youtube.com/watch?v=nQvpFSMPhr0&list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf
 
-http://wiki.csie.ncku.edu.tw/linux/schedule
+2. https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
 
-https://www.youtube.com/c/GUTS4tech
+
+### Linux 核心設計/實作 (Linux Kernel Internals) - Jim Huang
+
+1. http://wiki.csie.ncku.edu.tw/linux/schedule
+
+2. https://www.youtube.com/c/GUTS4tech
 
 
 ## Fun
@@ -138,6 +137,7 @@ https://www.youtube.com/c/GUTS4tech
 2. Lima: Linux virtual machines (on macOS, in most cases) : https://github.com/lima-vm/lima
 
 3. Rust Programming Crafting Interpreters : https://www.youtube.com/watch?v=WdoAJ_ouWRM&list=PLib6-zlkjfXluRjBgK8grQH2IUSZjn-YN
+
 
 ## iThome
 
@@ -157,4 +157,8 @@ https://www.youtube.com/c/GUTS4tech
 
 8. Blockchain : https://ithelp.ithome.com.tw/users/20119982/ironman/2255
 
+9. Julia : https://ithelp.ithome.com.tw/users/20111688/ironman/1735
 
+10. Jenkins : https://ithelp.ithome.com.tw/users/20141518/ironman/4653
+
+11. Selenium & 網路爬蟲 : https://ithelp.ithome.com.tw/users/20134430/ironman/4307
