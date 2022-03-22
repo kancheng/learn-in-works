@@ -172,3 +172,6 @@
 10. Jenkins : https://ithelp.ithome.com.tw/users/20141518/ironman/4653
 
 11. Selenium & 網路爬蟲 : https://ithelp.ithome.com.tw/users/20134430/ironman/4307
+
+12. 資料結構與演算法，使用 JavaScript 與 Python : https://ithelp.ithome.com.tw/users/20121027/ironman/4552
+
