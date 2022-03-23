@@ -112,6 +112,8 @@
 
 2. https://github.com/viraptor/reverse-interview
 
+3. https://yschen25.blogspot.com/2022/02/coding-interview.html
+
 
 ### NTU ML - Hung-yi Lee
 
