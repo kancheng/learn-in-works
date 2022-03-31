@@ -80,7 +80,11 @@
 - https://github.com/cccbook/sp/wiki/spbook
 
 - https://github.com/ccc-c/c6/wiki
- 
+
+17. 动手学深度学习, Dive into Deep Learning
+
+- https://d2l.ai/
+
 ## Test Tool
 
 1. Cppcheck
@@ -186,3 +190,4 @@
 
 1. 前端學習地圖 : https://coggle.it/diagram/XJdj8UA5tjeIugda/t/%E5%85%AD%E8%A7%92%E5%89%8D%E7%AB%AF%E5%A4%A7%E8%A3%9C%E5%B8%96/3ce94a1e7878d5f0c3c36c8ee5dd6db85bcc0fd177475649f0b9b88a6e473ea4
 
+2. Figma : https://www.youtube.com/watch?v=P96TQwsY_VY
