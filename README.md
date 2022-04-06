@@ -234,3 +234,14 @@
 1. https://github.com/jaywcjlove/linux-command
 
 2. https://linux.vbird.org/
+
+## OwO
+
+1. https://vgod.medium.com/%E8%BF%BD%E6%B1%82%E7%A5%9E%E4%B9%8E%E5%85%B6%E6%8A%80%E7%9A%84%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B9%8B%E9%81%93-2022%E9%87%8D%E7%B7%A8%E7%89%88-7cccc3c68f1e
+
+2. https://vgod.medium.com/list/e731a8ecf20d
+
+
+## Browser
+
+https://tigercosmos.xyz/post/2018/02/browser/browser_series_33/
