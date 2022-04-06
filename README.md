@@ -192,7 +192,45 @@
 
 2. Figma : https://www.youtube.com/watch?v=P96TQwsY_VY
 
+3. Adobe XD : https://www.youtube.com/watch?v=2c_YyHudqjQ
+
 
 ## CMake
 
 1. https://github.com/ttroy50/cmake-examples
+
+## MIT OPERATING SYSTEM ENGINEERING
+
+1. https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/pages/lecture-notes-and-readings/
+
+2. https://www.bilibili.com/video/BV1px411E7ST/
+
+3. https://www.youtube.com/watch?v=kDRHsNauoxk&list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP
+
+## CMU CS:APP
+
+1. https://csapp.cs.cmu.edu/
+
+2. https://hackmd.io/@sysprog/SJ7V-qikG?type=view
+
+3. https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/
+
+4. https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0be3c53f-5d35-40f0-a5ab-55897a2c91a5
+
+## UNIX 6th Edition Kernel Source Code
+
+1. https://github.com/memnoth/unix-v6
+
+2. https://pages.lip6.fr/Pierre.Sens/srcv6/
+
+## Linux
+
+1. https://www.kernel.org/
+
+2. https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/
+
+## Linux Command
+
+1. https://github.com/jaywcjlove/linux-command
+
+2. https://linux.vbird.org/
