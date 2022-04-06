@@ -244,4 +244,4 @@
 
 ## Browser
 
-https://tigercosmos.xyz/post/2018/02/browser/browser_series_33/
+1. https://tigercosmos.xyz/post/2018/02/browser/browser_series_33/
