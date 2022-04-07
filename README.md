@@ -194,10 +194,13 @@
 
 3. Adobe XD : https://www.youtube.com/watch?v=2c_YyHudqjQ
 
+4. 60-30-10 Color Rule : https://www.youtube.com/watch?v=UWwNIMHFdW4
+
 
 ## CMake
 
 1. https://github.com/ttroy50/cmake-examples
+
 
 ## MIT OPERATING SYSTEM ENGINEERING
 
@@ -206,6 +209,7 @@
 2. https://www.bilibili.com/video/BV1px411E7ST/
 
 3. https://www.youtube.com/watch?v=kDRHsNauoxk&list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP
+
 
 ## CMU CS:APP
 
@@ -217,11 +221,13 @@
 
 4. https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0be3c53f-5d35-40f0-a5ab-55897a2c91a5
 
+
 ## UNIX 6th Edition Kernel Source Code
 
 1. https://github.com/memnoth/unix-v6
 
 2. https://pages.lip6.fr/Pierre.Sens/srcv6/
+
 
 ## Linux
 
@@ -229,11 +235,13 @@
 
 2. https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/
 
+
 ## Linux Command
 
 1. https://github.com/jaywcjlove/linux-command
 
 2. https://linux.vbird.org/
+
 
 ## OwO
 
@@ -250,4 +258,36 @@
 ## Game Engine
 
 1. https://www.youtube.com/watch?v=JxIZbV_XjAs&list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT
+
+
+## AI & ML & DL - GitHub Project
+
+1. Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment.
+
+- https://github.com/microsoft/qlib
+
+
+2. UVCGAN
+
+- https://github.com/LS4GAN/uvcgan
+
+
+3. YOLOv3 & PyTorch
+
+- https://github.com/DayBreak-u/yolo-face-with-landmark
+
+
+## Tool
+
+1. FreeTube
+
+https://github.com/FreeTubeApp/FreeTube
+
+
+## C++
+
+1. C++ Game Programming For Beginners
+
+- https://www.youtube.com/watch?v=LvpS3ILwQNA
+
 
