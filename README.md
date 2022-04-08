@@ -85,6 +85,7 @@
 
 - https://d2l.ai/
 
+
 ## Test Tool
 
 1. Cppcheck
@@ -103,9 +104,15 @@
 
 - https://github.com/gperftools/gperftools
 
+
 5. Python Profilers 分析器
 
 - https://docs.python.org/zh-cn/3.11/library/profile.html
+
+
+6. Infer – Facebook Static Code Analyzer
+
+- https://hackmd.io/@jasperlin1996/infer
 
 
 ## Read
@@ -156,6 +163,8 @@
 
 4. programming-summary : https://github.com/jinbooooom/programming-summary
 
+5. Parallel memory access on modern processors : https://stackoverflow.com/questions/45382914/parallel-memory-access-on-modern-processors
+
 
 ## iThome
 
@@ -195,6 +204,16 @@
 3. Adobe XD : https://www.youtube.com/watch?v=2c_YyHudqjQ
 
 4. 60-30-10 Color Rule : https://www.youtube.com/watch?v=UWwNIMHFdW4
+
+5. JS 註解 - jsDoc : 
+
+- https://www.youtube.com/watch?v=b405ROkbkhM
+
+- https://jsdoc.app/
+
+6. Git Rebase + Flow
+
+- https://www.youtube.com/watch?v=ZCHLOP26glc
 
 
 ## CMake
@@ -243,7 +262,7 @@
 2. https://linux.vbird.org/
 
 
-## OwO
+## 工程師文章
 
 1. https://vgod.medium.com/%E8%BF%BD%E6%B1%82%E7%A5%9E%E4%B9%8E%E5%85%B6%E6%8A%80%E7%9A%84%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E4%B9%8B%E9%81%93-2022%E9%87%8D%E7%B7%A8%E7%89%88-7cccc3c68f1e
 
@@ -284,10 +303,18 @@
 https://github.com/FreeTubeApp/FreeTube
 
 
-## C++
+## Game
 
 1. C++ Game Programming For Beginners
 
 - https://www.youtube.com/watch?v=LvpS3ILwQNA
 
+2. JS & CSS : 
+
+- https://github.com/hahalin/SFRyu
+
+
+## Python
+
+- Python Tutorial : https://shengyu7697.github.io/python-tutorial/
 
