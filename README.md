@@ -205,15 +205,23 @@
 
 4. 60-30-10 Color Rule : https://www.youtube.com/watch?v=UWwNIMHFdW4
 
+
 5. JS 註解 - jsDoc : 
 
 - https://www.youtube.com/watch?v=b405ROkbkhM
 
 - https://jsdoc.app/
 
+
 6. Git Rebase + Flow
 
 - https://www.youtube.com/watch?v=ZCHLOP26glc
+
+
+7. HackMD 撰寫
+
+- https://www.youtube.com/watch?v=msY4g36daUo
+
 
 
 ## CMake
