@@ -222,6 +222,12 @@
 
 - https://www.youtube.com/watch?v=msY4g36daUo
 
+8. TDX API 全攻略 : https://www.youtube.com/watch?v=QR15lr82tt4
+
+9. LaTeX Overleaf : https://www.youtube.com/watch?v=mQamBS6uTOc 
+
+10. Eleventy 静态博客 : https://www.youtube.com/watch?v=epikKwnhvSs
+
 
 
 ## CMake
