@@ -230,6 +230,8 @@
 
 11. Laravel, Vue 3 and Tailwindcss : https://www.youtube.com/watch?v=WLQDpY7lOLg
 
+12. ES6 Features : http://es6-features.org/
+
 
 ## CMake
 
