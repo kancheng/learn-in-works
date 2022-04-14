@@ -228,6 +228,7 @@
 
 10. Eleventy 静态博客 : https://www.youtube.com/watch?v=epikKwnhvSs
 
+11. Laravel, Vue 3 and Tailwindcss : https://www.youtube.com/watch?v=WLQDpY7lOLg
 
 
 ## CMake
@@ -253,6 +254,14 @@
 3. https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CSAPP/
 
 4. https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0be3c53f-5d35-40f0-a5ab-55897a2c91a5
+
+## Stanford University School of Engineering
+
+1. Computer vision : 
+
+- https://www.youtube.com/watch?v=vT1JzLTH4G4&list=RDCMUCdKG2JnvPu6mY1NDXYFfN0g&start_radio=1
+
+- https://www.youtube.com/watch?v=vT1JzLTH4G4
 
 
 ## UNIX 6th Edition Kernel Source Code
@@ -327,10 +336,12 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://github.com/hahalin/SFRyu
 
-3.Pokémon JavaScript Game Tutorial with HTML Canvas : https://www.youtube.com/watch?v=yP5DKzriqXA
+3. Pokémon JavaScript Game Tutorial with HTML Canvas : https://www.youtube.com/watch?v=yP5DKzriqXA
 
 
 ## Python
 
 - Python Tutorial : https://shengyu7697.github.io/python-tutorial/
+
+- Python opencv 2 hours teaching for beginners : https://www.youtube.com/watch?v=xjrykYpaBBM
 
