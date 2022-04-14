@@ -327,6 +327,8 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://github.com/hahalin/SFRyu
 
+3.Pokémon JavaScript Game Tutorial with HTML Canvas : https://www.youtube.com/watch?v=yP5DKzriqXA
+
 
 ## Python
 
