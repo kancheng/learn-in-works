@@ -347,3 +347,5 @@ https://github.com/FreeTubeApp/FreeTube
 
 - Python opencv 2 hours teaching for beginners : https://www.youtube.com/watch?v=xjrykYpaBBM
 
+- Python 使用 Bag of Visual Words 做圖片分類 : https://tigercosmos.xyz/post/2020/06/cv/bag-of-visual-words/
+
