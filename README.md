@@ -357,6 +357,22 @@ https://github.com/FreeTubeApp/FreeTube
 3. Pokémon JavaScript Game Tutorial with HTML Canvas : https://www.youtube.com/watch?v=yP5DKzriqXA
 
 
+## Cloud Native Trainings
+
+1. Awesome Cloud Native Trainings : https://github.com/joseadanof/awesome-cloudnative-trainings
+
+
+## NFT
+
+1. P5.JS、生成式藝術與 NFT 技術 : https://www.youtube.com/watch?v=xbknu2zpbkY
+
+2. 從零開始實作 NFT Mint Site - 使用 React 實作 Web3 與智能合約互動 : 
+
+- https://www.youtube.com/watch?v=7HoHkRz0Odc
+
+- https://www.youtube.com/watch?v=rCMYRlXufyA
+
+
 ## Python
 
 - Python Tutorial : https://shengyu7697.github.io/python-tutorial/
