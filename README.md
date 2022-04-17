@@ -280,6 +280,7 @@
 
 2. https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/
 
+3. The Linux Kernel Module Programming Guide : https://github.com/sysprog21/lkmpg
 
 ## Linux Command
 
@@ -371,6 +372,28 @@ https://github.com/FreeTubeApp/FreeTube
 - https://www.youtube.com/watch?v=7HoHkRz0Odc
 
 - https://www.youtube.com/watch?v=rCMYRlXufyA
+
+
+## Paper
+
+1. https://proceedings.neurips.cc/paper/2020
+
+
+## NLP
+
+1. Stanford CS224N NLP with Deep Learning : 
+
+- https://web.stanford.edu/class/cs224n/
+
+- https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ
+
+
+2. Embeddings in Natural Language Processing Theory and Advances in Vector Representation of Meaning
+
+- http://josecamachocollados.com/book_embNLP_draft.pdf
+
+- https://josecamachocollados.com/
+
 
 
 ## Python
