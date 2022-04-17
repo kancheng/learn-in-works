@@ -232,6 +232,7 @@
 
 12. ES6 Features : http://es6-features.org/
 
+13. Tocas UI : https://github.com/teacat/tocas
 
 ## CMake
 
@@ -319,6 +320,21 @@
 3. YOLOv3 & PyTorch
 
 - https://github.com/DayBreak-u/yolo-face-with-landmark
+
+
+## Operating Systems: Three Easy Pieces
+
+1. Operating Systems: Three Easy Pieces: https://pages.cs.wisc.edu/~remzi/OSTEP/
+
+2. Operating Systems: Three Easy Pieces (Chinese) : https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/chinese
+
+
+## C Sharp 程式設計
+
+1. C Sharp 程式設計 : https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/
+
+2. C Sharp & OS & Thread: https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/thread.md
+
 
 
 ## Tool
