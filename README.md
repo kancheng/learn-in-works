@@ -336,6 +336,25 @@
 
 2. C Sharp & OS & Thread: https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/thread.md
 
+## DotNet
+
+1. 從頭打造 C#、.NET、ASP NET Core 開發環境 : https://www.youtube.com/watch?v=Ohn7Hpv5_4s
+
+
+## Structure and Interpretation of Computer Programs, Second Edition
+
+1.  LISP/Scheme
+
+- https://mitpress.mit.edu/books/cloud-empires-second-edition
+
+- https://mitpress.mit.edu/sites/default/files/sicp/index.html
+
+
+2. JavaScript
+
+- https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs-1
+
+- https://sourceacademy.org/sicpjs/index
 
 
 ## Tool
