@@ -338,7 +338,11 @@
 
 ## DotNet
 
-1. 從頭打造 C#、.NET、ASP NET Core 開發環境 : https://www.youtube.com/watch?v=Ohn7Hpv5_4s
+1. 從頭打造 C#、.NET、ASP NET Core 開發環境 : 
+
+- https://www.youtube.com/watch?v=Ohn7Hpv5_4s
+
+- https://gist.github.com/doggy8088/5fbeadb4c03eb61153e44256b263d89a
 
 
 ## Structure and Interpretation of Computer Programs, Second Edition
