@@ -234,6 +234,30 @@
 
 13. Tocas UI : https://github.com/teacat/tocas
 
+14. Web Design for Beginners : https://www.youtube.com/watch?v=B-ytMSuwbf8
+
+
+## Stanford CS229: Machine Learning
+
+- https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+
+- https://www.youtube.com/watch?v=KzH1ovd4Ots&list=PL4YhK0pT0ZhVf4nIsEjcRT5K47K7WH76P
+
+
+## MIT Introduction to Deep Learning | 6.S191
+
+- https://www.youtube.com/watch?v=7sB052Pz0sQ&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
+
+
+## TensorFlow
+
+- https://www.youtube.com/c/TensorFlow/featured
+
+## PyTorch
+
+- https://www.youtube.com/c/PyTorch
+
+
 ## CMake
 
 1. https://github.com/ttroy50/cmake-examples
@@ -335,6 +359,9 @@
 1. C Sharp 程式設計 : https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/
 
 2. C Sharp & OS & Thread: https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/thread.md
+
+3. C Sharp 3hours beginner tutorial : https://www.youtube.com/watch?v=T9BeejD3i0g
+
 
 ## DotNet
 
