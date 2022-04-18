@@ -236,6 +236,8 @@
 
 14. Web Design for Beginners : https://www.youtube.com/watch?v=B-ytMSuwbf8
 
+15. Amazing Working Digital Clock using Html CSS SVG & Javascript : https://www.youtube.com/watch?v=eoSfzVz9ur0
+
 
 ## Stanford CS229: Machine Learning
 
@@ -407,6 +409,8 @@ https://github.com/FreeTubeApp/FreeTube
 
 3. Pokémon JavaScript Game Tutorial with HTML Canvas : https://www.youtube.com/watch?v=yP5DKzriqXA
 
+4. Phaser.js 網頁遊戲開發 : https://www.youtube.com/watch?v=UpE5KJcCaP4
+
 
 ## Cloud Native Trainings
 
@@ -444,6 +448,10 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://josecamachocollados.com/
 
+
+## What Every Programmer Should Know About Memory, Ulrich Drepper, 2007, 每位程式開發者都該有的記憶體知識
+
+- https://sysprog21.github.io/cpumemory-zhtw/
 
 
 ## Python
