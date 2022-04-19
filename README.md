@@ -58,7 +58,7 @@
 
 11. 密碼編碼學與網路安全 - 原理與實踐, Cryptography and Network Security，William Stallings
 
-12.  深入理解計算機系統, Computer Systems: A Programmer's Perspective，Randal E. Bryant, David R. O'Hallaron
+12. 深入理解計算機系統, Computer Systems: A Programmer's Perspective，Randal E. Bryant, David R. O'Hallaron
 
 13. 應用密碼學, Applied Cryptography - Protocols, Algorithm, and Source Code in C，Bruce Schneier
 
@@ -151,6 +151,12 @@
 3. https://github.com/jserv/simplefs
 
 4. https://github.com/sysprog21/rubi
+
+5. 第一次自幹作業系統核心就上手
+
+- https://www.youtube.com/watch?v=gBZ0caKvjzA
+
+- https://www.youtube.com/watch?v=m6R1mFpifa4
 
 
 ## Fun
@@ -356,6 +362,17 @@
 2. Operating Systems: Three Easy Pieces (Chinese) : https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/chinese
 
 
+## CS3331 Concurrent Computing Resource Page
+
+1. https://www.csl.mtu.edu/cs3331.ck/www/3331-slides.html
+
+2. https://www.youtube.com/watch?v=6dodz81-fp4&list=PLH78B15fiIqFYuen8KzSMo_HaGe5NwnqR&index=1
+
+3. https://pages.mtu.edu/~shene/PUBLICATIONS/index.html
+
+4. https://github.com/Aliceljm1/100C
+
+
 ## C Sharp 程式設計
 
 1. C Sharp 程式設計 : https://kinmen6.com/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/C%EF%BC%83%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/
@@ -411,6 +428,10 @@ https://github.com/FreeTubeApp/FreeTube
 
 4. Phaser.js 網頁遊戲開發 : https://www.youtube.com/watch?v=UpE5KJcCaP4
 
+5. Phaser 3 Tutorial Preview : https://www.youtube.com/watch?v=fdXcD9X4NrQ
+
+6. HTML5 Canvas 遊戲開發超入門 : https://www.youtube.com/watch?v=IHyBVK7tvhY
+
 
 ## Cloud Native Trainings
 
@@ -452,6 +473,15 @@ https://github.com/FreeTubeApp/FreeTube
 ## What Every Programmer Should Know About Memory, Ulrich Drepper, 2007, 每位程式開發者都該有的記憶體知識
 
 - https://sysprog21.github.io/cpumemory-zhtw/
+
+
+## C
+
+1. minilisp - rui314 的 minilisp 專案，九百多行的一個 LISP 解譯器，包含垃圾蒐集 gc :
+
+- https://github.com/cccbook/sicpjs/wiki/minilisp
+
+- https://github.com/ccc-c/minilisp
 
 
 ## Python
