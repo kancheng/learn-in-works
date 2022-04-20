@@ -483,6 +483,11 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://github.com/ccc-c/minilisp
 
+2. 如何學習 C++ : 
+
+- https://blog.tinlans.org/2022/04/17/%E8%BF%91%E5%B9%B4%E5%B8%B8%E8%A2%AB%E5%95%8F%E5%88%B0%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92-c/
+
+
 
 ## Python
 
