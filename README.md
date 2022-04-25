@@ -245,6 +245,11 @@
 15. Amazing Working Digital Clock using Html CSS SVG & Javascript : https://www.youtube.com/watch?v=eoSfzVz9ur0
 
 
+## 黃婷婷教授計算機結構
+
+https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ymBbe
+
+
 ## Stanford CS229: Machine Learning
 
 - https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
