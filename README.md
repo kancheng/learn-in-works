@@ -125,6 +125,10 @@
 
 3. https://yschen25.blogspot.com/2022/02/coding-interview.html
 
+4. System Design Interview in 9 Minutes : https://www.youtube.com/watch?v=Y93BGebBwEE
+
+5. Coding Interview in 16 Minutes : https://www.youtube.com/watch?v=sAjkAz75jis
+
 
 ### NTU ML - Hung-yi Lee
 
