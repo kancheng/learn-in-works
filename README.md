@@ -503,6 +503,10 @@ https://github.com/FreeTubeApp/FreeTube
 
 2. https://pdos.csail.mit.edu/6.828/2012/xv6.html
 
+3. https://pdos.csail.mit.edu/6.828/2021/xv6.html
+
+4. https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf
+
 
 ## Python
 
