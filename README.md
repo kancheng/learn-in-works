@@ -248,6 +248,18 @@
 
 15. Amazing Working Digital Clock using Html CSS SVG & Javascript : https://www.youtube.com/watch?v=eoSfzVz9ur0
 
+16. React JS Personal Portfolio Website
+
+- https://www.youtube.com/watch?v=c79C_S0E4IQ
+
+- https://github.com/creativeambition/my_react_portfolio
+
+17. 效果教學
+
+- https://medium.com/@renddiyeh/-cfb4b8aa5a51
+
+- https://codesandbox.io/s/explode-layers-nkqifc
+
 
 ## 黃婷婷教授計算機結構
 
@@ -394,6 +406,8 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 
 3. C Sharp 3hours beginner tutorial : https://www.youtube.com/watch?v=T9BeejD3i0g
 
+4. Fork - C# 软件封装整合各轮子的工具库项目 : https://github.com/yuzhengyang/Fork
+
 
 ## DotNet
 
@@ -519,6 +533,15 @@ https://github.com/FreeTubeApp/FreeTube
 ## System Programming
 
 - https://github.com/angrave/SystemProgramming/wiki
+
+
+## RISC-V
+
+- https://riscv.org/
+
+- https://github.com/riscv/riscv-isa-manual
+
+- https://riscv.org/technical/specifications/
 
 
 ## Python
