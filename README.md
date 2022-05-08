@@ -85,6 +85,12 @@
 
 - https://d2l.ai/
 
+18. 科技領域加深加廣選修課程－進階程式設計
+
+- https://ghresource.mt.ntnu.edu.tw/nss/p/InformationTechnologyTPD05
+
+- https://www.youtube.com/playlist?list=PL9YcGY4H5apmY7v4TVv6-E6H9HtLL0Gv2
+
 
 ## Test Tool
 
@@ -137,6 +143,12 @@
 2. https://www.youtube.com/c/HungyiLeeNTU
 
 3. https://www.youtube.com/watch?v=uUrt8xgdMbs&list=PLJV_el3uVTsNmr39gwbyV-0KjULUsN7fW
+
+4. 自然語言處理上的對抗式攻擊
+
+- https://www.youtube.com/watch?v=z-lRPFFYVJc
+
+- https://www.youtube.com/watch?v=68lwXWFzCmg
 
 
 ### NTU ML - Hsuan-Tien Lin
@@ -459,6 +471,8 @@ https://github.com/FreeTubeApp/FreeTube
 
 6. HTML5 Canvas 遊戲開發超入門 : https://www.youtube.com/watch?v=IHyBVK7tvhY
 
+7. Creating a Zelda style game in Python with some Dark Souls elements : https://www.youtube.com/watch?v=QU1pPzEGrqw
+
 
 ## Cloud Native Trainings
 
@@ -542,6 +556,16 @@ https://github.com/FreeTubeApp/FreeTube
 - https://github.com/riscv/riscv-isa-manual
 
 - https://riscv.org/technical/specifications/
+
+
+## CS224W: Machine Learning with Graphs
+
+- https://www.youtube.com/watch?v=JAB_plj2rbA&list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn
+
+
+## SQL
+
+1. SQL 3 hours teaching for beginners : https://www.youtube.com/watch?v=gvRXjsrpCHw
 
 
 ## Python
