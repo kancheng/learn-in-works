@@ -473,6 +473,8 @@ https://github.com/FreeTubeApp/FreeTube
 
 7. Creating a Zelda style game in Python with some Dark Souls elements : https://www.youtube.com/watch?v=QU1pPzEGrqw
 
+8. [週四寫程式系列] 來用socket.io做個即時互動的遊戲吧！ : https://www.youtube.com/watch?v=QVZcMx3jtG8
+
 
 ## Cloud Native Trainings
 
@@ -510,6 +512,10 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://josecamachocollados.com/
 
+3. Stanford Seminar - Emerging risks and opportunities from large language models
+
+- https://www.youtube.com/watch?v=p6_X5Ei9C9s
+
 
 ## What Every Programmer Should Know About Memory, Ulrich Drepper, 2007, 每位程式開發者都該有的記憶體知識
 
@@ -527,6 +533,19 @@ https://github.com/FreeTubeApp/FreeTube
 2. 如何學習 C++ : 
 
 - https://blog.tinlans.org/2022/04/17/%E8%BF%91%E5%B9%B4%E5%B8%B8%E8%A2%AB%E5%95%8F%E5%88%B0%E5%A6%82%E4%BD%95%E5%AD%B8%E7%BF%92-c/
+
+3. C 語言入門
+
+- https://www.youtube.com/playlist?list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx
+
+- https://feis.studio/#/c
+
+
+## 如何快速上手一項陌生的技術（以作業系統 + C 語言為例）
+
+- https://www.youtube.com/watch?v=3qY4FfmkWqE
+
+- https://hackmd.io/X_hPFzl0SNaHtLdVXK6K0w
 
 
 ## Xv6
