@@ -289,6 +289,18 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 
 - https://www.youtube.com/watch?v=7sB052Pz0sQ&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
 
+## MIT 6.851 Advanced Data Structures
+
+1. MIT 6.851 Advanced Data Structures, Spring 2012
+
+- https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/
+
+- https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf
+
+2. MIT Memory Hierarchy Models
+
+- https://www.youtube.com/watch?v=V3omVLzI0WE
+
 
 ## TensorFlow
 
