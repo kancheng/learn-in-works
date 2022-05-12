@@ -559,6 +559,26 @@ https://github.com/FreeTubeApp/FreeTube
 
 - https://hackmd.io/X_hPFzl0SNaHtLdVXK6K0w
 
+- https://github.com/ianchen0119/AwesomeCS/wiki
+
+- https://hackmd.io/@PI119/SyyXbPer5#/
+
+1. 作業系統設計 交大 曹孝櫟 : https://04.phf-site.com/2017/01/blog-post.html
+
+2. 網路程式設計 交大 吳毅成 : https://www.ptt.cc/bbs/NTHU_Course/M.1487135139.A.247.html
+
+3. 2021 年暑期「Linux 核心」課程先決測驗題 : https://hackmd.io/@sysprog/linux2021-summer-quiz
+
+4. mini-riscv-os : https://github.com/cccriscv/mini-riscv-os
+
+5. 來做個網路瀏覽器吧！Let's build a web browser! : https://ithelp.ithome.com.tw/users/20103745/ironman/1270
+
+6. 瀏覽器與網頁原理 feat. 微中子 : https://www.youtube.com/watch?v=LyiRPPHeVwU
+
+7. 用 JavaScript 控制 Arduino - Node.js + Johnny-Five 實作篇 : https://ithelp.ithome.com.tw/articles/10217913
+
+8. 微自幹的作業系統輕旅行 : https://ithelp.ithome.com.tw/users/20110850/ironman/3859
+
 
 ## Xv6
 
