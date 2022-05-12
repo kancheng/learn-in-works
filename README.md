@@ -487,6 +487,8 @@ https://github.com/FreeTubeApp/FreeTube
 
 8. [週四寫程式系列] 來用socket.io做個即時互動的遊戲吧！ : https://www.youtube.com/watch?v=QVZcMx3jtG8
 
+9. pygame 3 hours to make a game : https://www.youtube.com/watch?v=61eX0bFAsYs
+
 
 ## Cloud Native Trainings
 
