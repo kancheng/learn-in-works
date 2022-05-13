@@ -506,6 +506,13 @@ https://github.com/FreeTubeApp/FreeTube
 - https://www.youtube.com/watch?v=rCMYRlXufyA
 
 
+## 计量经济学 & 二次型矩阵求导
+
+- https://www.youtube.com/watch?v=S8lfjZcyPMc
+
+- https://www.youtube.com/watch?v=rt9xSbAlcqo
+
+
 ## Paper
 
 1. https://proceedings.neurips.cc/paper/2020
