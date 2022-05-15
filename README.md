@@ -92,6 +92,11 @@
 - https://www.youtube.com/playlist?list=PL9YcGY4H5apmY7v4TVv6-E6H9HtLL0Gv2
 
 
+19. 教堂與市集 Eric Steven Raymond
+
+- https://crazyangelo.github.io/Cathedral-and-Bazaar/
+
+
 ## Test Tool
 
 1. Cppcheck
