@@ -633,6 +633,11 @@ https://github.com/FreeTubeApp/FreeTube
 1. SQL 3 hours teaching for beginners : https://www.youtube.com/watch?v=gvRXjsrpCHw
 
 
+## POSIX.1-2017
+
+1. POSIX.1-2017 is simultaneously IEEE Std 1003.1 : https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/
+
+
 ## Python
 
 - Python Tutorial : https://shengyu7697.github.io/python-tutorial/
