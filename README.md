@@ -467,7 +467,12 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 
 1. FreeTube
 
-https://github.com/FreeTubeApp/FreeTube
+- https://github.com/FreeTubeApp/FreeTube
+
+
+2. 學習 Git 版本控管：新手上路篇 (命令列操作)
+
+- https://www.youtube.com/watch?v=WxFSad6II34
 
 
 ## Game
