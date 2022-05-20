@@ -469,10 +469,13 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 
 - https://github.com/FreeTubeApp/FreeTube
 
-
 2. 學習 Git 版本控管：新手上路篇 (命令列操作)
 
 - https://www.youtube.com/watch?v=WxFSad6II34
+
+3. Let's code 3D Engine in Python from Scratch
+
+- https://www.youtube.com/watch?v=M_Hx0g5vFko
 
 
 ## Game
