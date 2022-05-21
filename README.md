@@ -232,18 +232,15 @@
 
 4. 60-30-10 Color Rule : https://www.youtube.com/watch?v=UWwNIMHFdW4
 
-
 5. JS 註解 - jsDoc : 
 
 - https://www.youtube.com/watch?v=b405ROkbkhM
 
 - https://jsdoc.app/
 
-
 6. Git Rebase + Flow
 
 - https://www.youtube.com/watch?v=ZCHLOP26glc
-
 
 7. HackMD 撰寫
 
@@ -276,6 +273,12 @@
 - https://medium.com/@renddiyeh/-cfb4b8aa5a51
 
 - https://codesandbox.io/s/explode-layers-nkqifc
+
+18. CSS Flex 超詳解
+
+- https://www.youtube.com/watch?v=88ymaHaStoQ
+
+- https://bejewled-air-4cb.notion.site/CSS-Flex-7ba4498c568b4b05bfd353b64226e43f
 
 
 ## 黃婷婷教授計算機結構
@@ -644,6 +647,50 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 ## POSIX.1-2017
 
 1. POSIX.1-2017 is simultaneously IEEE Std 1003.1 : https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/
+
+
+## OS
+
+0. Linux 核心設計: 檔案系統概念及實作手法 : https://www.youtube.com/watch?v=d8ZN5-XTIJM
+
+1. https://gitlab.com/ccc110
+
+2. CSAPP 重点解读 : https://fengmuzi2003.gitbook.io/csapp3e
+
+3. 高效 Web 伺服器開發 : https://hackmd.io/@sysprog/fast-web-server
+
+4. seHTTPd : https://github.com/sysprog21/sehttpd
+
+5. Concurrent HTTP Server with Epoll : https://kaleid-liner.github.io/blog/2019/06/02/epoll-web-server.html
+
+6. HTTP Server 高效能 Web 何服器開發
+
+- https://hackmd.io/@sysprog/fast-web-server
+
+- https://github.com/guangqianpeng/fancy
+
+- https://github.con/larryhe/tinyhttpd
+
+- https://github.com/LambdaSchool/C-web-Server/tree/master/src
+
+- https://www.jmarshall.com/easy/http/
+
+- https://gist.github.com/bdahlia/7826649
+
+
+7. 2022 年 Linux 核心設計/實作課程期末專題 : https://hackmd.io/@sysprog/linux2022-projects
+
+8. Note of Bottom-up Heapsort (English Version) : https://hackmd.io/@Uduru0522/bottomup-heapsort-analyze
+
+9. sysprog21/kvm-host : https://github.com/sysprog21/kvm-host
+
+10. https://github.com/NVIDIA/open-gpu-kernel-modules
+
+11. Linux 核心網路: 第一章 Above protocol stack (socket_layer) : https://hackmd.io/@rickywu0421/linux_networking_1
+
+12. cserv : https://github.com/sysprog21/cserv
+
+13. How Linux Processes Your Network Packet - Elazar Leibovich : https://www.slideshare.net/DevopsCon/how-linux-processes-your-network-packet-elazar-leibovich
 
 
 ## Python
