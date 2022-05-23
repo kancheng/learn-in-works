@@ -125,6 +125,8 @@
 
 - https://hackmd.io/@jasperlin1996/infer
 
+7. 如何使用 Linux GNU GCC Profiling Tool : https://www.thegeekstuff.com/2012/08/gprof-tutorial
+
 
 ## Read
 
@@ -192,6 +194,12 @@
 
 5. Parallel memory access on modern processors : https://stackoverflow.com/questions/45382914/parallel-memory-access-on-modern-processors
 
+
+## Linux Terminals
+
+1. 使用 Screen 指令操控 UNIX/Linux 終端機的教學與範例 : https://blog.gtwang.org/linux/screen-command-examples-to-manage-linux-terminals/
+
+2. 使用 screen 指令操控 unix/linux 終端機 : https://ithelp.ithome.com.tw/articles/10191930
 
 ## iThome
 
@@ -279,6 +287,8 @@
 - https://www.youtube.com/watch?v=88ymaHaStoQ
 
 - https://bejewled-air-4cb.notion.site/CSS-Flex-7ba4498c568b4b05bfd353b64226e43f
+
+19. 淺談 Atomic CSS 的發展背景與 Tailwind CSS : https://blog.huli.tw/2022/05/23/atomic-css-and-tailwind-css/
 
 
 ## 黃婷婷教授計算機結構
@@ -479,6 +489,17 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 3. Let's code 3D Engine in Python from Scratch
 
 - https://www.youtube.com/watch?v=M_Hx0g5vFko
+
+4. Spline 教學 : https://www.youtube.com/watch?v=UdO9RPSOtnk
+
+
+## Deno
+
+1. 從　ES6　開始的　JavaScript　學習生活 :https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/
+
+2. Deno Manual : https://deno.land/manual
+
+3. Deno Benchmarking tool : https://deno.land/manual/tools/benchmarker
 
 
 ## Game
@@ -691,6 +712,17 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 12. cserv : https://github.com/sysprog21/cserv
 
 13. How Linux Processes Your Network Packet - Elazar Leibovich : https://www.slideshare.net/DevopsCon/how-linux-processes-your-network-packet-elazar-leibovich
+
+
+## ElasticSearch
+
+1. 如何開始搭建 Elastic Stack 及使用方式介紹-上 : https://www.webcomm.com.tw/blog/elk_1/
+
+2. 如何開始搭建 Elastic Stack 及使用方式介紹-下 : https://www.webcomm.com.tw/blog/elk_2/
+
+3. Elastic Stack (ELK) 日志系统简介及搭建 : https://blog.csdn.net/QiaoRui_/article/details/97136677
+
+4. Elastic Stack 简介及 ElasticSearch 环境搭建 : https://blog.csdn.net/zyxwvuuvwxyz/article/details/108676950
 
 
 ## Python
