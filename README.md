@@ -165,6 +165,13 @@
 2. https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
 
 
+## Vivian NTU MiuLab
+
+- https://www.youtube.com/c/VivianNTUMiuLab
+
+1. ADL Lecture :  https://www.youtube.com/watch?v=Yd7R3JIFvnY&list=PLOAQYZPRn2V5_9qzD7_1TzADthNSBf8_z
+
+
 ### Linux 核心設計/實作 (Linux Kernel Internals) - Jim Huang
 
 1. http://wiki.csie.ncku.edu.tw/linux/schedule
@@ -193,6 +200,10 @@
 4. programming-summary : https://github.com/jinbooooom/programming-summary
 
 5. Parallel memory access on modern processors : https://stackoverflow.com/questions/45382914/parallel-memory-access-on-modern-processors
+
+6. Python vs C/C++ vs Assembly side-by-side comparison : https://www.youtube.com/watch?v=3PcIJKd1PKU
+
+7. A C++ Programmer's View on Rust : https://www.youtube.com/watch?v=5pdRnva-DQ4
 
 
 ## Linux Terminals
@@ -303,9 +314,19 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 - https://www.youtube.com/watch?v=KzH1ovd4Ots&list=PL4YhK0pT0ZhVf4nIsEjcRT5K47K7WH76P
 
 
+## MIT 6.172 Performance Engineering of Software Systems, Fall 2018
+
+1. Assembly Language & Computer Architecture : https://www.youtube.com/watch?v=L1ung0wil9Y
+
+- https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
+
+- https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/
+
+
 ## MIT Introduction to Deep Learning | 6.S191
 
 - https://www.youtube.com/watch?v=7sB052Pz0sQ&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
+
 
 ## MIT 6.851 Advanced Data Structures
 
@@ -723,6 +744,28 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 3. Elastic Stack (ELK) 日志系统简介及搭建 : https://blog.csdn.net/QiaoRui_/article/details/97136677
 
 4. Elastic Stack 简介及 ElasticSearch 环境搭建 : https://blog.csdn.net/zyxwvuuvwxyz/article/details/108676950
+
+
+## LINE Bot Designer
+
+- https://developers.line.biz/zh-hant/services/bot-designer/
+
+
+## 微信小程序
+
+- https://developers.weixin.qq.com/miniprogram/dev/framework/
+
+
+## FB Chatbot 粉專內建聊天機器人
+
+- https://tiffanyzz.com/facebook-ads/fb-chatbot/
+
+
+## Telegram 聊天机器人
+
+- https://www.telegramstr.com/article/143.html
+
+- https://www.telegramstr.com/article/120.html
 
 
 ## Python
