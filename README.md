@@ -301,10 +301,18 @@
 
 19. 淺談 Atomic CSS 的發展背景與 Tailwind CSS : https://blog.huli.tw/2022/05/23/atomic-css-and-tailwind-css/
 
+## CS50 Lectures 2020, This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
+
+- https://cs50.harvard.edu/x/2022/
+
+- https://www.youtube.com/c/cs50
+
+- https://www.youtube.com/playlist?list=PLhQjrBD2T382_R182iC2gNZI9HzWFMC_8
+
 
 ## 黃婷婷教授計算機結構
 
-https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ymBbe
+- https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ymBbe
 
 
 ## Stanford CS229: Machine Learning
@@ -312,6 +320,13 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 - https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
 
 - https://www.youtube.com/watch?v=KzH1ovd4Ots&list=PL4YhK0pT0ZhVf4nIsEjcRT5K47K7WH76P
+
+
+## MIT 6.004 Computation Structures course
+
+MIT 6.004 Computation Structures course : https://www.youtube.com/watch?v=7P-LGEJS3A8&list=PLDSlqjcPpoL64CJdF0Qee5oWqGS6we_Yu
+
+MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 
 ## MIT 6.172 Performance Engineering of Software Systems, Fall 2018
@@ -401,6 +416,22 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 2. https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/
 
 3. The Linux Kernel Module Programming Guide : https://github.com/sysprog21/lkmpg
+
+4. Multi-Core in Linux : https://www.youtube.com/watch?v=UNI6Mbqryv0
+
+5. Parallel Processing : https://computationstructures.org/lectures/parallel/parallel.html
+
+6. A Deep dive into (implicit) Thread Local Storage: https://chao-tic.github.io/blog/2018/12/25/tls
+
+7. Real-Time Linux : https://elixir.bootlin.com/linux/latest/source
+
+8. Linux man pages : https://linux.die.net/man/
+
+9. The Linux Kernel : https://kernel.org/doc/html/latest/index.html
+
+10. The Linux Kernel - CPU Architectures : https://kernel.org/doc/html/latest/arch.html
+
+
 
 ## Linux Command
 
@@ -766,6 +797,125 @@ https://www.youtube.com/watch?v=FEx_nc3thVs&list=PLS0SUwlYe8czszh6M74JCU0mIUL_ym
 - https://www.telegramstr.com/article/143.html
 
 - https://www.telegramstr.com/article/120.html
+
+
+
+## GitHub
+
+1. Free Programming Books : https://github.com/EbookFoundation/free-programming-books
+
+2. Developer Roadmap : https://github.com/kamranahmedse/developer-roadmap
+
+3. OSSU Computer Science : https://github.com/ossu/computer-science
+
+4. Awesome : https://github.com/sindresorhus/awesome
+
+5. Build your own X : https://github.com/danistefanovic/build-your-own-x
+
+6. Coding Interview University : https://github.com/jwasham/coding-interview-university
+
+7. Public Apis : https://github.com/public-apis/public-apis
+
+8. Tech Interview Handbook, 技术面试手册: https://github.com/yangshun/tech-interview-handbook
+
+9. System Design Primer, 系统设计入门 : https://github.com/donnemartin/system-design-primer
+
+10. Design Resources for Developers, 设计和 UI 资源列表 , https://github.com/bradtraversy/design-resources-for-developers
+
+
+## Go Proj.
+
+1. TinyRPC : https://github.com/zehuamama/tinyrpc
+
+2. TinyBalancer : https://github.com/zehuamama/balancer
+
+3. DB: RoseDB : https://github.com/flower-corp/rosedb
+
+4. 单元测试, Go 语言断言库 : https://github.com/stretchr/testify
+
+5. 单元测试, Go 语言接口测试库 : https://github.com/golang/mock
+
+6. Learn Web Programming in Go by Examples : https://gowebexamples.com/
+
+6. HTTP, 路由、Session 会话 : https://github.com/gorilla/sessions
+
+7. HTTP, 路由、Session 会话 : https://github.com/gorilla/mux
+
+8. 关系型数据库 :
+
+- sqlx 库 : https://github.com/jmoiron/sqlx
+
+- gorm 库 : https://gorm.io/
+
+- GORM Guides : https://gorm.io/docs/
+
+9. RPC : https://grpc.io/
+
+- https://github.com/grpc-ecosystem
+
+10. 序列化协议 :
+
+- Protocol buffer 的指南 : https://developers.google.com/protocol-buffers/docs/proto3
+
+- API 官方文档：https://developers.google.com/protocol-buffers/docs/gotutorial
+
+11. Go 程式碼規範 :
+
+- https://github.com/uber-go/guide
+
+- https://github.com/xxjwxc/uber_go_guide_cn
+
+12. Go 语言设计与实现 :
+
+- https://draveness.me/golang/
+
+13. Slice 原理 : https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array-and-slice/
+
+14. Map 原理 : https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-hashmap/
+
+15. Channel 原理 : https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-channel/
+
+16. Go 语言调度器与 Goroutine 实现原理 : https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-goroutine/
+
+17. Go 语言内存分配模型 : https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-allocator/
+
+18. Go 语言垃圾回收原理 : https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-garbage-collector/
+
+19. Go 中的内存逃逸分析 : https://segmentfault.com/a/1190000040610063
+
+20. 分布式事务开源项目 : https://github.com/dtm-labs/dtm
+
+21. the-way-to-go_ZH_CN : https://github.com/unknwon/the-way-to-go_ZH_CN
+
+22. starcharts : https://github.com/caarlos0/starcharts
+
+23. tinode : https://github.com/tinode/chat
+
+24. jupter : https://github.com/douyu/jupiter
+
+25. go-admin : https://github.com/go-admin-team/go-admin
+
+- https://doc.go-admin.dev/
+
+- https://www.go-admin.dev/
+
+- https://preview.go-admin.dev/
+
+26. sharingan : https://github.com/didi/sharingan
+
+27. Cloudreve : https://github.com/cloudreve/Cloudreve
+
+28. buffalo : https://github.com/gobuffalo/buffalo
+
+29. gin-vue-admin : https://github.com/flipped-aurora/gin-vue-admin
+
+30. wblog : https://github.com/wangsongyan/wblog
+
+31. awesome-go : https://github.com/avelino/awesome-go
+
+## Kubernetes
+
+- https://kubernetes.io/
 
 
 ## Python
