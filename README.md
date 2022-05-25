@@ -301,6 +301,10 @@
 
 19. 淺談 Atomic CSS 的發展背景與 Tailwind CSS : https://blog.huli.tw/2022/05/23/atomic-css-and-tailwind-css/
 
+20. 歷久不衰 jQuery 實戰教學 : https://www.youtube.com/watch?v=G1ziB-TvWy4
+
+
+
 ## CS50 Lectures 2020, This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
 
 - https://cs50.harvard.edu/x/2022/
@@ -916,6 +920,10 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 ## Kubernetes
 
 - https://kubernetes.io/
+
+## Docker
+
+Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/watch?v=LS8RsFzbTFo
 
 
 ## Python
