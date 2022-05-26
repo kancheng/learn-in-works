@@ -920,6 +920,16 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 32. GoFound : https://github.com/newpanjing/gofound
 
 
+## Learn You a Haskell for Great Good!
+
+- https://www.youtube.com/watch?v=0H6ObXbb30k
+
+
+## Rust
+
+- https://www.youtube.com/watch?v=0ywizYLPV00
+
+
 ## Kubernetes
 
 - https://kubernetes.io/
