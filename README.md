@@ -164,6 +164,8 @@
 
 2. https://www.youtube.com/watch?v=A-GxGCCAIrg&list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2
 
+3. NTU FAI 2022: Reinforcement Learning : https://www.youtube.com/watch?v=Z2GZi_dwJgo
+
 
 ## Vivian NTU MiuLab
 
@@ -303,6 +305,12 @@
 
 20. 歷久不衰 jQuery 實戰教學 : https://www.youtube.com/watch?v=G1ziB-TvWy4
 
+21. 用 Hugo 網誌軟體架站 : https://www.youtube.com/watch?v=BRQcD6po5MA
+
+
+## 智能合約 — 貨幣發行商
+
+- https://medium.com/@08170104/%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-%E8%B2%A8%E5%B9%A3%E7%99%BC%E8%A1%8C%E5%95%86-ffddfb2e54e6
 
 
 ## CS50 Lectures 2020, This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
@@ -450,6 +458,8 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 2. https://vgod.medium.com/list/e731a8ecf20d
 
+3. 如何進行 Code Review? https://enginebai.medium.com/code-review-guidelines-b76a859c377c
+
 
 ## Browser
 
@@ -476,6 +486,18 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 3. YOLOv3 & PyTorch
 
 - https://github.com/DayBreak-u/yolo-face-with-landmark
+
+4. 講解 李宏毅 投影片 :
+
+- 李宏毅 深度學習 投影片 1 -- Introduction of ML/DL : https://www.youtube.com/watch?v=AQau9uZWhWo
+
+- https://www.youtube.com/watch?v=_vT8gL6J0r8
+
+- General Guidance 訓練失敗時該怎麼辦？ : https://www.youtube.com/watch?v=BsQCaDG8Xos
+
+- When gradient is small … 梯度很小的時候如何處理？ : https://www.youtube.com/watch?v=RMcHPeWuBVc
+
+
 
 
 ## Operating Systems: Three Easy Pieces
@@ -700,6 +722,11 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 ## System Programming
 
 - https://github.com/angrave/SystemProgramming/wiki
+
+
+## 系統程式
+
+- https://www.youtube.com/watch?v=d-a8pvFaP-w&list=PLZGnAhii0wHxQxG18S4ewT8BiNxF2wA5S
 
 
 ## RISC-V
@@ -947,4 +974,6 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 - Python opencv 2 hours teaching for beginners : https://www.youtube.com/watch?v=xjrykYpaBBM
 
 - Python 使用 Bag of Visual Words 做圖片分類 : https://tigercosmos.xyz/post/2020/06/cv/bag-of-visual-words/
+
+- Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) : https://www.youtube.com/watch?v=r-uOLxNrNk8
 
