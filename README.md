@@ -404,6 +404,7 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 4. https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0be3c53f-5d35-40f0-a5ab-55897a2c91a5
 
+
 ## Stanford University School of Engineering
 
 1. Computer vision : 
@@ -447,7 +448,6 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 10. The Linux Kernel - CPU Architectures : https://kernel.org/doc/html/latest/arch.html
 
 
-
 ## Linux Command
 
 1. https://github.com/jaywcjlove/linux-command
@@ -462,6 +462,8 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 2. https://vgod.medium.com/list/e731a8ecf20d
 
 3. 如何進行 Code Review? https://enginebai.medium.com/code-review-guidelines-b76a859c377c
+
+4. 2021 求職分享 : https://claire1212.blogspot.com/2021/03/2021.htm
 
 
 ## Browser
@@ -607,6 +609,15 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 9. pygame 3 hours to make a game : https://www.youtube.com/watch?v=61eX0bFAsYs
 
+10. Unity 3 hours to make a game, Unity tutorial for beginners : https://www.youtube.com/watch?v=nPW6tKeapsM
+
+
+## FreeDOS
+
+1. FreeDOS : https://www.freedos.org/
+
+2. docker freedos : https://github.com/matti/docker-freedos
+
 
 ## Cloud Native Trainings
 
@@ -659,6 +670,11 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 ## What Every Programmer Should Know About Memory, Ulrich Drepper, 2007, 每位程式開發者都該有的記憶體知識
 
 - https://sysprog21.github.io/cpumemory-zhtw/
+
+
+## JS
+
+- https://zh.javascript.info/
 
 
 ## C
@@ -739,6 +755,12 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 - https://github.com/riscv/riscv-isa-manual
 
 - https://riscv.org/technical/specifications/
+
+1. 從 RISC-V 處理器到 UNIX 作業系統 : https://github.com/riscv2os/riscv2os/wiki
+
+- https://gitlab.com/ccc110/sp/-/tree/master/11-riscv/mini-riscv-os/01-HelloOs
+
+- https://gitlab.com/ccc110/sp/-/blob/master/11-riscv/mini-riscv-os/01-HelloOs/os.c
 
 
 ## CS224W: Machine Learning with Graphs
@@ -948,6 +970,11 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 31. awesome-go : https://github.com/avelino/awesome-go
 
 32. GoFound : https://github.com/newpanjing/gofound
+
+
+## Jenkins
+
+1. Jenkins Tutorial For Beginners : https://www.youtube.com/watch?v=AFyurPonVJw
 
 
 ## Learn You a Haskell for Great Good!
