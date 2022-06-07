@@ -310,10 +310,52 @@
 
 22. CSS Isometric Menu Hover Effects @Online Tutorials Html CSS 3D Menu : https://www.youtube.com/watch?v=MmdKeypSxE8
 
+23. CSS & HTML : https://codeguide.co/
 
-## 智能合約 — 貨幣發行商
+24. Preview UI components in your IDE instantly : https://previewjs.com/
+
+25. Functional CSS 經驗分享 : https://blog.huli.tw/2019/01/27/functional-css/
+
+26. 爆炸效果 :
+
+- https://medium.com/@renddiyeh/%E5%B0%88%E6%A1%88%E8%A7%A3%E6%9E%90-%E5%9B%9E%E6%94%B6%E5%A4%A7%E7%99%BE%E7%A7%91%E4%B9%8B%E7%89%A9%E4%BB%B6%E7%88%86%E7%82%B8%E6%95%88%E6%9E%9C-cfb4b8aa5a51
+
+- https://codesandbox.io/s/explode-layers-nkqifc
+
+27. 網頁內執行 Python :
+
+- https://pyscript.net/
+
+- https://codepen.io/finfin/pen/KKQpPEG
+
+28.  CSS 的防禦性寫法 : 
+
+- https://ishadeed.com/article/defensive-css/
+
+- https://twitter.com/DefensiveCSS
+
+
+
+
+## 金融
+
+1. 開源金融大數據專案 - FinMind
+
+- https://github.com/FinMind/FinMind
+
+
+2. 智能合約 — 貨幣發行商
 
 - https://medium.com/@08170104/%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-%E8%B2%A8%E5%B9%A3%E7%99%BC%E8%A1%8C%E5%95%86-ffddfb2e54e6
+
+
+3. PecuLab WEB3 LiveCoding
+
+- 課程錄影：https://youtu.be/0rlY6WUtrAY
+
+- 課程 GitHub：https://github.com/pecu/PecuLab4SEP
+
+- 上課前先下載 : https://github.com/pecu/PecuLab4SEP/tree/main/MyDapp 
 
 
 ## CS50 Lectures 2020, This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.
@@ -575,6 +617,17 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 4. Spline 教學 : https://www.youtube.com/watch?v=UdO9RPSOtnk
 
+5. Diagon 提供畫 diagram 到數學公式 :
+
+- https://github.com/ArthurSonzogni/Diagon
+
+- https://arthursonzogni.com/Diagon/
+
+
+## Is Parallel Programming Hard, And, If So, What Can You Do About It?
+
+- https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html
+
 
 ## Deno
 
@@ -736,6 +789,10 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 5. https://github.com/riscv2os
 
 6. https://github.com/riscv2os/riscv2os/wiki
+
+7. https://github.com/riscv2os/riscv2os/wiki/reference
+
+8. https://github.com/riscv2os/riscv2os/wiki/xv6
 
 
 ## System Programming
@@ -971,6 +1028,8 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 32. GoFound : https://github.com/newpanjing/gofound
 
+33. Go 程式設計基礎 : https://github.com/doggy8088/go-fundamental-programming-zh-tw
+
 
 ## Jenkins
 
@@ -997,6 +1056,16 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/watch?v=LS8RsFzbTFo
 
 
+## Android
+
+1. https://source.android.com/
+
+
+## ARM
+
+1. https://developer.arm.com/documentation/
+
+
 ## Python
 
 - Python Tutorial : https://shengyu7697.github.io/python-tutorial/
@@ -1006,4 +1075,6 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 - Python 使用 Bag of Visual Words 做圖片分類 : https://tigercosmos.xyz/post/2020/06/cv/bag-of-visual-words/
 
 - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) : https://www.youtube.com/watch?v=r-uOLxNrNk8
+
+- https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04
 
