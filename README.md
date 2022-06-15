@@ -396,6 +396,9 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/
 
 
+## MIT 6.0002 Introduction to Computational Thinking and Data - Monte Carlo Simulation : https://www.youtube.com/watch?v=OgO1gpXSUzU
+
+
 ## MIT Introduction to Deep Learning | 6.S191
 
 - https://www.youtube.com/watch?v=7sB052Pz0sQ&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
@@ -545,7 +548,9 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 - When gradient is small … 梯度很小的時候如何處理？ : https://www.youtube.com/watch?v=RMcHPeWuBVc
 
+## CI & CD 
 
+GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/watch?v=qP8kir2GUgo
 
 
 ## Operating Systems: Three Easy Pieces
@@ -1046,6 +1051,8 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 - https://www.youtube.com/watch?v=0ywizYLPV00
 
+1. Intro to async/.await in Rust : https://www.youtube.com/watch?v=K8LNPYNvT-U
+
 
 ## Kubernetes
 
@@ -1077,5 +1084,7 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 - Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn) : https://www.youtube.com/watch?v=r-uOLxNrNk8
 
-- https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04
+- How To Store and Retrieve Data in MariaDB Using Python on Ubuntu 18.04 : https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04
+
+- Advanced Computer Vision with Python - Full Course : https://www.youtube.com/watch?v=01sAkU_NvOY
 
