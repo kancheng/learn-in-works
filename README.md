@@ -337,6 +337,8 @@
 
 29. 從 Figma 到 VSCode，設計做到網頁切版 - 完整示範 : https://www.youtube.com/watch?v=qRZLtIcPdls
 
+30. Web / Desktop App UI Design in Figma - Full Course : https://www.youtube.com/watch?v=5IanQIwhA4E
+
 
 ## 金融
 
