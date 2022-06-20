@@ -96,6 +96,17 @@
 
 - https://crazyangelo.github.io/Cathedral-and-Bazaar/
 
+20. Modern Operating Systems 4th Edition by Andrew Tanenbaum
+
+21. Operating Systems: Three Easy Pieces
+
+- Operating Systems: Three Easy Pieces: https://pages.cs.wisc.edu/~remzi/OSTEP/
+
+- Operating Systems: Three Easy Pieces (Chinese) : https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/chinese
+
+22. 北大编译实践在线文档 : https://pku-minic.github.io/online-doc/
+
+- 从零开始，写个编译器！ https://zhuanlan.zhihu.com/p/471250907
 
 ## Test Tool
 
@@ -129,6 +140,10 @@
 
 
 ## Read
+
+## AMD
+
+1. Vivado ML : https://china.xilinx.com/products/design-tools/vivado/vivado-ml.html
 
 ### Interview
 
@@ -468,10 +483,6 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 2. https://pages.lip6.fr/Pierre.Sens/srcv6/
 
-## UNIX
-
-- http://ccckmit.wikidot.com/os:unixv6
-
 
 ## Linux
 
@@ -550,16 +561,15 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 - When gradient is small … 梯度很小的時候如何處理？ : https://www.youtube.com/watch?v=RMcHPeWuBVc
 
+5. The Softmax function and misconceptions : https://medium.com/artificialis/softmax-function-and-misconception-4248917e5a1c
+
+6. NTUST Edge AI 2022 人工智慧與邊緣運算實務 : https://github.com/OmniXRI/NTUST_EdgeAI_2022
+
+
+
 ## CI & CD 
 
 GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/watch?v=qP8kir2GUgo
-
-
-## Operating Systems: Three Easy Pieces
-
-1. Operating Systems: Three Easy Pieces: https://pages.cs.wisc.edu/~remzi/OSTEP/
-
-2. Operating Systems: Three Easy Pieces (Chinese) : https://github.com/remzi-arpacidusseau/ostep-translations/tree/master/chinese
 
 
 ## CS3331 Concurrent Computing Resource Page
@@ -786,6 +796,8 @@ GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/wat
 
 ## Xv6
 
+- http://ccckmit.wikidot.com/os:unixv6
+
 1. https://en.wikipedia.org/wiki/Xv6
 
 2. https://pdos.csail.mit.edu/6.828/2012/xv6.html
@@ -801,6 +813,12 @@ GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/wat
 7. https://github.com/riscv2os/riscv2os/wiki/reference
 
 8. https://github.com/riscv2os/riscv2os/wiki/xv6
+
+9. https://github.com/riscv2os/xv7
+
+10. https://github.com/monkey2000/xv6-riscv-fall19
+
+11. MIT 6.828 : https://blog.mky.moe/mit6828/menu/
 
 
 ## System Programming
@@ -1074,6 +1092,11 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 ## ARM
 
 1. https://developer.arm.com/documentation/
+
+
+## 演算法
+
+- 圖解演算法教學 : https://www.youtube.com/playlist?list=PLVVMQF8vWNCITO9U3h-cVA6nHkdqJEifc
 
 
 ## Python
