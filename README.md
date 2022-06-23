@@ -354,6 +354,10 @@
 
 30. Web / Desktop App UI Design in Figma - Full Course : https://www.youtube.com/watch?v=5IanQIwhA4E
 
+31. https://codepen.io/
+
+
+
 
 ## 金融
 
@@ -565,6 +569,11 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 
 6. NTUST Edge AI 2022 人工智慧與邊緣運算實務 : https://github.com/OmniXRI/NTUST_EdgeAI_2022
 
+7. MIT 6.034 Artificial Intelligence, Fall 2010
+
+- https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2010/
+
+- Learning: Support Vector Machines : https://www.youtube.com/watch?v=_PwhiWxHK8o
 
 
 ## CI & CD 
@@ -1098,6 +1107,10 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 - 圖解演算法教學 : https://www.youtube.com/playlist?list=PLVVMQF8vWNCITO9U3h-cVA6nHkdqJEifc
 
+
+## Math
+
+- https://www.youtube.com/watch?v=JnTa9XtvmfI
 
 ## Python
 
