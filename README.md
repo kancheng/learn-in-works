@@ -1117,6 +1117,21 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 - https://www.youtube.com/watch?v=JnTa9XtvmfI
 
+
+## rCore
+
+1. https://github.com/rcore-os/rCore
+
+- https://www.oschina.net/news/109918/qinghua-student-resume-cpu-os-compiler-own
+
+2. rCore-Tutorial-Book : https://rcore-os.github.io/rCore-Tutorial-Book-v3/
+
+3. https://gitee.com/mirrors/rCore
+
+4. https://www.oschina.net/p/rCore
+
+
+
 ## Python
 
 - Python Tutorial : https://shengyu7697.github.io/python-tutorial/
