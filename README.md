@@ -358,7 +358,7 @@
 
 32. Web Container : https://codepen.io/peiqun/pen/WYzzYX
 
-
+33. 純 CSS 毛玻璃特效 - backdrop-filter 屬性介紹 : https://www.casper.tw/development/2020/10/12/frosted-glass/
 
 
 ## 金融
@@ -529,6 +529,8 @@ MIT 6.004 L22: Cache Coherence : https://www.youtube.com/watch?v=vxrok3KKuGQ
 3. 如何進行 Code Review? https://enginebai.medium.com/code-review-guidelines-b76a859c377c
 
 4. 2021 求職分享 : https://claire1212.blogspot.com/2021/03/2021.htm
+
+5. Software Engineering at Google : https://software-engineering-at-google.gh.miniasp.com/#/
 
 
 ## Browser
@@ -835,6 +837,8 @@ GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/wat
 10. https://github.com/monkey2000/xv6-riscv-fall19
 
 11. MIT 6.828 : https://blog.mky.moe/mit6828/menu/
+
+12. xv6 程式碼的解讀，佐以 RISC-V 指令集、中斷、記憶體管理，和硬體周邊的說明 : https://www.youtube.com/user/hhp3/videos
 
 
 ## System Programming
