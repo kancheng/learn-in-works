@@ -71,6 +71,12 @@ table {
 }
 ```
 
+```
+* {
+	outline: 1px solid #000
+}
+```
+
 6. Markman 設計稿的標註確認 : http://www.getmarkman.com/
 
 7. PxCook 設計稿的標註確認 : https://www.fancynode.com.cn/pxcook
@@ -80,6 +86,18 @@ table {
 9. MarkMan - 高效的設計稿標註與測量工具 : https://ithelp.ithome.com.tw/articles/10209355
 
 10. http://pad.haroopress.com/
+
+11. 純 CSS 毛玻璃特效 - backdrop-filter 屬性介紹 : https://www.casper.tw/development/2020/10/12/frosted-glass/
+
+12. Gulp 範例 : https://github.com/hexschool/web-layout-training-gulp
+
+13. Gulp 環境安裝流程 : https://hackmd.io/yWpLNMPRT2yvIR4Zq_idGw
+
+14. Gulp 說明 : https://github.com/gonsakon/gulpDemo
+
+15. 如何發想程式作品題目 : https://hackmd.io/vbAi1bC-T-W9JfFYJiqQ4Q
+
+16. layout.ejs : https://cacoo.com/diagrams/G4ML24CopC3t8VZX/CD531
 
 ## CSS
 

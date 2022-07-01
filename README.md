@@ -360,6 +360,12 @@
 
 33. 純 CSS 毛玻璃特效 - backdrop-filter 屬性介紹 : https://www.casper.tw/development/2020/10/12/frosted-glass/
 
+34. Gulp 範例 : https://github.com/hexschool/web-layout-training-gulp
+
+35. Gulp 環境安裝流程 : https://hackmd.io/yWpLNMPRT2yvIR4Zq_idGw
+
+36. Gulp 說明 : https://github.com/gonsakon/gulpDemo
+
 
 ## 金融
 
