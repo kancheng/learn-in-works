@@ -99,6 +99,22 @@ table {
 
 16. layout.ejs : https://cacoo.com/diagrams/G4ML24CopC3t8VZX/CD531
 
+17. CSS & Javascript Toggle Button, Dark and Light Mode : https://www.youtube.com/watch?v=gzCUq_VQ7Y8
+
+18. Adobe XD 線上標示文件操作 : https://hackmd.io/J7ajdobzTlyideAARTLz5Q?view
+
+
+## Practice Hex School
+
+1. HTML 排版 : https://codepen.io/kancheng/pen/zYRXXxd
+
+2. CSS 排版 : https://codepen.io/kancheng/pen/rNJgwqe
+
+3. CSS TO HTML : https://codepen.io/kancheng/pen/yLvdmve
+
+4. FLEX & CSS : https://codepen.io/kancheng/pen/OJQKmaX
+
+
 ## CSS
 
 1. https://www.lipsum.com/
