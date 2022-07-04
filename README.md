@@ -370,6 +370,7 @@
 
 38. Whimsical : https://whimsical.com/
 
+39. Git & GitHub 入門 : https://quip.com/pFUnA7u75HbL
 
 ## 金融
 
