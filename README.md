@@ -1156,6 +1156,16 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 4. https://www.oschina.net/p/rCore
 
+## Compiler Design - Quick Guide
+
+- Compiler Design - Quick Guide : https://www.tutorialspoint.com/compiler_design/compiler_design_quick_guide.htm
+
+- 编译器设计 : https://www.jianshu.com/p/9014f1f06950
+
+## Multi-Core Cache Hierarchies Synthesis Lectures on Computer Architecture
+
+- https://www.morganclaypool.com/doi/abs/10.2200/S00365ED1V01Y201105CAC017
+
 
 
 ## Python
