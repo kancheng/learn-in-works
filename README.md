@@ -366,6 +366,10 @@
 
 36. Gulp 說明 : https://github.com/gonsakon/gulpDemo
 
+37. Adobe XD : https://www.adobe.com/products/xd.html
+
+38. Whimsical : https://whimsical.com/
+
 
 ## 金融
 
@@ -1118,6 +1122,16 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 ## ARM
 
 1. https://developer.arm.com/documentation/
+
+2. Introducing ARM assembly language : http://www.cburch.com/books/arm/index.html
+
+3. CS107 is the third course in Stanford's introductory programming sequence.
+
+- http://cs107e.github.io/
+
+- http://cs107e.github.io/schedule/
+
+- http://cs107e.github.io/about/
 
 
 ## 演算法
