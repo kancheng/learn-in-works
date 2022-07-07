@@ -103,6 +103,12 @@ table {
 
 18. Adobe XD 線上標示文件操作 : https://hackmd.io/J7ajdobzTlyideAARTLz5Q?view
 
+19. Git & GitHub 入門 : https://quip.com/pFUnA7u75HbL
+
+20. Windows 顯示或隱藏隱藏文件 : https://helpx.adobe.com/tw/x-productkb/global/show-hidden-files-folders-extensions.html
+
+21. Mac OS X 顯示或隱藏隱藏文件 : https://blog.vvtitan.com/2019/02/mac-os-x%E9%A1%AF%E7%A4%BA%E6%88%96%E9%9A%B1%E8%97%8F%E9%9A%B1%E8%97%8F%E6%96%87%E4%BB%B6/
+
 
 ## Practice Hex School
 
@@ -114,6 +120,29 @@ table {
 
 4. FLEX & CSS : https://codepen.io/kancheng/pen/OJQKmaX
 
+5. 第一題 : https://codepen.io/kancheng/pen/GRxgaLP
+
+6. 第二題 : https://codepen.io/kancheng/pen/GRxgbGR
+
+7. 第三題 : https://codepen.io/kancheng/pen/NWYPQba
+
+8. 第四題 : https://codepen.io/kancheng/pen/ExEaqJx
+
+9. 第五題 : https://codepen.io/kancheng/pen/oNqXLBM
+
+10. 第六題 : https://codepen.io/kancheng/pen/poLJbxw
+
+11. 第七題 : https://codepen.io/kancheng/pen/gOepwPr
+
+12. 第八題 : https://codepen.io/kancheng/pen/wvmazde
+
+13. 第九題 : https://codepen.io/kancheng/pen/bGvdwyM
+
+14. 第十題 : https://codepen.io/kancheng/pen/vYROyye
+
+15. EXAM1 : https://codepen.io/kancheng/pen/dymovZo
+
+16. EXAM2 : https://codepen.io/kancheng/pen/JjLdNvW
 
 ## CSS
 
