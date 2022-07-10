@@ -156,8 +156,7 @@ git remote add origin git@github.com:[]/[]
 git remote add [本地來源名] git@github.com:[帳號名]/[項目名]
 ```
 
-
-EX :
+EX : `master` 是分支名稱。
 
 ```
 git remote add git1 git@github.com:[]/[]
@@ -168,6 +167,58 @@ git push -u git1 master
 
 git push -u git2 master
 ```
+
+4. SSH Key 教學 : https://israynotarray.com/git/20210709/1381487661/
+
+5. Sample
+
+- 終端機
+
+Win：Git Bash
+
+```
+開始 > 搜尋輸入 > Git Bash
+```
+
+Mac：終端機
+
+```
+輸入「control + 空白」，關鍵字輸入「終端機」
+```
+
+- 嘗試 Git 是否有安裝成功
+
+```
+在終端機裡面輸入：git --version
+```
+
+- 設定個人資料
+
+```
+輸入姓名：git config --global user.name "gon"
+輸入個人的 email：git config --global user.email "gonsakon@gmail.com"
+查詢 git 設定內容(小寫 q 離開)：git config --list
+```
+
+- 終端機指令學習
+
+```
+練習：cd 前往到某資料夾，觀看內容
+```
+- Git 常用指令
+
+```
+初始化數據庫： git init
+Win 開啟隱藏檔方式
+Mac 開啟隱藏檔方式： command+shift+.
+查詢當前狀態：git status
+將檔案加入到索引：git add .
+將索引檔案變成一個更新(commit)：git commit -m "修改內容"
+觀察 commit 歷史紀錄： git log
+下載遠端數據庫： git clone 數據庫網址
+更新遠端數據庫： git push origin master
+```
+
 
 ## Practice Hex School
 
