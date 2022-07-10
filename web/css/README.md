@@ -219,6 +219,9 @@ Mac 開啟隱藏檔方式： command+shift+.
 更新遠端數據庫： git push origin master
 ```
 
+6. 欢迎光临 Learn Git Branching : https://learngitbranching.js.org/
+
+
 
 ## Practice Hex School
 
@@ -271,6 +274,26 @@ Mac 開啟隱藏檔方式： command+shift+.
 ## Tool
 
 1. Emmet in Visual Studio Code : https://code.visualstudio.com/docs/editor/emmet
+
+```
+{
+    "workbench.colorTheme": "Default Dark+",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    }
+    // emmet tab 自動展開
+    "emmet.triggerExpansionOnTab": true,
+    // template 展開
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "plaintext": "jade",
+        "ejs": "html",
+    },
+}
+```
 
 2. iTerm2 : https://iterm2.com/
 
