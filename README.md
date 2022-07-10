@@ -372,6 +372,8 @@
 
 39. Git & GitHub 入門 : https://quip.com/pFUnA7u75HbL
 
+
+
 ## 金融
 
 1. 開源金融大數據專案 - FinMind
@@ -664,6 +666,12 @@ GitLab CI CD Tutorial for Beginners [Crash Course] : https://www.youtube.com/wat
 - https://github.com/ArthurSonzogni/Diagon
 
 - https://arthursonzogni.com/Diagon/
+
+6. rufus
+
+- https://github.com/pbatard/rufus
+
+- https://rufus.ie/zh/
 
 
 ## Is Parallel Programming Hard, And, If So, What Can You Do About It?

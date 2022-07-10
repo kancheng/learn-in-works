@@ -109,6 +109,65 @@ table {
 
 21. Mac OS X 顯示或隱藏隱藏文件 : https://blog.vvtitan.com/2019/02/mac-os-x%E9%A1%AF%E7%A4%BA%E6%88%96%E9%9A%B1%E8%97%8F%E9%9A%B1%E8%97%8F%E6%96%87%E4%BB%B6/
 
+22. VScode 設定 js 的 emmet : https://chunchun0401.medium.com/vscode-%E8%A8%AD%E5%AE%9A-js-%E7%9A%84-emmet-609bcadfa40c
+
+23. Emmet Documentation : https://docs.emmet.io/cheat-sheet/
+
+24. Teams who diagram together, thrive together : https://cacoo.com/
+
+25. Normalize.css : https://necolas.github.io/normalize.css/
+
+26. Adobe XD 標示文件教學 - 高度講解 : https://www.youtube.com/watch?v=hodJ07BC6EQ
+
+
+## Git
+
+1. 指令縮寫
+
+```
+$ git config --global alias.co checkout
+
+$ git config --global alias.br branch
+
+$ git config --global alias.st status
+
+$ git config --global alias.ci commit
+
+
+```
+
+2. config
+
+```
+$ git config --list
+```
+
+- Windows : `C:\Users\$USER`
+
+- Mac : `~/.gitconfig`
+
+3. git remote
+
+可在本地設定不同遠端來源進行版控，可做為開發與測試之分。
+
+```
+git remote add origin git@github.com:[]/[]
+
+git remote add [本地來源名] git@github.com:[帳號名]/[項目名]
+```
+
+
+EX :
+
+```
+git remote add git1 git@github.com:[]/[]
+
+git remote add git2 git@github.com:[]/[]
+
+git push -u git1 master
+
+git push -u git2 master
+```
 
 ## Practice Hex School
 
@@ -161,3 +220,37 @@ table {
 ## Tool
 
 1. Emmet in Visual Studio Code : https://code.visualstudio.com/docs/editor/emmet
+
+2. iTerm2 : https://iterm2.com/
+
+## font family
+
+```
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+```
+
+1. Microsoft JhengHei & Microsoft JhengHei UI font family : https://docs.microsoft.com/zh-hk/typography/font-list/microsoft-jhenghei
+
+2. MingLiU font family : https://docs.microsoft.com/zh-hk/typography/font-list/mingliu
+
+3. System Font Stack : https://css-tricks.com/snippets/css/system-font-stack/
+
+4. 高品質字體 : https://forum.gamer.com.tw/Co.php?bsn=60076&sn=43125382
+
+5. font-weight : https://developer.mozilla.org/zh-CN/docs/Web/CSS/font-weight
+
+6. Fonts for Apple platforms : https://developer.apple.com/fonts/
+
+7. 思源黑體中文雲端字體 : https://fonts.google.com/noto/specimen/Noto+Sans+TC
+
+8. 系統字體介紹 - 六角卡斯伯撰寫 : https://www.casper.tw/design/2018/10/25/fonts/
+
+9. font-family 詳細解說 : https://www.oxxostudio.tw/articles/201811/css-font-family.html
+
+10. 如何載入 Google Fonts? : https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/HJpJk8ABU/https%3A%2F%2Fhackmd.io%2F2nenMilfR7WSJSDI4WzcWA%3Fview
+
+## Example
+
+1. React Responsive Gym Website Tutorial Using ReactJs : https://www.youtube.com/watch?v=gpqoZQ8GNK8
