@@ -219,8 +219,126 @@ Mac 開啟隱藏檔方式： command+shift+.
 更新遠端數據庫： git push origin master
 ```
 
-6. 欢迎光临 Learn Git Branching : https://learngitbranching.js.org/
+6. Learn Git Branching : https://learngitbranching.js.org/
 
+7. Git head 版本細節
+
+- branch ：分支，預設分支叫做 master
+
+- HEAD：指標
+
+- origin：預設遠端儲存庫名稱
+
+- 回頭觀看版本內容：git checkout 編號
+
+- 返回最新的版本：git checkout master(分支名稱)
+
+8. 遠端儲存庫(Repository)操作
+
+註冊遠端儲存庫：git remote add origin 遠端儲存庫網址
+
+更新資料到遠端 master 分支：git push -u origin master
+
+觀看遠端數據庫列表：git remote
+
+觀看遠端數據庫列表(包含 rul)：git remote -v
+
+下載遠端數據庫：git clone <url>
+
+-u 是指他預設會推到哪個遠端數據庫服務
+
+origin 可以改它的遠端數據庫名稱，例如 git push -u github master
+
+
+9. Git 遠端操作指令
+
+將本地數據庫推送資料到遠端數據庫：git push -u origin master
+
+將遠端數據庫下載同步更新到本地數據庫：git pull origin master
+
+
+10. Git clone 與 pull 差異
+
+git clone 主要是下載整個遠端 repo 數據庫，只需執行一次
+
+git pull：更新數據庫資料皆使用此指令
+
+遊戲下載使用 git clone，之後每次登入遊戲時的小更新則是 git pull
+
+11. 設定編輯器指令
+
+VSCode：
+
+```
+git config --global core.editor "code --wait"
+```
+
+12. 為什麼要用分支？
+
+多人協作時，不可能都在 master
+
+可以讓 master 都是正式版資料，可以開分支來做測試或開發，藉此不影響正式主機分支
+
+13. branch 介紹
+
+分支就像是便利貼，貼在某個 commit 上
+
+分支合併，主要是兩個 commit 進行合併
+
+14. 開分支流程
+
+新增分支：git branch 分支名稱
+
+查看分支：git branch
+
+切換分支：git checkout 分支名稱
+
+刪除分支：git branch -d 分支名稱 、-D 是強制刪除
+
+還原上個版本：git reset HEAD^
+
+開發情境：我有一個正式主機 master 分支，有一個開發分支叫做 develop
+
+15. 合併分支 && 快轉機制
+
+合併分支：git merge 分支名稱
+
+取消快轉：git merge 分支名稱 --no-ff
+
+觀看線圖：git log --oneline --graph
+
+還原合併前狀態：git reset —hard ORIG_HEAD
+
+16. 快轉機制
+
+取消快轉：兩個不同任務分支合併時，取消快轉
+
+預設使用快轉：本地與遠端兩條相同的任務分支時，可以用快轉
+
+17. 解決衝突流程
+
+HEAD 是當前 HEAD 分支位置，develop 是你想合併的分支
+```
+<<<<<<< HEAD
+      <h1>我是標題</h1>
+=======
+      <h2>我是大標題</h2>
+>>>>>>> develop
+```
+
+取消 merge 衝突狀態： git merge --abort
+
+18. 其他操作
+
+將特定 commit 貼上分支：git branch 新分支名稱 commit編號
+
+19. 常見分支名稱
+
+master 預設分支 - 合併時才會產生 commit
+
+develop 開發分支 - 合併時才會產生 commit
+
+feature 開發新功能分支
 
 
 ## Practice Hex School
@@ -328,3 +446,9 @@ body {
 ## Example
 
 1. React Responsive Gym Website Tutorial Using ReactJs : https://www.youtube.com/watch?v=gpqoZQ8GNK8
+
+
+## API
+
+1. Rails 使用 Swagger 自動生成 API 文件 : https://medium.com/traveling-light-taipei/rails-%E4%BD%BF%E7%94%A8-swagger-%E8%87%AA%E5%8B%95%E7%94%9F%E6%88%90-api-%E6%96%87%E4%BB%B6-6ca123e27e6f
+
