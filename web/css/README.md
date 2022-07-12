@@ -340,6 +340,107 @@ develop 開發分支 - 合併時才會產生 commit
 
 feature 開發新功能分支
 
+20. 本地分支衝突 : https://w3c.hexschool.com/git/921e90ff
+
+21. 遠端協作分支衝突 : https://w3c.hexschool.com/git/b0c9a9a4
+
+22. Git pull 語法詳細講解
+
+Git pull = git fetch + git merge
+
+git fetch：將遠端的檔案抓下來一份到本地，但尚未 merge
+
+23. GitHub PR 流程
+
+Fork 此專案，再到自己的個人頁，clone 專案下來
+
+在 dev 上開一個 feature/addFile
+
+切換到 feature/addFile，新增兩個 commit
+
+第一個 commit 新增內容，git push 到自己的 GitHub Repo
+
+申請發 PR 合併
+
+會退 PR
+
+拿自己的 master 想合併對方的 master 或 dev，其 dev 裡面沒有自己的內容。
+
+24. 常見 commit 合併技巧
+
+- Git Rebase
+
+- Git cherry-pick
+
+25. rebase 衝突
+
+解決衝突後加入索引： git add 特定檔案
+
+繼續執行 rebase：git rebase --continue
+
+26. 還原版本
+
+- 還原前兩個版本：git reset HEAD^^
+
+- 還原前兩個版本，所有更新檔案都放棄：git reset HEAD^^ --hard
+
+- 觀看詳細歷史紀錄：git reflog
+
+- 還原工作目錄上已更改的單一檔案 ：git checkout <file>
+
+27. checkout 與 reset 差異
+
+- checkout 是移動 HEAD
+
+- reset 是移動 branch
+
+28. Git reset 參數
+
+mixed(預設) - 丟回工作目錄
+
+soft - 丟回索引
+
+hard - 直接丟掉
+
+29. 還原工作目錄與暫存區
+
+清除未加入追蹤，並在工作目錄的檔案：git clean -f
+
+全部加入索引檔案>還原到工作目錄：git reset HEAD
+
+單一加入索引檔案>還原到工作目錄：git reset HEAD 檔案名稱
+
+30. Git 起手式 - 為自己用 Git
+
+設定忽略清單 .gitignore，各個語言的總表
+
+建立環境在 master 分支
+
+開啟 dev、feature 分支開始進行作業
+
+
+31. config 位置
+
+當你輸入指令時，其實是針對一個實體檔案去做修正，那就是 .gitconfig。
+
+Windows：`c:\documents and settings\user\`
+
+MacOs：`~/.gitconfig`
+
+```
+[alias]
+
+co = checkout
+
+new = clone https://github.com/hexschool/web-layout-training-gulp.git
+
+ci = commit
+
+st = status
+
+br = branch
+```
+
 
 ## Practice Hex School
 
