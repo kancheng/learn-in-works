@@ -119,6 +119,7 @@ table {
 
 26. Adobe XD 標示文件教學 - 高度講解 : https://www.youtube.com/watch?v=hodJ07BC6EQ
 
+27. Fake images : https://fakeimg.pl/
 
 ## Git
 
@@ -440,6 +441,8 @@ st = status
 
 br = branch
 ```
+
+32. gitignore，各個語言的總表 : https://github.com/github/gitignore
 
 
 ## Practice Hex School
