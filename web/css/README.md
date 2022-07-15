@@ -121,6 +121,32 @@ table {
 
 27. Fake images : https://fakeimg.pl/
 
+
+## Tailwindcss
+
+1. https://tailwindcss.com/
+
+2. Installation : https://tailwindcss.com/docs/installation
+
+3. https://2021.stateofcss.com/zh-Hant/technologies/css-frameworks
+
+4. Utility-First Fundamentals : https://tailwindcss.com/docs/utility-first
+
+5. Handling Hover, Focus, and Other States : https://tailwindcss.com/docs/hover-focus-and-other-states
+
+6. Responsive Design : https://tailwindcss.com/docs/responsive-design
+
+- Tailwind 示範1 : https://codepen.io/kancheng/pen/LYdbojm
+
+- Tailwind 示範2 : utility : https://codepen.io/kancheng/pen/qBoqGMy
+
+- Tailwind 示範4：RWD : https://codepen.io/kancheng/pen/ExENzBR
+
+- Tailwind 作品(1)： 手刻 vs utility 的自由度 : https://codepen.io/kancheng/pen/jOzVjyG
+
+7. 如何閱讀設計稿？ https://quip.com/5p2iAxU9Jqhk
+
+
 ## Git
 
 1. 指令縮寫
@@ -133,8 +159,6 @@ $ git config --global alias.br branch
 $ git config --global alias.st status
 
 $ git config --global alias.ci commit
-
-
 ```
 
 2. config
