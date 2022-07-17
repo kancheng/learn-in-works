@@ -121,6 +121,14 @@ table {
 
 27. Fake images : https://fakeimg.pl/
 
+28. CSS 不輕易寫死高度的藝術 : https://www.youtube.com/watch?v=1EYUsAlVqY0
+
+- https://codepen.io/kancheng/pen/bGvgdmV
+
+29. Bootstrap Introduction : https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+30. Unsplash : https://unsplash.com/
+
 
 ## Tailwindcss
 
@@ -145,6 +153,8 @@ table {
 - Tailwind 作品(1)： 手刻 vs utility 的自由度 : https://codepen.io/kancheng/pen/jOzVjyG
 
 7. 如何閱讀設計稿？ https://quip.com/5p2iAxU9Jqhk
+
+- perfect pixel kata : https://codepen.io/kancheng/pen/yLKgyrL
 
 
 ## Git
@@ -467,6 +477,10 @@ br = branch
 ```
 
 32. gitignore，各個語言的總表 : https://github.com/github/gitignore
+
+33. GitHub Desktop : https://w3c.hexschool.com/git/cfdbd310
+
+- https://desktop.github.com/
 
 
 ## Practice Hex School
