@@ -2,6 +2,13 @@
 
 ## Details
 
+- https://github.com/hexschool/2022-web-layout-training
+
+- https://github.com/kancheng/2022-web-layout-training
+
+- https://github.com/kancheng/ui-note
+
+
 ## Note
 
 1. List : https://codepen.io/liao/pen/bGdYvEK
@@ -130,6 +137,8 @@ table {
 30. Unsplash : https://unsplash.com/
 
 
+
+
 ## Tailwindcss
 
 1. https://tailwindcss.com/
@@ -155,6 +164,8 @@ table {
 7. 如何閱讀設計稿？ https://quip.com/5p2iAxU9Jqhk
 
 - perfect pixel kata : https://codepen.io/kancheng/pen/yLKgyrL
+
+8. Button : https://codepen.io/kancheng/pen/QWmdQgW
 
 
 ## Git
@@ -482,6 +493,8 @@ br = branch
 
 - https://desktop.github.com/
 
+## Chrome
+
 
 ## Practice Hex School
 
@@ -594,3 +607,6 @@ body {
 
 1. Rails 使用 Swagger 自動生成 API 文件 : https://medium.com/traveling-light-taipei/rails-%E4%BD%BF%E7%94%A8-swagger-%E8%87%AA%E5%8B%95%E7%94%9F%E6%88%90-api-%E6%96%87%E4%BB%B6-6ca123e27e6f
 
+2. Django AJAX Tutorial : https://www.youtube.com/watch?v=QDdLvImfq_g
+
+3. Django AJAX Tutorial: Basic AJAX in Django app with Fetch API https://www.youtube.com/watch?v=S2gkqC1fmbA
