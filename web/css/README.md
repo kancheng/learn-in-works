@@ -136,7 +136,7 @@ table {
 
 30. Unsplash : https://unsplash.com/
 
-
+31. Whimsical : https://whimsical.com/
 
 
 ## Tailwindcss
@@ -164,6 +164,8 @@ table {
 7. 如何閱讀設計稿？ https://quip.com/5p2iAxU9Jqhk
 
 - perfect pixel kata : https://codepen.io/kancheng/pen/yLKgyrL
+
+- https://quip.com/oAbEAo3QokUZ
 
 8. Button : https://codepen.io/kancheng/pen/QWmdQgW
 
