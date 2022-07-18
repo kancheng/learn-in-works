@@ -138,6 +138,18 @@ table {
 
 31. Whimsical : https://whimsical.com/
 
+32. 圖解：CSS Flex 屬性一點也不難 : https://www.casper.tw/css/2017/07/21/css-flex/
+
+33. CSS3 Flex 完整教學 : https://www.youtube.com/watch?v=lmBM7_OTDBQ
+
+- https://taiwancanhelp.us/
+
+- https://ithelp.ithome.com.tw/
+
+- https://www.apple.com/tw/
+
+34. 30 個你必須記住的 CSS 選擇器 : https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
 
 ## Tailwindcss
 
@@ -162,6 +174,13 @@ table {
 - Tailwind 作品(1)： 手刻 vs utility 的自由度 : https://codepen.io/kancheng/pen/jOzVjyG
 
 7. 如何閱讀設計稿？ https://quip.com/5p2iAxU9Jqhk
+
+```
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+/* mac, IOS 系統字體 Windows 英文系統字  微軟正黑體 Android 系統字  IOS 系統字  通用字體 */             
+}
+```
 
 - perfect pixel kata : https://codepen.io/kancheng/pen/yLKgyrL
 
@@ -612,3 +631,13 @@ body {
 2. Django AJAX Tutorial : https://www.youtube.com/watch?v=QDdLvImfq_g
 
 3. Django AJAX Tutorial: Basic AJAX in Django app with Fetch API https://www.youtube.com/watch?v=S2gkqC1fmbA
+
+## JS
+
+1. JavaScript 設計模式：關注點分離 : https://www.youtube.com/watch?v=WRBv4G-omjc
+
+2. jQuery 基礎教學 : https://www.youtube.com/watch?v=GVWOIP-HX70
+
+## Vue
+
+1. Vue3 + Vite 快速上手 Get Startrd EP3 - components / props / emit : https://www.youtube.com/watch?v=ureFPVghH30
