@@ -150,6 +150,8 @@ table {
 
 34. 30 個你必須記住的 CSS 選擇器 : https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
+35. HTML img 下方有不明空隙？！ https://tzuhui.github.io/2020/01/08/HTML/html-img-blank/
+
 
 ## Tailwindcss
 
@@ -515,6 +517,103 @@ br = branch
 - https://desktop.github.com/
 
 ## Chrome
+
+1. 調整 CSS3 transition 速率 : https://codepen.io/kancheng/pen/xxWqgda
+
+```
+<div class="wrap">
+  <div class="box"></div>
+</div>
+```
+
+```
+.box{
+  background: #000;
+  height: 150px;
+  width: 150px;
+  transition: all 1s cubic-bezier(.17,.67,.83,.67);
+}
+.wrap:hover .box{
+  background: blue;
+  margin-left: 400px;
+}
+```
+
+2. 輕鬆瀏覽 CSS3 Animation 效果 : https://codepen.io/kancheng/pen/yLKMgoo
+
+```
+<div class="box1"></div>
+<div class="box2"></div>
+```
+
+```
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition:all 1s;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+@keyframes example1 {
+    0%   {top:0;left:0}
+    25%  {top:0;left:50%;}
+    50%  {top:50%;left:50%;}
+  75%{top:50%;left:0%}
+    100% {top:0%;left:0;}
+}
+
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition:all 1s;
+    background-color: black;
+    animation-name: example2;
+    animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+@keyframes example2 {
+    0%   {top:0;left:0}
+    25%  {top:50%;left:0%;}
+    50%  {top:50%;left:50%;}
+    75%{top:0%;left:50%}
+    100% {top:0%;left:0;}
+}
+```
+3. JS : 
+
+- console.log()
+
+- console.table()
+
+- console.time()
+
+- console.timeEnd()
+
+4. Timeline、Profile，他經由改版已經合併到 Performance 的頁籤 : https://developers.google.com/web/updates/2016/12/devtools-javascript-cpu-profile-migration
+
+- https://codepen.io/kancheng/pen/MWVpvaB
+
+5. 常用插件分享
+
+- Type Sample：https://chrome.google.com/webstore/detail/type-sample/jobccjjaffckfoggljonehppmldgmkmh?hl=zh-TW
+
+- Dimensions：https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=zh-TW
+
+- Pesticide for Chrome：https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh?hl=zh-TW
+
+- Wappalyzer：https://chrome.google.com/webstore/detail/type-sample/jobccjjaffckfoggljonehppmldgmkmh?hl=zh-TW
+
+- Web Server for Chrome : https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb
+
+6. Developer Chrome :  https://developer.chrome.com/
+
+7. JS :
+
+- https://hexschool.github.io/JavaScript_HomeWork/
 
 
 ## Practice Hex School
