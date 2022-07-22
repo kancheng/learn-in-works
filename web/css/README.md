@@ -152,6 +152,8 @@ table {
 
 35. HTML img 下方有不明空隙？！ https://tzuhui.github.io/2020/01/08/HTML/html-img-blank/
 
+36.  Sketch UI 軟體，配合套件匯出 : https://utom.design/measure.html
+
 
 ## Tailwindcss
 
@@ -189,6 +191,167 @@ body {
 - https://quip.com/oAbEAo3QokUZ
 
 8. Button : https://codepen.io/kancheng/pen/QWmdQgW
+
+9. Tailwind CLI
+
+- 為何不使用 CDN？
+
+  - CDN 若有問題，會連帶影響專案
+
+  - CDN 只是用來給開發階段使用，並不適合用來作為正式專案運行的方式
+
+- Tailwind CLI 的核心在於使用 PostCSS 做編譯
+
+  - 後處理器(幫 CSS 做加工)
+
+  -  CSS → super CSS
+
+  - Tailwind CLI 會基於 PostCSS 對專案的指定檔案進行掃描，分析出使用了哪些 utilities，然後編譯出相應的 CSS 樣式
+
+10. Tailwind CLI 補充
+
+(1) Tailwind CLI 專案下載步驟
+
+同學回報 Windows 系統需要先在專案目錄下輸入指令 npm init 才可以 npm install -D tailwindcss，否則會出錯
+
+(2) npm install -D tailwindcss 的 -D 是什麼？
+
+save-dev，是指將 tailwind 安裝在 devDependencies （開發環境）下
+
+(3) npm 與 npx
+
+都是 node 的套件管理工具，可以方便下載套件
+
+差異在於 npm 會永久安裝，npx 安裝後即移除
+
+（詳細知識建議可再去查詢文章了解）
+
+(4) content 需要多路徑的寫法
+
+content:['路徑A', '路徑B']
+
+(5) `.src/**/.html` 與 `.src/.html` 的差異
+
+前者寫法，代表著 src 底下全部資料夾，只要有副檔名為 .html 都會套用該設定
+
+`./src/*.html` 代表著 `src` 單一一層資料夾
+
+(6) 終端機指令介紹
+
+cd：移動
+例如移動目前位置到 tailwind-demo 的資裡夾下，cd tailwind-demo 的資料夾路徑
+
+(7) VSCode 安裝 Tailwind 套件「Tailwind CSS IntelliSense」會輔助提示
+
+
+## Tailwind  CLI 專案開啟步驟
+
+[官網安裝步驟](https://tailwindcss.com/docs/installation)
+
+1. 下載 node
+
+2. 桌面新增一個空的資料夾 「tailwind-demo」
+
+3. 在資料夾目錄底下安裝 tailwind
+
+    ```
+    npm install -D tailwindcss
+    ```
+
+4. 新增 tailwind.config.js
+
+    ```
+    npx tailwindcss init
+    ```
+
+6. 新增 CSS 檔案
+
+    ```
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    ```
+
+8. 編譯 CSS 檔案
+
+    ```
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+    ```
+    `input {CSS檔} output {輸出的CSS檔} 監控編譯`
+
+  ![](https://i.imgur.com/Iii77VP.png)
+
+8. 建立 index.html，使用 Tailwind class
+
+9. 運行 Live Server 查看結果 
+
+> 可在 VSCode 安裝 Tailwind 套件「Tailwind CSS IntelliSense」
+
+## Tailwind CLI 專案介紹
+
+專案結構
+
+  ```
+  tailwind-demo/
+  │
+  ├─── dist/
+  │   │
+  │   └─── output.css
+  │
+  ├─── node_modules/
+  │
+  ├─── src/
+  │   │
+  │   ├─── index.html        
+  │   └─── input.css  
+  │
+  ├─── tailwind.config.js    
+  └─── package-lock.json       
+  ```
+
+  - src 資料夾是主要我們會更動的部分，(html 和 css)
+
+  - dist 資料夾是編譯後產出的檔案
+
+  - node_modules 是負責用來存放經由 npm 安裝過後的套件
+
+  - tailwind.config.js 是 整專案的 Tailwind 配置設定
+
+  - package-lock.json 使用 json 撰寫的描述文件
+
+10. 客製化
+
+- tailwind.config.js 
+
+  ```javascript
+  module.exports = {
+    content: ['./src/**/*.{html,js}'],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+  }
+  ```
+
+- input.css
+
+  ```css
+  @tailwind base; /* Preflight will be injected here */
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer base {
+    /*擴充專案的全站樣式*/
+  }
+
+  @layer components {
+    /*自組元件*/
+  }
+
+  @layer utilities{
+    /*自組樣式*/
+  }
+  ```
 
 
 ## Git
