@@ -243,6 +243,8 @@ cd：移動
 
 (7) VSCode 安裝 Tailwind 套件「Tailwind CSS IntelliSense」會輔助提示
 
+11. https://github.com/tailwindlabs/tailwindcss-forms
+
 
 ## Tailwind  CLI 專案開啟步驟
 

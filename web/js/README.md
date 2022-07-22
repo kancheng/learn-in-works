@@ -24,3 +24,7 @@
 3. 金流自己串，使用 Node.js 串接 LINE Pay : https://www.youtube.com/watch?v=nEjVIeDE-Ro
 
 4. React 新手讀書會說明會 ＆ 新手 JS 學多深入才能碰框架？ https://www.youtube.com/watch?v=AVWfGDfjtGU
+
+- https://hackmd.io/2neJ_anhRnuHXz5WTqNnOg?both
+
+5. 
