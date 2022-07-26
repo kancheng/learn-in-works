@@ -245,6 +245,16 @@ cd：移動
 
 11. https://github.com/tailwindlabs/tailwindcss-forms
 
+12. RWD : https://quip.com/kamtAxk7iJxb
+
+- RWD 在處理間距的範例：目前有幾種比較簡易的做法
+
+- 使用 margin 推，但這樣項目的 % 會需要減少一些，例如原本是 25% 可能會改成 23%
+
+- 使用 space-between，不過項目寬度例如 25% 也會需要改成 23%
+
+- 使用 padding ＋border-box 的設定，原先的寬度可以維持，例如： 25% 可以保持 25% (補充範例是使用這個)
+
 
 ## Tailwind  CLI 專案開啟步驟
 
@@ -680,6 +690,11 @@ br = branch
 33. GitHub Desktop : https://w3c.hexschool.com/git/cfdbd310
 
 - https://desktop.github.com/
+
+34. Software development workflow feat. version control : https://www.youtube.com/watch?v=TWyJJjvLiqs
+
+
+
 
 ## Chrome
 

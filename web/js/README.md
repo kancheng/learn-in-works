@@ -27,4 +27,20 @@
 
 - https://hackmd.io/2neJ_anhRnuHXz5WTqNnOg?both
 
-5. 
+5. JavaScript 程序测试 : https://wohugb.gitbooks.io/javascript/content/index.html
+
+- https://wohugb.gitbooks.io/javascript/content/tool/testing.html
+
+6. How to Start Unit Testing Your JavaScript Code，Ondrej Polesny : https://www.freecodecamp.org/news/how-to-start-unit-testing-javascript/
+
+- 如何开始对 JavaScript 代码进行单元测试 : https://chinese.freecodecamp.org/news/how-to-start-unit-testing-javascript/
+
+7. JEST : https://jestjs.io/zh-Hans/
+
+- https://deltice.github.io/jest/zh-Hans/
+
+8. 编写测试 : https://www.liaoxuefeng.com/wiki/1022910821149312/1101756368943712
+
+9. 在 HTML5 应用程序中调试和测试 JavaScript : https://netbeans.apache.org/kb/docs/webclient/html5-js-support_zh_CN.html
+
+
