@@ -154,6 +154,12 @@ table {
 
 36.  Sketch UI 軟體，配合套件匯出 : https://utom.design/measure.html
 
+37. RWD
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
 
 ## Tailwindcss
 
@@ -364,6 +370,226 @@ cd：移動
     /*自組樣式*/
   }
   ```
+
+## VSCode
+
+1. VSCode 官方網站：https://code.visualstudio.com/
+
+2. VSCode 熱鍵表：https://github.com/hexschool/VSCode_Hotkey_Translation
+
+3. VSCode 中文版插件：https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant
+
+4. Ctrl + Shift + P : 命令選擇區
+
+5. ! + Tab : 產生 Html Code
+
+6. VSCode 中文版插件：https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hant
+
+7. Sass 語言格式：https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
+
+8. emmet : https://emmet.io/
+
+- https://docs.emmet.io/cheat-sheet/
+
+9. Tab & Shift + Tab : 控制縮排
+
+10. Code 格式化 : alt + shift + F
+
+11. 
+
+```
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "plaintext": "jade"
+},
+"emmet.triggerExpansionOnTab": true
+```
+
+12. Live Sass 插件：https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
+
+- https://github.com/ritwickdey/vscode-live-sass-compiler/blob/master/docs/settings.md
+
+13. Live Server 插件：https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+14. 安裝佈景主題相關資源
+
+- One Dark 主題：https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+
+- Material Design 主題：https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+- 彩虹縮排：https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+
+- 彩色結尾：https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer
+
+15. ESLint ：https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+- 統一你的 JavaScript 規範
+
+- 鐵人賽：透過 ESLint 學習 JavaScript ES6 : https://www.casper.tw/javascript/2018/01/01/javascript-eslint/
+
+```
+npm install -g eslint
+
+eslint --init
+```
+
+16. https://code.visualstudio.com/docs/languages/overview
+
+17. 同步改變變數名稱 : F2 or Cmd + Shift + P > Rename Symbol
+
+18. JDoc 註解 : `/** */` 狀況下用 Enter。 `@param {*}` 的 `*` 是描述型別。
+
+```
+export default {
+/**
+* 描述函式用途
+* @param {*} 函式參數名
+*/
+
+basic (函式參數名) {}
+
+...
+
+};
+```
+
+19. Webpack 官方網站：https://webpack.js.org/
+
+20. Web dev Server：https://webpack.js.org/guides/development/#using-webpack-dev-server
+
+- https://github.com/webpack/webpack-dev-server
+
+```
+npm install webpack-dev-server --save-dev
+```
+
+```
+const path = require('path');
+
+module.exports = {
+  entry: './js/all.js',
+  output: {
+    path: path.resolve(__dirname + 'dist'),
+    filename: 'webpack.bundle.js'
+  },
+  devServer : {
+    contentBase: './dist',
+  },
+};
+```
+
+- package.json
+
+```
+  ...
+"scripts" : {
+  ...
+  "build" : "webpack"
+  "start" : "webpack-dev-server --open"
+  ...
+},
+  ...
+```
+
+21. Webpack Youtube：https://www.youtube.com/watch?v=fDWwaY3QMKk
+
+- https://webpack.js.org/concepts/output/
+
+- Command
+
+```
+npm init
+
+npm install webpack webpack-cli
+
+npm run build
+```
+
+- webpack.config.js
+
+```
+const path = require('path');
+
+module.exports = {
+  entry: './js/all.js',
+  output: {
+    path: path.resolve(__dirname + 'dist'),
+    filename: 'webpack.bundle.js'
+  },
+};
+```
+
+```
+module.exports = {
+  entry: {
+    app: './src/app.js',
+    search: './src/search.js',
+  },
+  output: {
+    filename: '[name].js',
+    path: __dirname + '/dist',
+  },
+};
+
+// writes to disk: ./dist/app.js, ./dist/search.js
+```
+
+- package.json
+
+```
+  ...
+"scripts" : {
+  ...
+  "build" : "webpack"
+  ...
+},
+  ...
+```
+
+22. Git
+
+- `.gitignore` 擋版控，專案中有那些檔案室是需要被忽略的。
+
+```
+node_modules
+```
+
+23. Node.js 除錯
+
+- 伺服器有任何的變更都需要重啟。
+
+- 使用中斷點的形式除錯。(滑鼠移過之後的紅點)
+
+- 此功能是比較偏向後端使用的，前端的話還是建議使用瀏覽器使用 devtools (Chrome, Safari, Edge )。
+
+```
+express --ejs
+npm install
+npm start
+```
+
+24. 擴充套件連結
+
+- `ketmap`, `GitLens`, `jQuery Code Snippets`, `Code Spell Checker`, `favorites`, `Polacode`, `vscode-pdf`, `Excel Viewer`, `vscode-spotify`, `VSCode PTT`
+
+- Polacode : Cmd + Shift + P 輸入 Polacode
+
+- Sublime Text Keybinding：https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings
+
+- Atom Keybinding：https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings
+
+- Spell Checker：https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
+- 我的最愛：https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-favorites
+
+- 專案管理工具：https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+
+25. VSCode 如何固定每次每個檔案都自動換行 : 
+
+- 設定內將「使用者」的 word wrap 改為 on 
+
+- 檢視 > 切換自動換行
 
 
 ## Git
