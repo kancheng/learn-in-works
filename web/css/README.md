@@ -571,7 +571,7 @@ npm start
 
 24. 擴充套件連結
 
-- `ketmap`, `GitLens`, `jQuery Code Snippets`, `Code Spell Checker`, `favorites`, `Polacode`, `vscode-pdf`, `Excel Viewer`, `vscode-spotify`, `VSCode PTT`
+- `keymap`, `GitLens`, `jQuery Code Snippets`, `Code Spell Checker`, `favorites`, `Polacode`, `vscode-pdf`, `Excel Viewer`, `vscode-spotify`, `VSCode PTT`, `Code Runner`, `SQLite Viewer`
 
 - Polacode : Cmd + Shift + P 輸入 Polacode
 
