@@ -592,6 +592,74 @@ npm start
 - 檢視 > 切換自動換行
 
 
+## Gulp 前端自動化
+
+1. Gulp : https://gulpjs.com/
+
+- https://en.wikipedia.org/wiki/Gulp.js
+
+- 透過此工具就可以把如壓縮等複雜的流程一次做完
+
+```
+gulp
+gulp --env [環境名稱]
+```
+
+2. Nodejs 官方網站連結 : https://nodejs.org/en/
+
+
+3. Nodejs Windows 版本其 Windows 指令說明：
+
+```
+# 回到資料夾頂端
+cd\ 
+
+# 回到上一層
+cd.. 
+
+# 進入資料夾路徑
+cd {{ 資料夾路徑 }} 
+
+# Nodejs 版本
+node -v 
+
+# npm 版本
+npm -v 
+
+# 安裝 Global Gulp 環境
+npm install gulp-cli -g 
+```
+
+4. Nodejs Mac OS 版本其 Mac OS 指令說明：
+
+```
+# 回到資料夾頂端
+cd \ 
+
+# 回到上一層
+cd .. 
+
+# 進入資料夾路徑
+cd {{ 資料夾路徑 }} 
+
+# Nodejs 版本
+node -v 
+
+# npm 版本
+npm -v 
+
+# 安裝 Global Gulp 環境
+npm install gulp-cli -g 
+
+# 如果無法安裝 Global Gulp 環境，請用以下並輸入系統密碼
+sudo npm install gulp-cli -g 
+```
+
+
+
+
+
+
 ## Git
 
 1. 指令縮寫
