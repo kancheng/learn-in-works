@@ -251,6 +251,8 @@ cd：移動
 
 11. https://github.com/tailwindlabs/tailwindcss-forms
 
+- https://tailwindcss-forms.vercel.app/
+
 12. RWD : https://quip.com/kamtAxk7iJxb
 
 - RWD 在處理間距的範例：目前有幾種比較簡易的做法
@@ -394,6 +396,16 @@ cd：移動
 9. Tab & Shift + Tab : 控制縮排
 
 10. Code 格式化 : alt + shift + F
+
+- 在Windows Shift + Alt + 上F
+
+- 在Mac Shift + Option + 上F
+
+- 在Ubuntu Ctrl + Shift + 上I
+
+- Prettier - Code formatter : https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+- https://www.ucamc.com/articles/315-%E5%A6%82%E4%BD%95%E5%9C%A8vscode%E4%B8%AD%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A2%BC%E8%87%AA%E5%8A%A8%E6%8E%92%E7%89%88%E5%BF%AB%E6%8D%B7%E9%94%AE
 
 11. 
 
