@@ -8,6 +8,14 @@
 
 - https://github.com/kancheng/ui-note
 
+## JS
+
+0. Practice : https://hackmd.io/habM8HeETyGfjuMrs00oNg
+
+1. Kuro - JS 基礎教學 Day1 - Day17 篇 : https://ithelp.ithome.com.tw/users/20065504/ironman/1259
+
+2. 卡斯伯 - JS 勇者之路 Day 17 - Day24 篇 : https://ithelp.ithome.com.tw/users/20083608/ironman/1354?page=2
+
 
 ## Note
 
@@ -42,6 +50,11 @@
 8. 编写测试 : https://www.liaoxuefeng.com/wiki/1022910821149312/1101756368943712
 
 9. 在 HTML5 应用程序中调试和测试 JavaScript : https://netbeans.apache.org/kb/docs/webclient/html5-js-support_zh_CN.html
+
+## React
+
+1. 尚硅谷 React 教程 : https://www.youtube.com/watch?v=iu6hb64KOlM&list=PLmOn9nNkQxJFJXLvkNsGsoCUxJLqyLGxu
+
 
 ## Angular
 

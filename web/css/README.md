@@ -591,6 +591,11 @@ npm start
 
 - 檢視 > 切換自動換行
 
+26. 20 個 VSCode 開發小技巧 : https://www.youtube.com/watch?v=LOjUnXk_TNU
+
+- https://bejewled-air-4cb.notion.site/20-VSCode-Coding-6e35278e50a0488faa027461940240f0
+
+
 
 ## Gulp 前端自動化
 
