@@ -75,3 +75,7 @@
 8. 關於我作夢變成工程師這檔事（Angular 篇） : https://ithelp.ithome.com.tw/users/20128395/ironman/4876
 
 9. Nativescript 由初學到初學+30天 : https://ithelp.ithome.com.tw/users/20140959/ironman/4644
+
+10. TypeScript TS 快速入門 : https://www.youtube.com/watch?v=GinkGJZBHIY
+
+11. React 快速入門 : https://www.youtube.com/watch?v=zqV7NIFGDrQ

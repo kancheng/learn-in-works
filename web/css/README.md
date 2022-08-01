@@ -263,6 +263,150 @@ cd：移動
 
 - 使用 padding ＋border-box 的設定，原先的寬度可以維持，例如： 25% 可以保持 25% (補充範例是使用這個)
 
+13. Tailwind 作品(3)：響應式 : https://codepen.io/kancheng/pen/GRxyxZN
+
+14. Mobile First 注意事項 : https://tailwindcss.com/docs/responsive-design#mobile-first
+
+15. 手刻 vs. Tailwind 斷點寫法
+
+手刻：
+```
+<img class="w-12 w-8 w-4" src="https://lh5.googleusercontent.com/-HxdAXDevCOM/AAAAAAAAAAI/AAAAAAAAAGE/kpIzybNcc9o/photo.jpg">
+```
+
+```
+.w-12 {
+  width: 12rem;  /* 192px */
+}
+
+@media (max-width: 1024px){
+  .w-8 {
+    width: 8rem; /* 128px */
+  }
+}
+
+@media (max-width: 768px){
+  .w-4 {
+    width: 4rem; /* 64px */
+  }
+}
+```
+
+Tailwind：
+
+不用自己寫斷點，只需使用前綴
+```
+<img class="w-16 md:w-32 lg:w-48" src="https://lh5.googleusercontent.com/-HxdAXDevCOM/AAAAAAAAAAI/AAAAAAAAAGE/kpIzybNcc9o/photo.jpg">
+```
+
+編譯結果
+
+```
+.w-16 {
+  width: 4rem;
+}
+
+@media (min-width: 768px)
+  .md\:w-32 {
+    width: 8rem;
+}
+
+@media (min-width: 1024px)
+  .lg\:w-48 {
+   width: 12rem;
+}
+```
+
+16. Tailwind 響應式設計
+
+> 邏輯跟 BS 反過來
+
+Mobile First (手機優先設計) 與 min-width
+
+Tailwind 的斷點設計是依照 Mobile First
+
+通常會在 Mobile First 的概念下使用 min-width 的語法來進行響應式的開發
+
+`@media (min-width: 768px) { ... }` → 最小 768px 寬
+
+min-width 與 max-width 寫法差異：
+
+```
+min-width: 數字由小往大撰寫
+
+@media (min-width: 768px) { ... } 
+@media (min-width: 1024px) { ... } 
+
+max-width: 數字由大往小撰寫
+
+@media (max-width: 1024px) { ... } 
+@media (max-width: 768px) { ... } 
+```
+
+17. Tailwind 斷點
+
+斷點：決定樣式什麼時候要改變的數字
+
+斷點：樣式
+```
+<img class="w-16 md:w-32 lg:w-48" src="...">
+```
+如果 md 尺寸還要設定高度：
+
+```
+<img class="w-16 md:w-32 md:h-32 lg:w-48" src="...">
+```
+
+
+18. 客製化斷點
+
+- 可以依目前的新增，例如：3xl
+
+- 可以改斷點數值
+
+- 可以改為 max-width
+
+- 可以將斷點名稱重新命名
+
+- 客製化 container
+
+```
+module.exports = {
+  theme: {
+    container: {
+      center: true, // 水平置中
+      padding: '2rem', // 水平間距
+    },
+  },
+}
+```
+
+19. JIT : https://tailwindcss.com/blog/just-in-time-the-next-generation-of-tailwind-css)
+
+- Just In Time 即時編譯
+
+- Tailwind version 3 預設模式
+
+- 優點：
+
+  - 編譯速度飛快 3-8 秒（原本整包 CSS 需要 30 秒）
+
+  - 每個 class 都可以使用前綴
+
+  - 可編譯自己創造的 css：m-[21px]
+
+  - dev 和 prod 的環境的 CSS 編譯是相同的
+
+  - 效能更好
+
+20. Gulp 搭配使用 Tailwind 
+
+- 專案下載連結 : https://github.com/hexschool/web-layout-training-gulp/tree/feature/tailwind)
+
+- 使用手冊連結 : https://hackmd.io/UFgAadfSTf6L0sqXJvCV8g)
+
+21. Tailwind 週任務範例(3) : https://codepen.io/kancheng/pen/jOzYzMz
+
 
 ## Tailwind  CLI 專案開啟步驟
 
