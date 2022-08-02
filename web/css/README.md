@@ -160,6 +160,59 @@ table {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+38. 頁面切換與 Layout 設計 : https://cacoo.com/diagrams/G4ML24CopC3t8VZX/CD531
+
+39. 切版 Gulp 範例 : https://github.com/hexschool/web-layout-training-gulp
+
+40. SCSS 教學 :
+
+- Presentation : https://docs.google.com/presentation/d/11-HFPxkmVj5b6WP50zkKB_GtccvynUu3GaDeALaLpd0/edit
+
+- VSCode - 好用插件 feat. 開發小技巧 : https://ithelp.ithome.com.tw/m/articles/10202661
+
+- 變數設計
+
+- import 檔案切分
+
+- import 拆分規劃
+
+41. SCSS 影音補充
+
+- prepos 軟體安裝教學 : https://courses.hexschool.com/courses/670051/lectures/11953744
+
+- SCSS 寫法 : https://courses.hexschool.com/courses/670051/lectures/11953745
+
+- import 檔案拆分 : https://courses.hexschool.com/courses/1eebd3/lectures/11953747
+
+- mixin 工具篇 : https://courses.hexschool.com/courses/1eebd3/lectures/11953748)
+
+- 載具篇 - @mixin+@content 設計響應式設計超方便 : https://courses.hexschool.com/courses/1eebd3/lectures/11953749
+
+- 結構篇 - 如何循序漸進優化網頁架構 : https://courses.hexschool.com/courses/1eebd3/lectures/11953750
+
+42. SCSS 範例
+
+- 2014 MOPCON : https://github.com/gonsakon/mopcon2014/blob/master/sass/all.sass
+
+- 2018 The F2E : https://github.com/gonsakon/theF2EPK/blob/master/source/sass/all.sass
+
+- Bootstrap : https://github.com/twbs/bootstrap/tree/master/scss
+
+- Vicky GitHub Repo : https://github.com/peggyted0129/HexSchoolTraining/tree/main/week4gulp/scss
+
+- Vicky GitHub Pages : https://peggyted0129.github.io/HexSchoolTraining/week4gulp/index.html
+
+- Carrie GitHub Repo : https://github.com/echocarriet/layoutWeek4
+
+- Carrie GitHub Pages : https://echocarriet.github.io/layoutWeek4/index.html
+
+- Chiayutsai GitHub Repo : https://github.com/chiayutsai/week4_glasses/tree/main/app/scss
+
+- Chiayutsai GitHub Pages : https://github.com/chiayutsai/week4_glasses
+
+- 東京自耕農學長 poscss GitHub Repo : https://github.com/overactive1988/lesson3_homework/tree/master/src/css/css/_include
+
+- 東京自耕農學長 poscss GitHub Pages : https://overactive1988.github.io/HexSchool_webslicinglesson2020/week03/
 
 ## Tailwindcss
 
