@@ -8,6 +8,15 @@
 
 - https://github.com/kancheng/ui-note
 
+## Other `ʕᵔᴥᵔʔ`
+
+1. @layer你不知道的CSS優先權!ID、class、tag，@layer又是甚麼? https://www.youtube.com/watch?v=H3uvgwFSgtg
+
+2. winter island : https://codepen.io/kancheng/pen/LYdrpVm
+
+3. 巴哈姆特動畫瘋-重製概念設計-新增手機版播放介面 : https://forum.gamer.com.tw/C.php?bsn=60076&snA=5892478
+
+
 
 ## Note
 
@@ -213,6 +222,537 @@ table {
 - 東京自耕農學長 poscss GitHub Repo : https://github.com/overactive1988/lesson3_homework/tree/master/src/css/css/_include
 
 - 東京自耕農學長 poscss GitHub Pages : https://overactive1988.github.io/HexSchool_webslicinglesson2020/week03/
+
+## RWD
+
+1. Flex RWD 排版方式
+
+- Flex RWD 排版方式 : https://hackmd.io/ROe4tRHSQlSWFNUsYgbQ7w
+
+- 伸縮自如的 RWD 排版術(上) : https://www.youtube.com/watch?v=t13Fvg0_xHk
+
+- 伸縮自如的 RWD 排版術(下) : https://www.youtube.com/watch?v=Du_N0Vyh-Q0
+
+2. 流體式佈局主要是採用百分比來設置的意思，當瀏覽器畫面放大或縮小時，畫面就會跟著調整，因此流體式佈局又稱之為「響應式設計」
+
+3. max-width 流體式佈局，自行延伸利面對應的內容。
+
+```
+max-width : 666px;
+```
+
+4. 規範與說明 : https://www.ibm.com/design/language/typography/type-basics/
+
+- 中文內文單行字元 30～40 會比較好閱讀，英文則是 32～80 個字元數
+
+
+5. float 設計 - none 可以讓其無效
+
+```
+float :none
+```
+
+6. RWD 注意
+
+- 語意標籤(div、h2) 與整體結構是否有優化空間
+
+- 是否在 992、768、375、320px 有 x 軸
+
+- Flex 或 Float 在各斷點變化上是否合理
+
+- 選單連結的點擊範圍是否適合
+
+- 善用 max-width 與 % 來設計佈局
+
+7. 點擊
+
+- 設計高度約 25px, 手指 44 px。
+
+8. Layout 是網頁的通用版型的意思，舉例來講，你在逛網頁時往往會有一些地方是相同，通常是 header (頁首) 與 footer (頁尾)，但只有中間的內容(content)會隨著使用者切換，而這個 header 與 footer 就是 Layout 。
+
+9. PageSpeed：使用 Google 線上服務觀察 Mobile 速度與使用體驗
+
+- Google 行動裝置測試 : https://www.google.com/webmasters/tools/mobile-friendly/?hl=zh-tw
+
+- Google PageSeed : https://developers.google.com/speed/pagespeed/insights/
+
+10. 響應式無法讓所有螢幕解析度都最佳化
+
+11. GA :
+
+- GA 官方說明 https://support.google.com/analytics/answer/1008080?hl=zh-Hant#zippy=%2C%E6%9C%AC%E6%96%87%E5%85%A7%E5%AE%B9
+
+- 如何使用 GA 來替自己網站作分析 : https://israynotarray.com/analytics/20190506/1879363764/
+
+12. 常見 PC 解析度斷點設計 : https://codepen.io/kancheng/pen/NWYMEdx
+
+13. Viewport Sizes 服務網站
+
+- http://viewportsizes.mattstow.com/
+
+- http://screensiz.es/
+
+- https://yesviz.com/
+
+14. 斷點設計分享
+
+```
+iPad - 768px
+iPad以下 - 767px
+iPhone 6 Plus - 414px (視專案族群)
+iPhone 6 - 375px  (視專案族群)
+iPhone 5、SE - 320px
+```
+
+- 767px 的斷點 : 是因為 iPad 直式 是 Android、IOS 平版很常見的大小，再接著 767px - 320px 的部分可視為他們都是手機 size，所以在 767 px 以下時就會直接把他變成手機版型，畢竟 767px - 6xx size 相當少見，一開始可先確保一些熱門設備斷點上優化即可，至少可以滿足 80% 以上的客戶，若有餘力再力求優化的話也是 ok 的。
+
+- 再來 320px 是最小需要注意的 SIZE，現在仍然有許多手機是 320px，尤其是小 size 的 iPhone，以前甚至有 240px 的手機，但現在已經相當稀有了。所以如果是 PC 做到手機的話，語法就會有點像是這樣：
+
+```
+.wrap{
+  max-width: 960px;
+}
+.header {
+  height: 80px;
+}
+.list li{
+  width: 33%;
+}
+.list h3{
+  font-size: 24px;
+}
+@media(max-width: 768px){
+  .header{
+    height: auto;
+  }
+  .list li{
+    width: 48%;
+    margin: 0 1%;
+  }
+}
+@media(max-width: 767px){
+  .list li{
+    width: 98%;
+  }
+}
+@media(max-width: 414px){
+  .list li{
+    font-size: 18px;
+  }
+}
+```
+
+15. purecss :  https://purecss.io/
+
+16. pure.css 表單練習 : https://codepen.io/kancheng/pen/GRxdLqj
+
+17. pure.css 如何將表單整合至網頁 : https://codepen.io/kancheng/pen/JjLvVbg
+
+18. 表單設計：非 text 文字欄位 : https://codepen.io/kancheng/pen/NWYMmpw
+
+19. Xcode 模拟 iPhone : 在 Launchpad 程序中找到 Xcode 工具并启动，随便选择一个工程或是新建一个工程都可以，在左上角的调试中找到 IOS 模拟器 ，选择 iphone5s 或是 6 都可以，根据你当前 xcode的 版本来选择，选择好之后选择启动调试即可完成。
+
+20. 響應式圖片設計 :
+
+```
+max-width: 100%
+width: 100%
+```
+
+21. 響應式圖片 reset :
+
+```
+img {
+    max-width: 100%
+    height: auto;
+}
+```
+
+22. 圖片要根據響應式畫面來考量，設計出相對應的大小圖檔，讓圖片在畫面上都會是清晰的圖。PC 是小圖，Pad & Phone 放相對大張的圖片。
+
+23. 判斷圖片使用時機 : SVG, JPG, PNG
+
+- SVG 多為 Logo
+
+- JPG, PNG 多為為了方便的使用者上稿。
+
+24. iconfinder : https://www.iconfinder.com/
+
+25. SVG 篇：將 LOGO 取代為 SVG 格式 : https://codepen.io/kancheng/pen/BarxeMe
+
+```
+<div class="logo">
+    <a herf="#">公司名稱</a> 
+</div>
+```
+
+```
+.logo a {
+  display: block; 
+  background-image: url("xxx.svg");
+  background-image: url("xxx.png");
+  background-size: contain;
+  width: px;
+  height: px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 101%;
+}
+```
+
+- 補充關於「text-indent:101% ; overflow: hidden ; white-space: nowrap; 」的程式碼意思
+
+text-indent:101% ; 是 CSS 語法的縮排或凸排的語法，概念就跟 Word 的首字凸排或縮排一樣。
+
+overflow: hidden; 當元素超出範圍時，元素就隱藏
+
+white-space: nowrap; 因為文字到達元素最大範圍時，通常會自動換行，但是這邊設置強制不讓他換行。
+
+也因此這三個屬性才能夠達到隱藏文字效果。
+
+26. Banner 設計縮放圖片，其要考量在響應式畫面下要根據畫面大小來設計針對的 Banner 圖片。
+
+- RWD-Banner設計-縮放圖片原理 : https://codepen.io/kancheng/pen/oNqdRRd
+
+27. Banner 設計 - 背景擷取 : https://codepen.io/kancheng/pen/XWEqLWg
+
+28. TinyPNG : https://tinypng.com/
+
+29. 響應式選單常見樣式
+
+- 一般選單範例 : https://stuffandnonsense.co.uk/
+
+- 一列式設計 : http://skinnyties.com/
+
+- 漢堡選單範例 : http://www.mopcon.org/2014/
+
+- Off canvas 選單範例 : http://www.japantimes.co.jp/
+
+30. 多欄多列式設計細節 :
+
+- https://codepen.io/kancheng/pen/VwXxoKL
+
+31. Off Canvas 選單設計 : https://codepen.io/kancheng/pen/zYWaOBr
+
+32. media query 設定 : https://codepen.io/kancheng/pen/JjLZPyW
+
+33. media 到底要全部寫在一起還是隔離 : https://codepen.io/kancheng/pen/xxWzKpq
+
+34. Sublime Text 4 摺疊程式碼 : Edit -> Code Folding
+
+35. 線上作業標示文件參考 : https://hexschool.github.io/Rwd_sketch_export/
+
+- 網頁素材與標示文件下載連結 : https://github.com/hexschool/course-css-weblayout
+
+36. Practice : https://codepen.io/kancheng/pen/eYMKYQM
+
+37. 設計響應式可提升 Google 行動版搜尋引擎排名 : https://developers.google.com/webmasters/mobile-sites/mobile-seo/?hl=zh-tw
+
+- statcounter : https://gs.statcounter.com/
+
+
+38. Head
+
+```
+<head>
+    <meta charset="UTF-8">
+    <title>HTML、CSS教學</title>
+    <link rel-"shortcut icon" href="favicon.ico">
+    <meta name='description' content='網站描述文字/>
+    <meta name='keywords' content='關鍵字一,關鍵字二,關鍵字三'/>
+    <meta property="og:title" content="FB的標題"/>
+    <meta property="og:description" content="FB的描述">
+    <meta property="og:type" content="website" I>
+    <meta property="og:url"content="FB上的網址"/>
+    <meta property="og:image"content="FB的圖片"/>
+    <link href="圖片路徑" rel="apple-touch-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <link rel="stylesheet" href="CSS檔案路徑">
+    <script type="text/javascript" src="JS檔案路徑"></script>
+</head>
+```
+
+39. 投入人力比較
+
+- PM : 增加 60% 工作量
+  - 版型動線規劃
+  - 客戶討論資訊權重 : 可以透過 GA 來分析,客戶主要的流量來自於哪種裝置(解析
+度),以及哪些資訊被點擊率比較低,開發 RWD 時可以優先被省略
+
+- 設計: 增加 100% 工作量
+
+- 前端(切版):增加 100% 工作量
+
+- 後端: 增加 20% 工作量
+
+40. BS : https://codepen.io/kancheng/pen/eYMKmjo
+
+41. video 滿版 : video 設定 css width:100% 就可以自適應版型
+
+42. Banner 要根據圖片的主視覺，配合響應式網頁來裁圖。
+
+43. CKEditor : https://ckeditor.com/
+
+44. Sass : https://github.com/gonsakon/Learn-Sass-in-90-days
+
+- https://github.com/kancheng/Learn-Sass-in-90-days
+
+45. 若系統有後台，則前端要設計一套讓客戶能夠自行上稿的 template
+
+46. 注意網頁載入速度與效能問題 : 先載入 CSS ,再入 JS，3 秒內畫面至少要先顯示出來
+
+- Chrome 滑鼠右鍵 : 檢查 -> Network -> No throttling (選擇想要模擬的網路狀態)
+
+- 少放自動會跑的動畫效果，避免效能低弱問題。
+
+47. 全部門工作流程探討，假設有一個三欄式的 PC 頁面。
+
+- 設計師
+
+  - 確認圖片比例、文字字元數
+
+  - 確認 desktop、768px、320px
+
+  - 向前端、後端討論可行性
+
+- 前端 : 自適應延伸內容文案
+
+- 後端 :
+
+  - 上稿圖片 : 如果放太大張就自動縮圖成設計師要的大小
+
+  - 上稿文字 : 在後台欄位限制字數
+
+- 企劃 : 吸收設計師、前端、後端所整理出來的細節,並提供上稿細節給客戶
+
+48. Sublime Text 安裝 Package Control Plugin :
+
+- Win/Linux: ctrl + shift + p
+
+- Mac: cmd + shift + p
+
+> 輸入 Install Package Control
+
+49. Sublime Text 安裝 SCSS 套件
+
+- Win/Linux: ctrl + shift + p
+
+- Mac: cmd + shift + p
+
+> 輸入 Install Package 後再輸入 SCSS
+
+- Sass : https://packagecontrol.io/packages/Sass
+
+- SCSS : https://packagecontrol.io/packages/SCSS
+
+50. Sass
+
+- Sass install : https://sass-lang.com/install
+
+- prepros : https://prepros.io/
+
+- Sass : https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
+
+- How to get Emmet in VScode for SCSS to act more like it does for CSS : https://stackoverflow.com/questions/65882714/how-to-get-emmet-in-vscode-for-scss-to-act-more-like-it-does-for-css/
+
+51. Sass Variable 變數 :
+
+```
+$xx-color: #fff;
+$xx-font-m: 8px;
+$xx-font-l: $xx-font-m * 2;
+```
+
+- Codepen Demo : https://codepen.io/kancheng/pen/yLKENgm
+
+- 建議用在字體的大中小、顏色、主色系等等常用的部分。
+
+- Sass Bootstrap : https://github.com/twbs/bootstrap-sass
+
+- Sass Bootstrap GitHub : https://github.com/twbs/bootstrap-sass
+
+- Sass Bootstrap Demo for Sass Variable : https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+
+52. Sass Bootstrap 5 繁體中文文件 : https://bootstrap5.hexschool.com/docs/5.0/customize/sass/
+
+53. 拆檔 - @import:
+
+```
+_ScssFileName.scss
+```
+
+```
+@import "ScssFileName";
+```
+
+- Best way to include CSS? Why use @import? : https://stackoverflow.com/questions/10036977/best-way-to-include-css-why-use-import#answer-10037064
+
+- SCSS @import 的作法是將所有要合併的 .scss 檔 ( 如 `_reset.scss` ) 引入到一支要編譯的 .scss 檔 ( 如 all.scss ) ， 透過編譯器將所有 SCSS 合併到同一支 all.css 。當瀏覽器載入只需引入一支 all.css 。使用 CSS @import 也可以引入 css 檔案，不過需要注意每一支引入的檔案在瀏覽器執行時皆會發出一次 http 請求，並且會影響到其他檔案的載入順序與速度，容易造成頁面渲染速度較慢的問題。
+
+- Sass Map 快出產出大量樣式 : https://www.casper.tw/css/2016/12/25/sass-map/
+
+- scss 或是 sass 的優點主要是不是還是在語法的豐富性及程式碼可讀性上，其預處理器還可以使用相似於 JS 迴圈的 @each 搭配 map 自動產生樣式。
+
+54. @mixin 將常用語法化簡為自己的知識庫 : https://codepen.io/kancheng/pen/yLKENxN
+
+- input
+
+```
+@mixin hide-text {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.header h1 {
+    background: #fff;
+    @include hide-text;
+}
+```
+
+- output
+
+```
+.header h1 {
+    background: #fff;
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+```
+
+- BootStrap : https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/mixins/_clearfix.scss
+
+- Demo
+
+```
+//客製化_做出一個圓 (*可自行輸入數值)
+@mixin circle($size,$bgcolor) {
+  border-radius: 50%;
+  height:$size;
+  width:$size;
+  font-size: $size / 3;
+  background: $bgcolor;
+}
+
+.pinkCircle{
+  @include circle(30px,pink )
+}
+```
+
+```
+<div class="pinkCircle"></div>
+```
+
+55. Sass 結構 :
+
+```
+@import "mixin"; // 所有全域數與 Mixin
+@import "reset"; // reset.css
+@import "index"; // 首頁
+@import "page/.."; // 内頁
+```
+
+```
+@import "mixin"; //所有全域數與 Mixin
+@import "reset"; // reset.css
+@import "layout"; // 共同框架, 第一層
+@import "module"; // button, form, table
+@import "pages/index、pages1、 pages2";
+```
+
+56.  @mixin+@content 設計響應式
+
+```
+@mixin pad {
+    @media (max-width: 768px) {
+        @content
+    }
+}
+
+@mixin iphone5 {
+    @media (max-width: 320px) {
+        @content
+    }
+}
+
+.header {
+    width: 100px;
+    height: 100px;
+    @include pad(){
+        height: auto;
+    }
+}
+
+```
+
+57. 視差滾動網頁設計 : 前景在動，背景固定，做出交錯的感覺。
+
+- Demo : https://codepen.io/Wcc723/full/mROEdx
+
+- https://codepen.io/kancheng/pen/vYRrNEQ
+
+- Example : https://www.beckett.design/
+
+- 原始範例：https://codepen.io/kancheng/pen/vYRrNKv
+
+- 完成範例：https://codepen.io/kancheng/pen/gOeKaMJ
+
+Chrome 瀏覽器為主，如果使用 Firefox 在點擊 Navbar 的部分如果遇到沒有 Scroll
+
+可修正以下程式碼 ：
+
+```
+// 原
+$('body').animate({scrollTop: targetPos}, 1000); 
+
+// 更新補上 html
+$('html, body').animate({scrollTop: targetPos}, 1000); 
+```
+
+57. 視差滾動網頁設計的背景固定 : background-attachment: fixed;
+
+```
+.wrap {
+  overflow: hidden;
+  background-image: url(https://XXXX);
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+```
+
+58. 一頁式宣傳頁常用的選單滑動效果
+
+```
+$(document).ready(function(){
+  $('.scrollTop').click(function(e){
+    e.preventDefault();
+    var target = $(this).attr('href');
+    var targetPos = $(target).offset().top;
+    $('html, body').animate({scrollTop: targetPos}, 1000);
+  });
+
+  $(window).scroll(function(){
+    var scrollPos = $(window).scrollTop();
+    $('.scrollTop').each(function(){
+      var target = $(this).attr('href'); 
+      var targetPos = $(target).offset().top;
+      var targetHeight = $(target).outerHeight();
+      if (targetPos - 1 <= scrollPos && (targetPos + targetHeight) > scrollPos){
+        $('.scrollTop').removeClass('active')
+        $(this).addClass('active');
+      } else {
+        $(this).removeClass('active')
+      }
+    });    
+  });
+});
+```
+
+59. CSS transform
+
+- DEMO : https://www.hexschool.com/courses/webanalytics.html
+
 
 ## Tailwindcss
 
