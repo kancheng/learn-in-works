@@ -263,6 +263,8 @@ table {
 
 50. Wave-loader Animation Pure css : https://codepen.io/kancheng/pen/ExEpmWa
 
+51. CSS Animation : https://www.casper.tw/development/2021/10/04/css-animation/
+
 
 
 ## RWD

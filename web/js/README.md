@@ -16,6 +16,8 @@
 
 2. 卡斯伯 - JS 勇者之路 Day 17 - Day24 篇 : https://ithelp.ithome.com.tw/users/20083608/ironman/1354?page=2
 
+3. 30-seconds-of-code : https://github.com/30-seconds/30-seconds-of-code
+
 
 ## Note
 
@@ -79,3 +81,5 @@
 10. TypeScript TS 快速入門 : https://www.youtube.com/watch?v=GinkGJZBHIY
 
 11. React 快速入門 : https://www.youtube.com/watch?v=zqV7NIFGDrQ
+
+12. Angular Developer Roadmap : https://medium.com/@venkateshb-03/angular-developer-roadmap-2025-things-every-budding-angular-developer-should-know-86061c84a0f9

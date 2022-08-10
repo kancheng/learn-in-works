@@ -40,6 +40,9 @@
 
 14. pypi : https://pypi.org/
 
+15. 30-Days-Of-Python : https://github.com/Asabeneh/30-Days-Of-Python
+
+
 ## Others
 
 1. Blender 中文教學 Blender Python 藝術家的好幫手 : https://www.youtube.com/watch?v=crBxS26JFEI
