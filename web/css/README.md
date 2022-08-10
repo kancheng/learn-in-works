@@ -8,9 +8,10 @@
 
 - https://github.com/kancheng/ui-note
 
+
 ## Other `ʕᵔᴥᵔʔ`
 
-1. @layer你不知道的CSS優先權!ID、class、tag，@layer又是甚麼? https://www.youtube.com/watch?v=H3uvgwFSgtg
+1. @layer 你不知道的 CSS 優先權!ID、class、tag，@layer 又是甚麼? https://www.youtube.com/watch?v=H3uvgwFSgtg
 
 2. winter island : https://codepen.io/kancheng/pen/LYdrpVm
 
@@ -223,6 +224,47 @@ table {
 
 - 東京自耕農學長 poscss GitHub Pages : https://overactive1988.github.io/HexSchool_webslicinglesson2020/week03/
 
+43. 增加使用者體驗
+
+```
+<form action='/index.aspx' method='post'>
+    <label for="name">Name : </label>
+    <input type="text" id="name">
+    <br />
+    <input type="submit" value="送出">
+</form>
+```
+
+44. 不建議用 input date，因為每家瀏覽器的日期時間格式不一樣。建議改用 input text ，再用套件處理。
+
+45. 下拉選單 select 很難改，建議找 select before after 等偽元素範例。其大多都運用 JS 來實作。另外則是用 DIV or UL LI 等 HTML Tag 與 CSS 隱藏的特性去做。
+
+- Multiple select filter using jQuery : https://codepen.io/kancheng/pen/xxWzeox
+
+46.  input type 屬性 radio 很難改，建議找 radio 等範例。
+
+- CSS3 Checkbox Styles : https://codepen.io/kancheng/pen/PoRavoJ
+
+47. input disabled 屬性 & input required 屬性，前者使 Tag 無效，後者為必填。
+
+- 要注意 required 屬性的必填提示為瀏覽器內建無法改，若要想改只能額外用 JS 來寫其功能。
+
+48. 後臺製作說明 : https://quip.com/y3OYA9ksxAKb
+
+- https://hackmd.io/oW3g6WvvS8S8TtR_Cx0WOQ?view
+
+- https://codepen.io/kancheng/pen/yLKqyvj
+
+- https://codepen.io/AliceChiang/pen/QWvxRaK
+
+49. bootstrap : https://codepen.io/kancheng/pen/wvmxBme
+
+- https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+50. Wave-loader Animation Pure css : https://codepen.io/kancheng/pen/ExEpmWa
+
+
+
 ## RWD
 
 1. Flex RWD 排版方式
@@ -232,6 +274,31 @@ table {
 - 伸縮自如的 RWD 排版術(上) : https://www.youtube.com/watch?v=t13Fvg0_xHk
 
 - 伸縮自如的 RWD 排版術(下) : https://www.youtube.com/watch?v=Du_N0Vyh-Q0
+
+> HTML 標籤 1 分，CSS 類別選擇器 10 分，id 選擇器 100 分、element 1000 分、 !important 10000 分。
+
+- 先看權重，再看先後順序，後者贏
+
+- 永遠不要用 id，id 多作為錨點來用，其寫 CSS 樣式不需要 id，而後端工程師用 id 做功能跟樣板。
+
+> 網頁不可以顯示 X 軸
+
+```
+img {
+    max-width:100%;
+    height: auto;
+}
+```
+
+```
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+```
+
+```
+flex-wrap: wrap;
+```
 
 2. 流體式佈局主要是採用百分比來設置的意思，當瀏覽器畫面放大或縮小時，畫面就會跟著調整，因此流體式佈局又稱之為「響應式設計」
 
@@ -994,11 +1061,128 @@ module.exports = {
 
 20. Gulp 搭配使用 Tailwind 
 
-- 專案下載連結 : https://github.com/hexschool/web-layout-training-gulp/tree/feature/tailwind)
+- 專案下載連結 : https://github.com/hexschool/web-layout-training-gulp/tree/feature/tailwind
 
-- 使用手冊連結 : https://hackmd.io/UFgAadfSTf6L0sqXJvCV8g)
+- 使用手冊連結 : https://hackmd.io/UFgAadfSTf6L0sqXJvCV8g
 
 21. Tailwind 週任務範例(3) : https://codepen.io/kancheng/pen/jOzYzMz
+
+22. Tailwind Dark Mode : https://codepen.io/kancheng/pen/oNqydjr
+
+- https://hackmd.io/RbHAa2lkS5KFrUWBHGyvTQ?view
+
+```
+  <footer class="p-8 text-slate-500 bg-white dark:bg-slate-900 dark:text-gray-200">
+```
+
+23. Tailwind Width : https://tailwindcss.com/docs/width
+
+24. 重要複習 :
+
+- Tailwind 的 UI Components(非官方)
+
+  - Tailwindcomponents: https://tailwindcomponents.com/
+
+  - Tailwind Elements: https://tailwind-elements.com/
+
+  - HyperUI: https://www.hyperui.dev/
+
+- 下一步
+
+  - 使用 Tailwind 嘗試製作不同樣式：https://tailwindui.com/
+
+  - Tailwind 作者的影片講解：https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR
+
+  - 進階：嘗試與 JS 框架一起使用
+
+25. RWD 格線與間距
+
+- 容器排版： 容器寬度用 % 為單位，例：兩個容器並排，一個容器就會佔 50% 的寬度
+
+```
+<div class="flex flex-wrap">
+  <div class="w-1/2"></div>
+  <div class="w-1/2"></div>
+</div>
+```
+
+- 製作間距： 加上左右 padding 做出間距 (gutter)，再透過外層負值 margin 補回
+
+程式碼：
+
+```
+<div class="flex flex-wrap -mx-3">
+  <div class="w-1/2 px-3"></div>
+  <div class="w-1/2 px-3"></div>
+</div>
+```
+
+- Tailwind 示範 5：格線 : https://codepen.io/kancheng/pen/WNzyJMd
+
+- Tailwind 作品(4)：格線 : https://codepen.io/kancheng/pen/XWEYqGL
+
+26. Tailwind 字體用法
+
+[font-family](https://tailwindcss.com/docs/font-family)
+
+- 預設提供三種字體樣式：font-sans（無襯線）、font-serif（襯線）、font-mono
+
+- 使用外部字體，例如：[Google Fonts](https://fonts.google.com/) (可選擇使用 extend 或直接新增)
+
+- 覆蓋原本 font-sans 的外部字體
+
+```javascript
+  theme: {
+  fontFamily: {
+    'sans': ['"Fredoka One"', 'cursive'],
+  }
+  }
+```
+
+- 使用自定義名稱的外部字體
+
+```javascript
+  theme: {
+  fontFamily: {
+    'display': ['"Fredoka One"', 'cursive'],
+  }
+  }
+  ```
+
+- 使用 extend 擴充自定義名稱的外部字體
+
+```javascript
+  theme: {
+  extend: {
+    fontFamily: {
+    'display': ['"Fredoka One"', 'cursive'],
+    }
+    }
+  }
+```
+- 在載入外部字體後方依序放入 font-sans 字體
+
+```javascript
+  const defaultTheme = require('tailwindcss/defaultTheme')
+
+  theme: {
+    extend: {
+    fontFamily: {
+    'display': ['"Fredoka One"', 'cursive', ...defaultTheme.fontFamily.sans]
+      }
+    }
+  }
+```
+
+- 全域設定
+
+```css
+  @layer base {
+    html {
+      font-family: 'Fredoka One', 'cursive', system-ui, sans-serif;
+    }
+  }
+```
 
 
 ## Tailwind  CLI 專案開啟步驟
