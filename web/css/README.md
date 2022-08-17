@@ -265,6 +265,71 @@ table {
 
 51. CSS Animation : https://www.casper.tw/development/2021/10/04/css-animation/
 
+## Bootstrap
+
+1. 切版班第五週 Bootstrap 基本示範 : https://codepen.io/kancheng/pen/XWExWLR
+
+- 第五週 Bootstrap5 首頁範例 : https://codepen.io/kancheng/pen/ExEdxBv
+
+- 首頁 Icon ：
+
+左側欄
+
+```
+assessment
+question_answer
+assignment
+video_library
+supervisor_account
+settings
+```
+
+上方區塊
+
+```
+expand_more
+search
+notifications_active
+```
+
+主內容
+
+```
+more_vert
+star_rate (outlined)
+edit
+attachment
+chevron_left
+chevron_right
+```
+
+- Admin 頁面 Icon ：
+
+上方區塊
+
+```
+add
+```
+
+主內容
+
+```
+arrow_downward
+visibility
+```
+
+- Edit Admin Modal Icon ：
+
+```
+clear
+check_circle
+```
+
+- New Admin Modal Icon ：
+
+```
+report_problem
+```
 
 
 ## RWD
