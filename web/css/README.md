@@ -17,6 +17,21 @@
 
 3. 巴哈姆特動畫瘋-重製概念設計-新增手機版播放介面 : https://forum.gamer.com.tw/C.php?bsn=60076&snA=5892478
 
+4. Fantastic CSS border animation : https://medium.com/frontend-canteen/fantastic-css-border-animation-b02e06828beb
+
+5. 一個工具，帶你完整認識 CSS Animation : https://www.casper.tw/development/2021/10/04/css-animation/
+
+6. JS, 30-seconds-of-code : https://github.com/30-seconds/30-seconds-of-code
+
+7. chokcoco/iCSS : https://github.com/chokcoco/iCSS
+
+8. 復古 Apple 介面風格 - system.css : https://sakofchit.github.io/system.css/
+
+9. VSCode 支援 stickyScroll(experimental):
+
+```
+editor.experimental.stickyScroll.enabled": true
+```
 
 
 ## Note
