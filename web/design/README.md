@@ -8,7 +8,7 @@
 
 1. Hex 作品範例 : https://works.hexschool.io/
 
-2. 甜點店商 : 
+2. 甜點店商 : https://xd.adobe.com/spec/934efdb7-a7e4-47d5-572e-efece0914f62-e57f/specs/
 
 - https://dogwantfly.github.io/bootstrap-training/
 
@@ -17,6 +17,11 @@
 - https://github.com/HaroldZhen/hex-cakeshop
 
 - https://haroldzhen.github.io/demo-cakeshop/
+
+- https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/ry5tmBcoI/%2FFucZQ3ClSH2Y5vZ0QBMIBw
+
+- https://github.com/YuminHsu/sweetaste
+
 
 3. 個人履歷 : https://xd.adobe.com/view/ea9b77e8-282b-44dd-b785-8d59a751eeda-bfc8/
 
@@ -62,4 +67,11 @@
 
 - https://kakadodo.github.io/theF2EChallange/booking.html
 
+16. React - ToDoList : https://www.figma.com/file/pFivfS3rDX3N3u3dN9aIlx/TodoList?node-id=0%3A1
+
+- https://codepen.io/liao/pen/mdpmXKg
+
+- https://codepen.io/kancheng/pen/ExEJwRX
+
+- https://todoo.5xcamp.us/api-docs/index.html
 
