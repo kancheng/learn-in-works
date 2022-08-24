@@ -8,6 +8,12 @@
 
 - https://github.com/kancheng/ui-note
 
+- https://github.com/kancheng/ui-demo-gulp
+
+- https://github.com/kancheng/ui-demo-gulp-bs5
+
+- https://github.com/kancheng/ui-demo-gulp-tailwind
+
 
 ## Other `ʕᵔᴥᵔʔ`
 

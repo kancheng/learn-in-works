@@ -4,6 +4,8 @@
 
 > 整理作為之後練習參考
 
+0. behance : https://www.behance.net/onboarding/adobe
+
 1. Hex 作品範例 : https://works.hexschool.io/
 
 2. 甜點店商 : 
@@ -55,5 +57,9 @@
 13. 視差滾動範例 : https://codepen.io/kancheng/pen/gOeKaMJ
 
 14. 交易平台 : https://xd.adobe.com/view/bcf8f7eb-689c-4850-b531-a78259c0cdd8-e9ab/screen/7a56bb8c-4170-43d3-a265-d00701d1674b/
+
+15. The F2E - 前端修練精神時光屋挑戰系列 - 2nd Week 6. Booking : https://kakadodo.github.io/2019/08/18/the-F2E-2nd-week6-booking/
+
+- https://kakadodo.github.io/theF2EChallange/booking.html
 
 
