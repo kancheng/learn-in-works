@@ -640,6 +640,15 @@ report_problem
 
 2. 首頁版型 : https://hackmd.io/y224IjpHSiaO5T_2Bdt-ng
 
+3. 第六週作業講解 : https://hackmd.io/rlvJuNkqSk-FnzFsZiBI9w
+
+- CSS三角形產生器 : http://apps.eky.hk/css-triangle-generator/zh-hant
+
+-  Tailwind 有提供瀑布排版 : https://tailwindcss.com/docs/columns#basic-usage
+
+
+
+
 
 
 ## RWD
