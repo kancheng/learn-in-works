@@ -14,6 +14,10 @@
 
 - https://github.com/kancheng/ui-demo-gulp-tailwind
 
+## Tool
+
+1. 試著學 Hexo : https://israynotarray.com/hexo/20200914/3741834499/
+
 
 ## Other `ʕᵔᴥᵔʔ`
 
