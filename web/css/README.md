@@ -43,6 +43,14 @@
 editor.experimental.stickyScroll.enabled": true
 ```
 
+10. 前端工程師入門 Web3 的專案架構與常見迷思
+
+- https://hackmd.io/@hexschool/ryOjP9Gn5
+
+11. 超好上手的 ES6 : https://www.youtube.com/watch?v=y7sgpXhH0Vc
+
+- https://bejewled-air-4cb.notion.site/ES6-11f62dbc9cf141b6a080e384fd108e81
+
 
 ## Note
 
