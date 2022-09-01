@@ -250,7 +250,75 @@ npm start
 
 * [旅遊網資訊](https://github.com/gonsakon/reactrouter2/tree/main)
 * [React Router 範例結構](https://reactrouter.com/docs/en/v6/getting-started/concepts#review)
-:::spoiler
+
 ![](https://i.imgur.com/tVYzRzL.png)
 
-:::
+
+27. React Hook form
+
+
+- [官網文件](https://react-hook-form.com/)
+
+- [基本範例](https://codepen.io/hexschool/pen/bGvWgqN)
+
+- [表單驗證 yunyun](https://codepen.io/liao/pen/BarbbbR?editors=1010)
+
+- [可選串連](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+28. [submit 整合 todolist API](https://codepen.io/liao/pen/ExEMMoO?editors=0010)
+
+> 補充觀念：
+
+在 React Hook Form 中有提供各種驗證屬性，如下：
+
+- required: 必填
+
+- min: 輸入的最小值，例如：年齡必須輸入 0 以上。
+
+- max: 輸入的最大值，例如：年齡必須輸入 120 以下。
+
+- minLength: 輸入的字串長度最小值，例如：密碼需大於 8 碼。
+
+- maxLength: 輸入的字串長度最大值，例如：標題需小於 12 字。
+
+- pattern：可以使用 regex 正規表達式來客製化自己的輸入限制。
+
+- validate：加入 callback function 執行自訂的驗證函式。
+
+29. todolist API 介紹
+
+* [API 文件](https://todoo.5xcamp.us/api-docs/index.html)
+
+30. [useContext](https://zh-hant.reactjs.org/docs/hooks-reference.html#usecontext)
+
+* [顏色變換範例](https://codepen.io/hexschool/pen/NWYvbrX?editors=0010)
+
+* [todolist 權限設計](https://github.com/gonsakon/reactrouter2/tree/feature/auth)
+
+    * [新增登入、註冊路由](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/App.js#L77-L78)
+
+    * [註冊欄位搭配表單套件](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/components/
+    SignUp.js#L7-L94)
+
+    * [設計 AuthContext](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/App.js#L62-L65)、[獨立出 context](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/App.js#L13)
+
+    * [註冊成功：變更 authContext 裡面的 token](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/components/SignUp.js#L5-L25)
+
+    * [登入成功：變更 authContext 裡面的 token](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/components/Login.js#L8-L30)
+
+    * [登入失敗：整合 sweetalert](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/components/Login.js#L37-L39)
+
+    * [確認是否登入機制：ProtectedRoute](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/App.js#L74-L76)
+
+    * [透過 token 取得個人 todo 資料：](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/components/Todo.js#L5-L13)
+
+    * [Layout 判斷是否登入，顯示對應資訊](https://github.com/gonsakon/reactrouter2/blob/feature/auth/src/App.js#L47-L51)
+
+![](https://i.imgur.com/IlrDf9L.png)
+
+
+31. 接下來還可以精進的地方
+
+* 樣式設計：[styled component](https://styled-components.com/)、[Tailwind](https://tailwindcss.com/)
+
+* 狀態設計：[Redux](https://redux.js.org/)
