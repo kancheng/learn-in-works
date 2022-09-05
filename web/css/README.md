@@ -43,7 +43,7 @@
 editor.experimental.stickyScroll.enabled": true
 ```
 
-10. 前端工程師入門 Web3 的專案架構與常見迷思
+10. 前端工程師入門 Web3 的專案架構與常見迷思 : https://www.youtube.com/watch?v=r7PxRhtHa9Y
 
 - https://hackmd.io/@hexschool/ryOjP9Gn5
 
