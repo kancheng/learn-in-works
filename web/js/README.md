@@ -18,6 +18,7 @@
 
 3. 30-seconds-of-code : https://github.com/30-seconds/30-seconds-of-code
 
+4. JavaScript 陣列處理方法 [filter(), find(), forEach(), map(), every(), some(), reduce()] : https://www.hexschool.com/2017/09/01/2017-09-01-javascript-for/
 
 ## Note
 
@@ -52,6 +53,21 @@
 8. 编写测试 : https://www.liaoxuefeng.com/wiki/1022910821149312/1101756368943712
 
 9. 在 HTML5 应用程序中调试和测试 JavaScript : https://netbeans.apache.org/kb/docs/webclient/html5-js-support_zh_CN.html
+
+10. JSONView 安裝網站 : https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc?hl=zh-TW
+
+11. 高雄 OPEN DATA 開放資料官網網站 : https://data.kcg.gov.tw/
+
+12. 公告 OPEN DATA 網址：https://www.ktec.gov.tw/ktec_api.php?type=json
+
+13. 高雄旅遊網線上網址：https://api.kcg.gov.tw/api/service/get/9c8e1450-e833-499c-8320-29b36b7ace5c
+
+14. 流程判斷圖線上版本 : https://whimsical.com/4oYtsHWjADWsieeNrjY1Xa
+
+15. 充電站 Code 範例 : https://codepen.io/hexschool/pen/oNYPPPx
+
+- https://codepen.io/kancheng/pen/QWrKvLa
+
 
 ## React
 

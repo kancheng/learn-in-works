@@ -265,6 +265,8 @@
 
 2. Figma : https://www.youtube.com/watch?v=P96TQwsY_VY
 
+- 體驗營 : https://www.youtube.com/watch?v=zfCUtLdUYd8&list=PLYrA-SsMvTPME64yI_Y8vKtfX-ghzN7AU
+
 3. Adobe XD : https://www.youtube.com/watch?v=2c_YyHudqjQ
 
 4. 60-30-10 Color Rule : https://www.youtube.com/watch?v=UWwNIMHFdW4
@@ -1190,4 +1192,49 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 - How To Store and Retrieve Data in MariaDB Using Python on Ubuntu 18.04 : https://www.digitalocean.com/community/tutorials/how-to-store-and-retrieve-data-in-mariadb-using-python-on-ubuntu-18-04
 
 - Advanced Computer Vision with Python - Full Course : https://www.youtube.com/watch?v=01sAkU_NvOY
+
+
+## 爬蟲工具
+
+1. Playwright : https://www.youtube.com/watch?v=moeAmM-7ybE
+
+2. Puppeteer : https://www.youtube.com/watch?v=tCbxhGKyuKE
+
+- https://www.youtube.com/watch?v=TFwMG8GHy4g
+
+- https://www.youtube.com/watch?v=tx0V7ApMZoE
+
+## Tailwind
+
+1. Tailwind CDN 載入小試身手 : https://www.youtube.com/watch?v=k781fEhqzxI
+
+2. Tailwind NPM 環境安裝流程 : https://www.youtube.com/watch?v=KyiqYP4sBaA
+
+3. 檔案壓縮、智能提示設定 : https://www.youtube.com/watch?v=nCIngYHwo1M
+
+4. utility first : https://www.youtube.com/watch?v=EuaJduYqrp4
+
+5. utility CSS : https://www.youtube.com/watch?v=o9KhYdV5b24
+
+6. CSS Reset : https://www.youtube.com/watch?v=HRhPcsybO-Q
+
+7. Pseudo-Class Variants : https://www.youtube.com/watch?v=BxxkK6dw7z8
+
+8. 詳解 Variant Tailwind config 設定方式 : https://www.youtube.com/watch?v=6FTsETmFShY
+
+9. Variant & CSS 偽元素 : https://www.youtube.com/watch?v=6W7GNfCq4Iw
+
+10. 新增 component 元件方式 : https://www.youtube.com/watch?v=J8ssTOorI0k
+
+11. 新增 Utilities 方式 : https://www.youtube.com/watch?v=tyhrMCtc7eU
+
+12. 新增第三方套件 : https://www.youtube.com/watch?v=wyS4dKRmEF4
+
+13. functions CSS 支援 : https://www.youtube.com/watch?v=N4FD2TCUO2s
+
+14. 透過 Tailwind 達到容器與內容分離 : https://www.youtube.com/watch?v=Bd4lQuuYYFc
+
+## json
+
+1. AJAX / JSON 教學 : https://www.youtube.com/watch?v=DxdTWIYqIzU
 

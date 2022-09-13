@@ -18,6 +18,10 @@
 
 1. 試著學 Hexo : https://israynotarray.com/hexo/20200914/3741834499/
 
+2. Puppeteer 入門介紹 : https://www.youtube.com/watch?v=tCbxhGKyuKE
+
+- https://bejewled-air-4cb.notion.site/Puppeteer-cad6b2e8979c47fba6f0032c7290cfe6
+
 
 ## Other `ʕᵔᴥᵔʔ`
 
@@ -50,6 +54,27 @@ editor.experimental.stickyScroll.enabled": true
 11. 超好上手的 ES6 : https://www.youtube.com/watch?v=y7sgpXhH0Vc
 
 - https://bejewled-air-4cb.notion.site/ES6-11f62dbc9cf141b6a080e384fd108e81
+
+
+12. 附圖字型隨著卡片大小來增減 Container Query
+
+- Miriam Suzanne 的文章 : https://www.oddbird.net/2022/08/18/cq-syntax/
+
+- Size Query
+
+跟 media query 類似，container query 也可以作雷同的查詢，不過這裡有兩個屬性要設置
+
+第一個是 container-name ，這樣在子元素設定 container query 時才知道該找哪一個 container ，因為一個元素的上面可能有很多層的 container，第二個是 container-size ，必須要先定義為 inline-size 或是 size ，inline-size 就是只看（通常是）橫向的尺寸，size 的話就是看 inline & block 尺寸。一般情況只需要 inline-size
+
+-  Container Query Unit
+
+> 1cqw / cqh 代表 1% 的 container 寬度或高度
+> 1cqi / cqb 代表 1% 的 container inline / block 尺寸
+> cqmin 代表 cqi / cqb 取小的，cqmax 則剛好相反取大的
+
+- https://codepen.io/scottkellum/pen/jOwmOZE
+
+- https://codepen.io/kancheng/pen/abGmyER
 
 
 ## Note
@@ -301,33 +326,46 @@ table {
 52. input 表單標籤
 
 * input 常見種類與屬性介紹
+
 * form、input、submit 三劍客
+
   * name 屬性為後端傳值、id 為 label 所用
-  * [w3schools](https://www.w3schools.com/html/html_forms.asp)
-  * [MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input)
-* 設計響應式時需注意的項目(date、tel)
+
+  * w3schools : https://www.w3schools.com/html/html_forms.asp
+
+  * MDN : https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input
+
+* 設計響應式時需注意的項目(date、tel
+
 * 屬性：value、readonly、disabled
+
 * select option 在 mobile 的侷限
 
 
 53. css reset 差異
 
-* [meyerweb CSS Reset](https://meyerweb.com/eric/tools/css/reset/)
-* [normalize](https://necolas.github.io/normalize.css/)
+* meyerweb CSS Reset : https://meyerweb.com/eric/tools/css/reset/
+
+* normalize : https://necolas.github.io/normalize.css/
 
 
 54. CSS Base
 
 * CSS Reset ：清除瀏覽器預設樣式
+
 * CSS Base：全站設定
+
 * Bootstrap SCSS 結構 : https://github.com/twbs/bootstrap/tree/master/scss
+
 > 用 BS5 的話，就不需要再次載入 CSS Reset
 
 
-55. base Code 參考([BS5 reboot.scss 參考](https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss))
+55. base Code 參考 - BS5 reboot.scss 參考 https://github.com/twbs/bootstrap/blob/main/scss/_reboot.scss
 
 - Gill : https://github.com/gill74123/week3/tree/main/app
+
 - Jerry Yen : https://github.com/jerry160726/Week-3---QA/blob/main/sass/all.scss
+
 - Joseph Tang : https://github.com/jie810731/image-webside/blob/master/scss/_base.scss
 
 
@@ -382,32 +420,43 @@ table {
 
 64. Mobile first 與 Desktop first 差別
 
-* [desktop first](https://codepen.io/liao/pen/WNQJVqr?editors=1100)
-* [mobile first](https://codepen.io/liao/pen/jObxgeW?editors=1100)
+* desktop first : https://codepen.io/liao/pen/WNQJVqr?editors=1100
+
+* mobile first : https://codepen.io/liao/pen/jObxgeW?editors=1100
 
 
 65. 格線系統 - 減輕 magic number 出現
 
 * 格線系統關鍵字：column(欄)、gutter(間距)
-* [960 grid，以前解析度都是 1024](https://960.gs/demo.html)
-* [BS4 layoutit](https://www.layoutit.com/build)
+
+* 960 grid，以前解析度都是 1024 : https://960.gs/demo.html
+
+* BS4 layoutit : https://www.layoutit.com/build
+
 > 常見總欄數是 12
  
-66. [BS5 格線系統](https://bootstrap5.hexschool.com/docs/5.1/layout/grid/)原理
+66. BS5 格線系統 : https://bootstrap5.hexschool.com/docs/5.1/layout/grid/ 原理
 
-* 排版三劍客： .container、.row、.col 1~12
-    * .container
-        * .container 固定寬度
-        * .container-fluid 滿版
-    * .row
-        *  no-gutters：不需要 gutters 
+* 排版三劍客： `.container、.row、.col 1~12`
+
+* .container
+
+* .container 固定寬度
+
+* .container-fluid 滿版
+
+* .row
+
+*  no-gutters：不需要 gutters 
+
 * 名言 1：.col- 的外層只能是 .row
+
 * 名言 2：.row 裡面只能是 .col-
+
 * 名言 3：網頁內容與元件請放在 .col- 裡面
+
 > 常見錯誤，在 .col 增加寬度
 > 常見錯誤，在格線系統調整左右 margin 與 padding
-
-
 > 常見觀念：可以加上下 的 margin 與 padding
 > 常見觀念：最外層至少補一個 container
 > 常見觀念：整體格線邏輯是一致
@@ -416,17 +465,29 @@ table {
 67. 格線範例
 
 - 左三右九欄，裡面加上元件
+
 - ul ，裡面 li 佔 3 欄，`list-unstyled`
-- [鐵人邦](https://ithelp.ithome.com.tw/)滿版式設計搭配 BS5 格線
-- [六角](https://www.hexschool.com/)右上角選單，以上課程都包含 5 欄居中
-- [表尾區塊是否寫死](https://xd.adobe.com/view/5b20cbc4-5c64-4b67-814e-633b078a8cd4-0e73/screen/e9fba682-6449-4eb1-985a-0672717aaff4/specs/)
-- [第六週設計稿(1,3 頁面)](https://xd.adobe.com/view/ec5c5da0-6d93-4e78-bd3b-c8e9584fde44-b90f/screen/794dc4c5-a6f7-4c3e-8d91-29f2552effd2/specs/)
-    * [offset](https://bootstrap5.hexschool.com/docs/5.1/layout/columns/#offsetting-columns)
+
+- 鐵人邦 : https://ithelp.ithome.com.tw/
+
+滿版式設計搭配 BS5 格線
+
+- 六角 : https://www.hexschool.com/
+
+右上角選單，以上課程都包含 5 欄居中
+
+- 表尾區塊是否寫死 : https://xd.adobe.com/view/5b20cbc4-5c64-4b67-814e-633b078a8cd4-0e73/screen/e9fba682-6449-4eb1-985a-0672717aaff4/specs/
+
+- 第六週設計稿(1,3 頁面) : https://xd.adobe.com/view/ec5c5da0-6d93-4e78-bd3b-c8e9584fde44-b90f/screen/794dc4c5-a6f7-4c3e-8d91-29f2552effd2/specs/
+
+* offset : https://bootstrap5.hexschool.com/docs/5.1/layout/columns/#offsetting-columns
 
 68. BS5 格線斷點設計
 
-* [文件位置](https://bootstrap5.hexschool.com/docs/5.1/layout/grid/#grid-options)
-* [範例處](https://codepen.io/hexschool/pen/OJpXqVj?editors=1100)
+* 文件位置 : https://bootstrap5.hexschool.com/docs/5.1/layout/grid/#grid-options
+
+* 範例 : https://codepen.io/hexschool/pen/OJpXqVj?editors=1100
+
 ![](https://i.imgur.com/DQVevsr.png)
 
 > 若想先做 PC 版，可用 md、lg 當起手式
@@ -434,21 +495,26 @@ table {
 
 69. 格線系統與元件整合
 
-* [範例處](https://codepen.io/liao/pen/abvaXyy?editors=1100)
-* [洧杰老師批改 BS5 幕資網頁](https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/HkOeaJIcO/%2F10fOwZuYQ_uCyWlUNFuk_g)
+* 範例 : https://codepen.io/liao/pen/abvaXyy?editors=1100
+
+* 洧杰老師批改 BS5 幕資網頁 https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/HkOeaJIcO/%2F10fOwZuYQ_uCyWlUNFuk_g
 
 70. 網站範例 + 通用類別搭配
 
-* [IT 邦幫忙](https://ithelp.ithome.com.tw/) - 手機版時隱藏右側內容
-* [六角學院](https://www.hexschool.com/) - 判斷哪些地方有用到 .row 哪些地方沒有
-* [甜點電商表尾](https://wcc723.github.io/F2E-PK/products.html) - 表尾設計 + row 裡面再加 .col
-* [Bootstrap Template](https://bootstrapmade.com/bootstrap-4-templates/) - 一次搞懂所有格線系統用法
+* IT 邦幫忙 : https://ithelp.ithome.com.tw/ - 手機版時隱藏右側內容
 
-71. BS5 SCSS 載入 ([架構圖講解](https://whimsical.com/bs5-A1pswT87rkXs7peANUBVp6))
+* 六角學院 : https://www.hexschool.com/ - 判斷哪些地方有用到 .row 哪些地方沒有
 
-- [SCSS default 觀念講解](https://codepen.io/hexschool/pen/oNWawom?editors=1100)
+* 甜點電商表尾 : https://wcc723.github.io/F2E-PK/products.html - 表尾設計 + row 裡面再加 .col
 
-- [六角 Gulp 範例](https://github.com/hexschool/web-layout-training-gulp/tree/feature/bs5)，請記得切換到 feature/bs5 區塊，再按 Download
+* Bootstrap Template : https://bootstrapmade.com/bootstrap-4-templates/ - 一次搞懂所有格線系統用法
+
+71. BS5 SCSS 載入 - 架構圖講解 https://whimsical.com/bs5-A1pswT87rkXs7peANUBVp6
+
+- SCSS default 觀念講解 : https://codepen.io/hexschool/pen/oNWawom?editors=1100
+
+- 六角 Gulp 範例 https://github.com/hexschool/web-layout-training-gulp/tree/feature/bs5 ，請記得切換到 feature/bs5 區塊，再按 Download
+
 ![](https://i.imgur.com/PP1OBZu.png)
 
 ```
@@ -462,27 +528,48 @@ table {
 
 72. repo 有更動的地方
 
-- 多加入了一個 [bootstrap](https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/package.json#L21) 模組
-- 多加入了一個 [bootstrap JS](https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/gulpfile.js/envOptions.js#L52)，讓 dist 編譯出來的 vendors.js 可以載入 BS5 JS 套件
-- [layout.ejs](https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/layout.ejs#L14-L49)、[index.html](https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/index.html) 加入了些 BS5 範例元件
-- [SCSS](https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/assets/style/all.scss) 範例有變更
+- 多加入了一個 bootstrap :  https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/package.json#L21 模組
+
+- 多加入了一個 bootstrap JS : 讓 dist 編譯出來的 vendors.js 可以載入 BS5 JS 套件
+
+- https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/gulpfile.js/envOptions.js#L52
+
+- layout.ejs : https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/layout.ejs#L14-L49
+
+- index.html : https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/index.html
+
+加入了些 BS5 範例元件
+
+- SCSS : https://github.com/hexschool/web-layout-training-gulp/blob/feature/bs5/app/assets/style/all.scss
+
+範例有變更
 
 73. animation
 
-- [基本範例](https://codepen.io/liao/pen/JjYwNVW?editors=1100)
-- [移動速率](https://codepen.io/liao/pen/gOaZWyj?editors=1100)
-- [完整解析 CSS 動畫 ( CSS Animation )](https://www.oxxostudio.tw/articles/201803/css-animation.html)
+- 基本範例 : https://codepen.io/liao/pen/JjYwNVW?editors=1100
+
+- 移動速率 : https://codepen.io/liao/pen/gOaZWyj?editors=1100
+
+- 完整解析 CSS 動畫 ( CSS Animation ) : https://www.oxxostudio.tw/articles/201803/css-animation.html
+
 - [animation-fill-mode](https://www.w3cplus.com/css3/understanding-css-animation-fill-mode-property.html)
+
     a. forwards：停留在最後一個位置
+
     b. backrawds：回到原本位置
+
     c. both 擁有上面兩個的功能
-- [animate css](https://animate.style/)
+
+- animate css : https://animate.style/
+
 - 本週可以做到的範例：https://goldalles.com/
 
 74. transform
 
-- [文件](https://www.w3schools.com/cssref/css3_pr_transform.asp)
-- [基本範例](https://codepen.io/liao/pen/VwvqWZQ)
+- 文件 : https://www.w3schools.com/cssref/css3_pr_transform.asp
+
+- 基本範例 : https://codepen.io/liao/pen/VwvqWZQ
+
 
 75. opacity
 
@@ -490,23 +577,27 @@ table {
 
 76. 視差滾動
 
-- 直接 Demo 視差滾動
-- [The F2e 2019](https://challenge.thef2e.com/works)、[2021](https://2021.thef2e.com/)、[臉書社團](https://www.facebook.com/groups/173311386703334)
-- 後續學習方向，皆在下週一截止
-    * 方案一：有迫切學會技能學員：[JS 直播班，95 折優惠](https://www.notion.so/JS-ac809f0021e443308a2dd8cf710131b2)
-    * 方案二：依照自己步調學習：[3天專屬快閃優惠](https://www.notion.so/React-3-a74b3d7c7aad48c888a2bfc6fb871e34)
+- The F2e 2019 : https://challenge.thef2e.com/works
+
+- 2021 : https://2021.thef2e.com/
+
+- 臉書社團 : https://www.facebook.com/groups/173311386703334
+
 
 
 77. 主題：互動式網頁！
 ![](https://i.imgur.com/dKybjjm.gif)
 
 - 紙飲料杯回收 : https://recycle.rethinktw.org/trash/5
+
 - 萬波 : https://wanpotea.com/
 
 78. aos 
 
 - aos 官網 : https://michalsnik.github.io/aos/
+
 - 基本範例 : https://codepen.io/liao/pen/PoPXKvm
+
 - 第三週同學範例 : https://rpg.hexschool.com/task/107/show
 
 79. aos 載入步驟
@@ -568,20 +659,26 @@ AOS.init({
 80. AOS 範例
 
 * 文章左右偏移：https://codepen.io/bradtraversy/pen/bGbREWg 
+
 * 組合： https://codepen.io/amctagg1/pen/WVjGKw
+
 * 完整範例：https://codepen.io/taohuh/pen/OZmgRV
 
 81. 額外補充
 
-* [hover.css](https://ianlunn.github.io/Hover/)
-* [菁英團](https://courses.hexschool.com/courses/951862/lectures/20753023)
+* hover.css : https://ianlunn.github.io/Hover/
+
+* 菁英團 : https://courses.hexschool.com/courses/951862/lectures/20753023
 
 82. 交易平台 : https://xd.adobe.com/view/bcf8f7eb-689c-4850-b531-a78259c0cdd8-e9ab/screen/7a56bb8c-4170-43d3-a265-d00701d1674b/
 
 83. 玩 Flexbox 遊戲
 
 * Flex pirate 新手關卡 : https://hexschool.github.io/flexbox-pirate/index.html#/
+
 * Flex 青蛙 : https://flexboxfroggy.com/#zh-tw
+
+
 
 
 ## Bootstrap
@@ -658,10 +755,13 @@ report_problem
 
 -  Tailwind 有提供瀑布排版 : https://tailwindcss.com/docs/columns#basic-usage
 
+4. 第八週作業講解 : https://hackmd.io/c_xIlt3TTny9BtsvHFpa4g
 
+- border 重疊解法：
 
-
-
+```
+margin-*:-1px;
+```
 
 ## RWD
 
@@ -1217,6 +1317,7 @@ $(document).ready(function(){
 59. CSS transform
 
 - DEMO : https://www.hexschool.com/courses/webanalytics.html
+
 
 
 ## Tailwindcss
