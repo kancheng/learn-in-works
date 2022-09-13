@@ -22,6 +22,10 @@
 
 - https://bejewled-air-4cb.notion.site/Puppeteer-cad6b2e8979c47fba6f0032c7290cfe6
 
+3. Mac OS X 安裝 nvm : https://israynotarray.com/nodejs/20200124/3404456418/
+
+4. Windows 10 安裝並使用 nvm 切換 NodeJS 版本 : https://israynotarray.com/nodejs/20200107/3738078915/
+
 
 ## Other `ʕᵔᴥᵔʔ`
 
@@ -69,8 +73,11 @@ editor.experimental.stickyScroll.enabled": true
 -  Container Query Unit
 
 > 1cqw / cqh 代表 1% 的 container 寬度或高度
+>
 > 1cqi / cqb 代表 1% 的 container inline / block 尺寸
+>
 > cqmin 代表 cqi / cqb 取小的，cqmax 則剛好相反取大的
+>
 
 - https://codepen.io/scottkellum/pen/jOwmOZE
 
