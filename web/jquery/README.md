@@ -313,13 +313,176 @@ $(document).ready(function() {
 </html>
 ```
 
-2.
+2. 使用 Fade 設計淡入淡出效果
 
-3.
+- all.js
 
+```
+$(document).ready(function() {
+  $('.button').click(function(event) {
+    $('.text').fadeToggle();
+    // fadeIn 預設隱藏的東西給打開
+    // fadeOut 預設開啟的東西給關閉
+  });
+});
+```
+
+3. 使用 toggleClass、搭配 CSS3 Transition 自訂 CSS
+
+- all.js
+
+```
+$(document).ready(function() {
+  $('.button').click(function(event) {
+    $('.text').toggleClass('active');
+    // $('.text').addClass('active');
+    // $('.text').removeClass('active');
+  });
+});
+```
+
+- index.html
+
+```
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/all.js"></script>
+  <style>
+//    .text {
+//      display: none;
+//    }
+//    .text.active {
+//      display: block;
+//    }
+    .text {
+      opacity:0;
+      transition: all 3s;
+    }
+    .text.active {
+      opacity:1;
+    }
+  </style>
+</head>
+<body>
+  <input type="button" class="button" value="留言">
+  <div class="text">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="送出">
+  </div>
+</body>
+</html>
+```
+
+4. CSS - overflow、CSS3 transition
+
+```
+$(document).ready(function() {
+  $('.button').click(function(event) {
+    $('.text').fadeToggle(1000);
+    // fadeIn 預設隱藏的東西給打開
+    // fadeOut 預設開啟的東西給關閉
+  });
+});
+```
+
+```
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/all.js"></script>
+  <style>
+    .box{
+      width: 200px;
+      height: 160px;
+      border: 1px solid blue;
+      position: relative;
+      overflow: hidden;
+    }
+    .box:hover .title{
+      bottom: 0;
+    }
+    .title{
+      transition: all 1s;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      width: 100%;
+      position: absolute;
+      bottom: -30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="images/feature-jquery.png" alt="">
+    <div class="title">產品標題</div>
+  </div>
+</body>
+</html>
+```
+
+5. jQuery 鏈式寫法
+
+```
+$(document).ready(function() {
+  $('.start').click(function(event) {
+    $('.box').slideUp(1500).slideDown(1500);
+  });
+});
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/all.js"></script>
+  <style>
+    .box {
+      height: 300px;
+      width: 300px;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <input type="button" class="start" value="啟動">
+  <div class="box"></div>
+</body>
+</html>
+```
+
+6.  Chrome 內建開發工具 : DEV -> Sources -> 指定的 JS
 
 ###  CSS + jQuery 的動畫效果
 
+1. preventDefault() 取消默認行為
+
+```
+$(document).ready(function() {
+ $('.close').click(function(event) {
+   event.preventDefault();
+   $('.box').slideUp();
+ });
+});
+
+```
+2. 動態載入 CSS style 設定
+
+3.
+4.
+5.
+6.
+7.
+8.
+9.
 ### 操控網頁元素
 
 ### jQuery 常用小技巧
@@ -328,7 +491,7 @@ $(document).ready(function() {
 
 ### 精進
 
-3. 網頁插件關鍵字速記表
+1. 網頁插件關鍵字速記表
 
 - JavaScript、 jQuery e.g. JavaScript carousel :
 
@@ -392,7 +555,7 @@ component 元件、組件
 utility 輔助
 ```
 
-4. 自學建議
+2. 自學建議
 
 - https://www.youtube.com/watch?v=DBjRl7IXNiQ
 
