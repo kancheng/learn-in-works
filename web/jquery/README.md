@@ -476,13 +476,114 @@ $(document).ready(function() {
 ```
 2. 動態載入 CSS style 設定
 
-3.
-4.
+```
+.box {
+  width: 300px;
+  height: 300px;
+  background: #000;
+}
+```
+
+```
+$(document).ready(function() {
+  $('.box').css('width','500px');
+});
+```
+
+3. 設計下拉式收闔選單 :
+
+```
+$(document).ready(function() {
+  $('.dropdown').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $('.dropdown').toggleClass('active');
+    $('.dropdown-open').slideToggle();
+  });
+});
+```
+
+```
+.wrap{
+  width: 500px;
+  margin: 0 auto;
+}
+.header{
+  height: 80px;
+  background: pink;
+}
+.menu{
+  float: right;
+}
+.menu a{
+  text-decoration: none;
+  padding: .5em 0;
+  background: #fff;
+  border: 1px solid gray;
+  display: block;
+  text-align: center;
+  transition: all .3s;
+}
+.menu a:hover,.menu a.active{
+  background: blue;
+  color: #fff
+}
+.menu > li{
+  float: left;
+  width: 100px;
+}
+.menu ul {
+  display: none
+}
+/*.menu > li:hover ul{
+  display: block
+}*/
+```
+
+```
+<body>
+<div class="wrap">
+  <div class="header">
+      <ul class="menu">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">產品專區</a></li>
+        <li>
+          <a href="#" class="dropdown">訂單查詢</a>
+          <ul class="dropdown-open">
+            <li><a href="#">出貨進度</a></li>
+            <li><a href="#">退貨申請</a></li>
+            <li><a href="#">退換申請</a></li>
+          </ul>
+        </li>
+      </ul>
+  </div>
+</div>
+</body>
+```
+
+4. delay() - 延遲動畫效果
+
+```
+$(document).ready(function() {
+  $('.open').click(function(event) {
+    /* Act on the event */
+    $('.box1').delay(0).fadeIn();
+    $('.box2').delay(1000).slideDown();
+    $('.box3').delay(2000).show(0);
+  });
+});
+```
+
 5.
+
 6.
+
 7.
+
 8.
+
 9.
+
 ### 操控網頁元素
 
 ### jQuery 常用小技巧
