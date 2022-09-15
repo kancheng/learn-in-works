@@ -780,6 +780,19 @@ margin-*:-1px;
 
 - 伸縮自如的 RWD 排版術(下) : https://www.youtube.com/watch?v=Du_N0Vyh-Q0
 
+```
+display:必備屬性
+
+flex-flow
+  flex-direction:決定flex軸線
+  flex-wrap:決定換行的屬性
+
+justify-content:主要軸線的對齊
+
+align-items:交錯軸線的對齊
+```
+
+
 > HTML 標籤 1 分，CSS 類別選擇器 10 分，id 選擇器 100 分、element 1000 分、 !important 10000 分。
 
 - 先看權重，再看先後順序，後者贏
@@ -1325,6 +1338,9 @@ $(document).ready(function(){
 
 - DEMO : https://www.hexschool.com/courses/webanalytics.html
 
+60. 響應式網頁設計 : https://www.youtube.com/watch?v=WDVdmlb9zaY
+
+- https://github.com/gonsakon/Responsive-boilerplate
 
 
 ## Tailwindcss
