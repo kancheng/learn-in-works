@@ -574,21 +574,838 @@ $(document).ready(function() {
 });
 ```
 
-5.
+5. 即時放大縮小字型
 
-6.
+```
+$(document).ready(function() {
+  // 字體放大
+  $('.font-b').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $('.content p').css('font-size','20px');
+  });
+  // 字體放中
+  $('.font-m').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $('.content p').css('font-size','16px');
+  });
+  // 字體放小
+  $('.font-s').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $('.content p').css('font-size','13px');
+  });
+});
+```
 
-7.
+6.  fixed 固定網頁內容
 
-8.
+```
+$(document).ready(function() {
+  // close效果
+  $('.ad-close').click(function(event) {
+    /* Act on the event */
+    event.preventDefault();
+    $(".ad").fadeOut();
+  });
+});
+```
 
-9.
+```
+.ad{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 100px;
+  background: #000;
+  color: #fff;
+}
+.ad p{
+  padding: 30px;
+}
+.ad .ad-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  background: red;
+  color: #fff;
+  padding: .5em
+}
+.ad .ad-close:hover{
+  background: blue;
+}
+
+```
+
+```
+  <div class="ad">
+    <p>如果喜歡我們的網站， <br>
+    歡迎把我們加到書籤</p>
+    <a href="#" class="ad-close">關閉</a>
+  </div>
+```
+
+7.  stop() 中斷目前的動畫效果
+
+```
+$(document).ready(function() {
+  $('.start').click(function(event) {
+    /* Act on the event */
+    $('.box').stop().slideToggle(3000);
+  });
+});
+```
+
+8. 設定 offcanvas 左右選單切換
+
+```
+$(document).ready(function() {
+  $('.header').click(function(event) {
+    /* Act on the event */
+    $('body').toggleClass('open');
+  });
+});
+```
+
+```
+.container {
+  position: relative;
+  /* aside 打開時不會有 x 軸 */
+  overflow: hidden;
+}
+.main {
+  height: 300px;
+  background: #000;
+  transition: 0.3s ease;
+}
+.header {
+  height: 50px;
+  background: red;
+}
+.aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 270px;
+  height: 300px;
+  background: yellow;
+  transform: translateX(-270px);
+  transition: 0.3s ease;
+}
+.open .main {
+  transform: translateX(270px);
+}
+.open .aside {   
+  transform: translateX(0px);
+}
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4-OffCans</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/all.css">
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/all.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="aside"></div>
+    <div class="main">
+      <div class="header"></div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+```
+9. Animate.css
+
+- Demo : https://codepen.io/kancheng/pen/LYmWbKP
+
+- Animate.css：https://animate.style/
+
+- https://animate.style/#documentation
+
+- GitHub：https://github.com/animate-css/animate.css
+
+CDN：
+
+```
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css'/>
+```
 
 ### 操控網頁元素
 
+1. this - 操作本身元素
+
+```
+.menu{
+  width: 500px;
+  margin: 20px auto;
+}
+.menu li {
+  padding: 5px;
+  border:1px solid;
+  margin-bottom: 1em;
+}
+.menu li:hover,.menu li.active{
+  background: blue;
+  color: #fff;
+}
+```
+
+```
+$(document).ready(function() {
+  $('.menu li').click(function(event) {
+    /* Act on the event */
+    // $(this).addClass('active');
+    $(this).toggleClass('active');
+  });
+});
+```
+
+```
+  <ul class="menu">
+    <li>選單1</li>
+    <li>選單2</li>
+    <li>選單3</li>
+    <li>選單4</li>
+    <li>選單5</li>
+    <li>選單6</li>
+  </ul>
+```
+
+2. parent() - 父階層元素
+
+```
+  <div class="cart">
+    <h2>購物車</h2>
+    <ul >
+    <li><input type="button" class="addCart" value="加入購物車">吹風機</li>
+    <li><input type="button" class="addCart" value="加入購物車">冷氣機</li>
+    <li><input type="button" class="addCart" value="加入購物車">電視</li>
+    <li><input type="button" class="addCart" value="加入購物車">電腦</li>
+    <li><input type="button" class="addCart" value="加入購物車">平版電腦</li>
+    <li><input type="button" class="addCart" value="加入購物車">智慧型手機</li>
+  </ul>
+  </div>
+```
+
+```
+$(document).ready(function() {
+  $('.addCart').click(function(event) {
+    $(this).parent().toggleClass('active');
+  });
+});
+```
+
+```
+.cart {
+  width: 300px;
+  margin: 20px auto;
+}
+.cart h2 {
+  margin-bottom: 1em;
+  font-size: 19.2px;
+}
+.cart li {
+  border: 1px solid gray;
+  padding: 5px;
+  margin-bottom: 2em;
+}
+.cart li.active {
+  background: #0095D4;
+  color: #fff;
+}
+.addCart {
+  background: blue;
+  color: #fff;
+  border:none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.addCart:hover {
+  background:#008DD8;
+}
+```
+
+3. siblings() - 同層元素
+
+```
+$(document).ready(function() {
+  $('.menu li').click(function(event) {
+    /* Act on the event */
+    // $(this).addClass('active');
+    $(this).addClass('active').siblings().removeClass('active');
+  });
+});
+```
+
+```
+.menu {
+  width: 500px;
+  margin: 20px auto;
+}
+.menu li {
+  padding: 5px;
+  border:1px solid;
+  margin-bottom: 1em;
+}
+.menu li:hover,.menu li.active {
+  background: blue;
+  color: #fff;
+}
+```
+
+```
+  <ul class="menu">
+    <li>選單1</li>
+    <li>選單2</li>
+    <li>選單3</li>
+    <li>選單4</li>
+    <li>選單5</li>
+    <li>選單6</li>
+  </ul>
+```
+
+4. find () - 找子元素內容
+
+```
+$(document).ready(function() {
+  $('.cart li').click(function(event) {
+    $(this).find('h3').toggleClass('active');
+  });
+});
+```
+
+```
+.cart {
+  width: 500px;
+  margin: 20px auto;
+}
+.cart li {
+  width: 30%;
+  float: left;
+  height: 100px;
+  margin: 1%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.cart h3.active {
+  background: blue;
+  color:#fff;
+}
+```
+
+```
+  <div class="cart">
+    <ul>
+      <li>
+        <h3>產品1</h3>
+      </li>
+      <li>
+        <h3>產品2</h3>
+      </li>
+      <li>
+        <h3>產品3</h3>
+      </li>
+      <li>
+        <h3>產品4</h3>
+      </li>
+      <li>
+        <h3>產品5</h3>
+      </li>
+      <li>
+        <h3>產品6</h3>
+      </li>
+    </ul>
+  </div>
+```
+
+5. QA 折疊選單
+
+```
+$(document).ready(function() {
+  $('.question h3').click(function(event) {
+    // 讓點擊到的 h3 亮起來，其他h3移除active樣式
+    $(this).toggleClass('active');
+    // 讓點擊到的 h3找到父元素 .question ，再找裡面的 P 判斷收闔
+    $(this).parent().find('p').slideToggle();
+    // 自己以外的 p 隱藏起來
+    $(this).parent().siblings().find('p').slideUp();
+    // 自己以外的 h3 移除u樣式
+    $(this).parent().siblings().find('h3').removeClass('active');
+  });
+});
+```
+
+```
+.question-list {
+  margin: 0 auto;
+  width: 500px
+}
+.question h3 {
+  border: 1px solid gray;
+  padding: 5px;
+  font-size: 18px;
+}
+.question h3:hover,.question h3.active {
+  background: blue;
+  color:#fff;
+}
+.question p {
+  display: none;
+  padding: 5px;
+}
+```
+
+```
+<div class="question-list">
+  <div class="question">
+    <h3>1.請問1+1=多少</h3>
+    <p>答案記得沒錯的話，應該是2吧！</p>
+  </div>
+  <div class="question">
+    <h3>2.那假如是2+2的話呢</h3>
+    <p>當然是4啊！</p>
+  </div>
+  <div class="question">
+    <h3>3.ok，所以3+3就等於7嘍</h3>
+    <p>...我看你還是重讀小學吧！</p>
+  </div>
+</div>
+```
+
+6. 二階層式折疊選單設計
+
+```
+$(document).ready(function() {
+  $('.cart > li > a').click(function(event) {
+    event.preventDefault();
+    $(this).parent().siblings().find('ul').slideUp();
+    $(this).parent().find('ul').slideToggle();
+  });
+});
+```
+
+```
+.cart {
+  width: 500px;
+  margin: 20px auto;
+}
+.cart > li {
+  margin-bottom: 1em;
+}
+.cart > li > a {
+  color: blue;
+  border: 1px solid gray;
+  display: block;
+  padding: 5px;
+}
+.cart > li > a:hover {
+  background: blue;
+  color: #fff;
+}
+.cart > li li {
+  margin: 5px 0;
+}
+.cart ul {
+  display: none;
+}
+```
+
+```
+    <ul class="cart">
+      <li>
+        <a href="#">選單1</a>
+        <ul>
+          <li><a href="#">選單1-1</a></li>
+          <li><a href="#">選單1-2</a></li>
+          <li><a href="#">選單1-3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">選單2</a>
+        <ul>
+          <li><a href="#">選單2-1</a></li>
+          <li><a href="#">選單2-2</a></li>
+          <li><a href="#">選單2-3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">選單3</a>
+        <ul>
+          <li><a href="#">選單3-1</a></li>
+          <li><a href="#">選單3-2</a></li>
+          <li><a href="#">選單3-3</a></li>
+        </ul>
+      </li>
+    </ul>
+```
+
+7. 使用 html()、text() 載入內容
+
+```
+$(document).ready(function() {
+  $('body').html('<h1>OWO</h1>');
+  $('.box').html('<h1>OWO</h1>');
+  $('.box h1').text('OWO');
+});
+```
+
+8. click()、on() 的差別
+
+```
+$(document).ready(function() {
+  // click範例
+  $(".box").click(function(event) {
+    event.preventDefault();
+    //要執行的程式碼
+  });
+
+  // on 範例
+  $('body').on('click', '.selector', function(event) {
+    event.preventDefault();
+    //要執行的程式碼
+  });
+});
+```
+
+
 ### jQuery 常用小技巧
 
+1. attr() - 動態增加 HTML 標籤屬性
+
+```
+$(document).ready(function() {
+  $('img').attr('width','50');
+});
+```
+
+```
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  overflow: hidden;
+}
+```
+
+```
+<body>
+  <img src="images/logo.png" width="250" alt="">
+  <img src="images/logo.png" width="250" alt="">
+  <img src="images/logo.png" width="250" alt="">
+  <img src="images/logo.png" width="250" alt="">
+  <br>
+  <a href="#">link</a>
+</body>
+```
+
+2. remove() - 移除網頁標籤
+
+```
+$(document).ready(function() {
+  $('.remove').click(function(event) {
+    /* Act on the event */
+    $(this).parent().parent().hide();
+  });
+});
+```
+
+```
+td, th {
+  border: 1px solid #000;
+}
+```
+
+```
+<body>
+<table>
+  <tr>
+    <td><input type="button" class="remove" value="刪除"></td>
+    <td>內容1</td>
+  </tr>
+  <tr>
+    <td><input type="button" class="remove" value="刪除"></td>
+    <td>內容2</td>
+  </tr>
+  <tr>
+    <td><input type="button" class="remove" value="刪除"></td>
+    <td>內容3</td>
+  </tr>
+</table>
+</body>
+```
+
+3. top 滑動效果
+
+```
+$(document).ready(function() {
+ $('.top a').click(function(event) {
+  event.preventDefault();
+  $('html,body').animate({
+    scrollTop: 0
+  }, 1000);
+ });
+});
+```
+
+```
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+```
+
+```
+  <div class="top">
+    <a href="#"><img src="images/1464891752_f-top_256.png" alt=""></a>
+  </div>
+```
+
+4. FontAwesome :
+
+- 版本 v5.15.4 CDN：
+
+```
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'/>
+```
+
+- 版本 v6.1.1 CDN：
+
+```
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'/>
+```
+
+```
+$(document).ready(function() {
+ $("a[href$='.doc']").addClass('fa fa-file-word-o');
+ $("a[href$='.jpg']").addClass('fa fa-file-photo-o');
+ $("a[href$='.zip']").addClass('fa fa-file-zip-o');
+});
+```
+
+```
+.list a {
+  text-decoration: none;
+  color: red;
+}
+.list a:hover {
+  
+  color: #434343;
+}
+.list a:before {
+  margin-right: 15px;
+  
+}
+.list li {
+  margin-bottom: 20px;
+  font-size: 99px;
+}
+```
+
+```
+  <ul class="list">
+    <li>
+      <a href="doc/word.jpg">圖片檔案</a>
+    </li>
+    <li><a href="doc/word2.jpg">圖片二檔案</a></li>
+    <li>
+      <a href="doc/word.doc">word 檔案</a>
+    </li>
+    <li>
+      <a href="doc/word.zip">壓縮檔案</a>
+    </li>
+  </ul>
+```
+
 ### 第三方 Plugin
+
+1. 需要注意的細節
+
+- Statcounter：https://gs.statcounter.com/
+
+- 需要注意有沒有支援到目前主流的瀏覽器
+
+- 該套件有沒有支援主流的更新
+
+- 嘗試修改與整合多個套件
+
+2. Lightbox 2 - 圖片燈箱效果
+
+- http://lokeshdhakar.com/projects/lightbox2/
+
+- CSS：
+
+```
+https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css
+```
+
+- JavaScript：
+
+```
+https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js
+```
+
+```
+$(document).ready(function() {
+  $('.button').click(function(event) {
+    $('.text').fadeToggle(1000);
+    // fadeIn 預設隱藏的東西給打開
+    // fadeOut 預設開啟的東西給關閉
+  });
+  // lightbox 效果
+  lightbox.option({
+        'resizeDuration': 2000,
+        'wrapAround': true
+      });
+  $(window).load(function() {
+      $('#slider').nivoSlider(); 
+  });
+});
+```
+
+3. Swiper - 輪播效果
+
+- https://swiperjs.com/get-started
+
+- https://swiperjs.com/
+
+- http://idangero.us/swiper/
+
+- CSS：https://unpkg.com/swiper/swiper-bundle.min.css
+
+- JavaScript：https://unpkg.com/swiper/swiper-bundle.min.js
+
+```
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+
+  <style>
+    .swiper-container {
+    width: 800px;
+    height: 400px;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+  <script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+  </script>
+</body>
+```
+
+```
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <style>
+    .swiper-container {
+    width: 800px;
+    height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+  <script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    speed: 3000,
+    loop: true,
+    autoplay: {
+    delay: 1500,
+    },
+    effect: 'cube',
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  })
+  </script>
+</body>
+```
+
 
 ### 精進
 
@@ -688,7 +1505,7 @@ react todolist demo
 * 學習 Todolist，了解有哪些原理還要再多找資源補充
 
 
-### Sublime Text
+### Sublime Text 3 & 4
 
 1. 改變介面設定 : Preference -> Color
 
