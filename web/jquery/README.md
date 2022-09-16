@@ -1406,6 +1406,14 @@ $(document).ready(function() {
 </body>
 ```
 
+4. parallax.js
+
+- Simple Parallax Scrolling : https://pixelcog.github.io/parallax.js/
+
+- https://matthew.wagerfield.com/parallax/
+
+- https://github.com/wagerfield/parallax
+
 
 ### 精進
 
