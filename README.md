@@ -374,6 +374,10 @@
 
 39. Git & GitHub 入門 : https://quip.com/pFUnA7u75HbL
 
+40. Vite 開發工具 : https://www.youtube.com/watch?v=lZk4peRTbdg
+
+- https://bejewled-air-4cb.notion.site/Vite-d475a176199f40a685384c7b9c9c46ef
+
 
 
 ## 金融
@@ -1238,3 +1242,13 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 1. AJAX / JSON 教學 : https://www.youtube.com/watch?v=DxdTWIYqIzU
 
+
+## AlphaTensor
+
+- https://www.nature.com/articles/s41586-022-05172-4
+
+1. AlphaTensor: 用增強式學習 (Reinforcement Learning) : https://www.youtube.com/watch?v=KPcA8QCTm5U
+
+2. Introduction to Next Generation Reservoir Computing : https://www.youtube.com/watch?v=wbH4En-k5Gs
+
+3. 台大資訊 演算法 | ADA 6.1: AlphaTensor & 囚犯問題 : https://www.youtube.com/watch?v=gcuvZw8nHEc
