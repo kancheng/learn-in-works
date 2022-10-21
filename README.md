@@ -378,6 +378,9 @@
 
 - https://bejewled-air-4cb.notion.site/Vite-d475a176199f40a685384c7b9c9c46ef
 
+- Vite 延伸 : https://github.com/vuejs/create-vue
+
+- Vite : https://vitejs.dev/
 
 
 ## 金融
