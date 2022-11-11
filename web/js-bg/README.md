@@ -1177,6 +1177,8 @@ console.log(newArray);
 
 * 為什麼要用 AJAX : https://zh.wikipedia.org/zh-tw/AJAX
 
+![](rest-api.png)
+
 2. 什麼是網路請求？
 
 * 圖解發出請求的流程，以 Google 關鍵字為例子
