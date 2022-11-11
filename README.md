@@ -108,6 +108,18 @@
 
 - 从零开始，写个编译器！ https://zhuanlan.zhihu.com/p/471250907
 
+23. CS 自學指南 : https://csdiy.wiki/
+
+- https://github.com/pkuflyingpig/cs-self-learning/
+
+- Machine Learning Compilation 陈天奇 : https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/MLC/
+
+- CMU 10-414/714: Deep Learning Systems : https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CMU10-414/
+
+- CS 61A : https://cs61a.org/
+
+
+
 ## Test Tool
 
 1. Cppcheck
@@ -160,7 +172,11 @@
 
 ### NTU ML - Hung-yi Lee
 
+0. 国立台湾大学：李宏毅机器学习 : https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LHY/
+
 1. https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php
+
+- https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php
 
 2. https://www.youtube.com/c/HungyiLeeNTU
 
@@ -171,6 +187,10 @@
 - https://www.youtube.com/watch?v=z-lRPFFYVJc
 
 - https://www.youtube.com/watch?v=68lwXWFzCmg
+
+5. http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML20.html
+
+6. Book_李宏毅老師機器學習課程筆記 : https://hackmd.io/@shaoeChen/B1CoXxvmm/https%3A%2F%2Fhackmd.io%2Fc%2FB1CoXxvmm%2Fedit%3Fedit
 
 
 ### NTU ML - Hsuan-Tien Lin
@@ -257,6 +277,8 @@
 12. 資料結構與演算法，使用 JavaScript 與 Python : https://ithelp.ithome.com.tw/users/20121027/ironman/4552
 
 13. Docker & Kubernetes: https://ithelp.ithome.com.tw/users/20025481/ironman/3341
+
+14. 軟體架構師的自我修養 : https://ithelp.ithome.com.tw/users/20146414/ironman/5313
 
 
 ## 前端
@@ -381,6 +403,28 @@
 - Vite 延伸 : https://github.com/vuejs/create-vue
 
 - Vite : https://vitejs.dev/
+
+41. UX 原則 : https://lawsofux.com/
+
+42. State machine transitions : CSS Toggle 讓 CSS 端有更多的狀態變化能力 : 
+
+- https://toggles.oddbird.net/#machine
+
+- https://css.oddbird.net/toggles/explainer/
+
+43. CSS Working Group, Miriam Suzzane - CSS 架構 : https://www.miriamsuzanne.com/2022/09/06/layers/
+
+```
+@layer spec, browser, reset, default, features, layout, theme;
+簡稱 SBRDFLT 
+前兩者內建在瀏覽器內，後面依序看名稱大概可以知道是什麼
+先把基本樣式搞好：spec, browser, reset, default
+然後再來弄功能面的：feature
+最後則是針對整體頁面的 CSS：layout & theme
+```
+
+44. UI 設計 : https://penpot.app/
+
 
 
 ## 金融
@@ -1255,3 +1299,24 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 2. Introduction to Next Generation Reservoir Computing : https://www.youtube.com/watch?v=wbH4En-k5Gs
 
 3. 台大資訊 演算法 | ADA 6.1: AlphaTensor & 囚犯問題 : https://www.youtube.com/watch?v=gcuvZw8nHEc
+
+4. AlphaTensor by DeepMind Explained  – Talk by Emma Chen at Harvard Medical AI Lab : https://www.youtube.com/watch?v=gpYnDls4PdQ
+
+
+
+## API
+
+1. https://www.smashingmagazine.com/2022/09/javascript-api-guide/
+
+- Page Visibility: 用來偵測頁面是否呈現
+
+- Web Sharing: 分享功能
+
+- Broadcast: 跨分頁間的溝通
+
+- Internationalization: 主要用在多國語系的格式變換
+
+- IntersectionObserver: 用來偵測元素露出的程度
+
+- MutationObserver: 用來偵測 DOM 變化## API
+
