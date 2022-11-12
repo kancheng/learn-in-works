@@ -8,7 +8,12 @@
 Hex School JS 課程 2022 基礎
 ```
 
-JS 直播班最終關卡 : https://hackmd.io/tZIlr0HTRKmKitFwdooqIw
+- JS 直播班最終關卡 : https://hackmd.io/tZIlr0HTRKmKitFwdooqIw
+
+- F2E 2022 : https://2022.thef2e.com/
+
+- 2022 TheF2E 攻略資源 : https://hackmd.io/ofJD4K7iSI65V19zxC7d0w
+
 
 ## Week 1 - JS
 
