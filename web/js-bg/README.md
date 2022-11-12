@@ -1362,29 +1362,61 @@ C3.js & 資料處理，以為小組任務例子
 
 小組任務 : https://hackmd.io/LUaQGbDqTm2Wh8RoniSNVA
 
+0. Package
+
+- https://fullcalendar.io/
+
+- https://c3js.org/
+
+- 拖曳連結可排序元素 - jQuery UI draggable Options connect To Sortable : https://codepen.io/kancheng/pen/yLEbXOm
+
+- JS 实现列表的拖拽排序 : https://codepen.io/kancheng/pen/ExRmXZy
+
+- Sortable : https://shopify.github.io/draggable/examples/simple-list.html
+
+- https://github.com/Shopify/draggable/tree/master/examples/src/content/Sortable/SimpleList
+
+- Sortable 拖曳效果 : https://codepen.io/kancheng/pen/KKemqmO
+
+
 1. C3.js基本教學
 
 * 環境安裝 : https://c3js.org/gettingstarted.html
 
 * 環境範例程式碼 : https://codepen.io/hexschool/pen/poRzRXW?editors=1010
 
-* 折線圖增加時間軸 : https://codepen.io/hexschool/pen/dyNbvOb?editors=1010
+- https://codepen.io/kancheng/pen/NWzjgZW
 
-* 變更圖表 type 圓餅圖 : https://codepen.io/hexschool/pen/bGgbgXB?editors=1010
+* 折線圖增加時間軸 : https://codepen.io/hexschool/pen/dyNbvOb
+
+- https://codepen.io/kancheng/pen/XWYRgLR
+
+* 變更圖表 type 圓餅圖 : https://codepen.io/hexschool/pen/bGgbgXB
+
+- https://codepen.io/kancheng/pen/GRGmEbz
 
 * 修改顏色與標題 : https://codepen.io/hexschool/pen/NWdKpXw
+
+- https://codepen.io/kancheng/pen/MWXmoNb
 
 2. 陣列、物件資料處理
 
 * 用套件不難，**工程師的價值在整合**
 
-* 需將原始資料改為套件要的格式，範例 : https://codepen.io/hexschool/pen/xxgGggO?editors=0010
+* 需將原始資料改為套件要的格式，範例 : https://codepen.io/hexschool/pen/xxgGggO
+
+- https://codepen.io/kancheng/pen/ZERKJzL?editors=0110
+
 
 3. 觀念一：物件數據蒐集
 
 * 計算陣列裡面各地區人數 : https://codepen.io/hexschool/pen/wvgwoBj
 
+- https://codepen.io/kancheng/pen/YzvVxKJ
+
 * 第五關小組任務最後一題 : https://codepen.io/hexschool/pen/yLgNVWZ
+
+- https://codepen.io/kancheng/pen/wvXdqvw
 
 * 原始資料 : https://cabu4.kcg.gov.tw/KcgRegion/OpenData/%E9%87%8C%E9%95%B7%E9%80%9A%E8%A8%8A%E9%8C%84.JSON
 
@@ -1401,9 +1433,16 @@ const areaAry = Object.keys(totalObj);
 
 * 用途一：透過資料關聯，做物件取值 - https://codepen.io/hexschool/pen/PoWqWPQ
 
-* 用途二：重組陣列資料 I - https://codepen.io/liao/pen/GRvPQMZ?editors=1010
+- https://codepen.io/kancheng/pen/eYKWEYv
 
-* 用途三：重組陣列資料 II-為 C3.js 所用 - https://codepen.io/liao/pen/eYEbVGj?editors=1011
+* 用途二：重組陣列資料 I - https://codepen.io/liao/pen/GRvPQMZ
+
+- https://codepen.io/kancheng/pen/MWXmvYb
+
+* 用途三：重組陣列資料 II-為 C3.js 所用 - https://codepen.io/liao/pen/eYEbVGj
+
+- https://codepen.io/kancheng/pen/LYryjEr
+
 
 ```JavaScript=
 const totalObj = {高雄: 2, 台北: 1, 台中: 1};
@@ -1423,15 +1462,117 @@ console.log(newData)
 
 5. C3 套用
 
-* 範例程式碼 : https://codepen.io/liao/pen/VwzqQrw?editors=0010
+* 範例程式碼 : https://codepen.io/liao/pen/VwzqQrw
 
-* AJAX LV1 JSON+C3 : https://codepen.io/hexschool/pen/VwPwRyd?editors=0010
+- https://codepen.io/kancheng/pen/KKemvpM
+
+* AJAX LV1 JSON+C3 : https://codepen.io/hexschool/pen/VwPwRyd
+
+- https://codepen.io/kancheng/pen/abKWyOE
 
 * C3.js+LV1 AJAX+本地端新增資料 : https://codepen.io/hexschool/pen/ExZxMpv
 
+- https://codepen.io/kancheng/pen/QWxvMjy
+
 6. 其他範例
 
-* 前後端男女性比例 : https://codepen.io/liao/pen/XWaoaxV?editors=1010
+* 前後端男女性比例 : https://codepen.io/liao/pen/XWaoaxV
 
-* 上屆學長姐 BMI kata 投稿人數折線圖(時間序列折線圖) : https://codepen.io/liao/pen/LYjMjqX?editors=1010
+- https://codepen.io/kancheng/pen/zYawdvE
+
+* BMI kata 投稿人數折線圖(時間序列折線圖) : https://codepen.io/liao/pen/LYjMjqX
+
+- https://codepen.io/kancheng/pen/dyKWzGg
+
+
+### Week 7 sub.
+
+- https://quip.com/6wbCAvu5OTmJ/2021-JS-4
+
+1. Validate.js
+
+- CDN
+
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+```
+
+- Constraints （約束條件）
+
+```
+{
+    <attribute>: {
+    <validator name>: <validator options>
+    }
+}
+```
+
+- 官網範例：
+
+```
+var constraints = {
+  username: {
+    presence: true,
+    exclusion: {
+      within: ["nicklas"],
+      message: "'%{value}' is not allowed"
+    }
+  },
+  password: {
+    presence: true,
+    length: {
+      minimum: 6,
+      message: "must be at least 6 characters"
+    }
+  }
+};
+
+validate({password: "bad"}, constraints);
+// => {
+//   "username": ["Username can't be blank"],
+//   "password": ["Password must be at least 6 characters"]
+// }
+```
+
+- validate function
+
+```
+validate(attributes, constraints, [options])
+```
+
+- 練習：
+
+```
+<form id="myForm">
+    <input type="text" class="username" name="username">
+    <input type="password" name="password">
+</form>
+```
+
+```
+const form = document.querySelector("#myForm");
+
+...
+
+//{ 
+// "username":["Username can't be blank"], 
+// "password":["Password can't be blank"] 
+//}
+```
+
+
+- 常使用的 Validators
+
+* email 信箱
+* length 長度（名稱最多幾個字、密碼最多或最少幾個字）
+* numericality 數量（大於0 小於10)
+* presence 必填
+* url 網址 （連結、圖片）
+
+- 實作 : https://codepen.io/AliceChiang/pen/MWbBzKo
+
+- https://codepen.io/kancheng/pen/gOKWxKp
+
+
+
 
