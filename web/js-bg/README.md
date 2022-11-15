@@ -16,6 +16,11 @@ Hex School JS 課程 2022 基礎
 
 - JSON Server : https://github.com/typicode/json-server
 
+- JSON Server 教學 : https://hackmd.io/gOVsRiomTHO-T0utYhOx2g
+
+- https://weij0.github.io/Web/docs/tags/json-server
+
+
 ## Week 1 - JS
 
 1. 建立環境
