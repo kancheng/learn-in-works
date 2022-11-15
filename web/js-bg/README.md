@@ -14,6 +14,7 @@ Hex School JS 課程 2022 基礎
 
 - 2022 TheF2E 攻略資源 : https://hackmd.io/ofJD4K7iSI65V19zxC7d0w
 
+- JSON Server : https://github.com/typicode/json-server
 
 ## Week 1 - JS
 
@@ -1493,6 +1494,8 @@ console.log(newData)
 ### Week 7 sub.
 
 - https://quip.com/6wbCAvu5OTmJ/2021-JS-4
+
+- vee-validate : https://vee-validate.logaretm.com/v4/
 
 1. Validate.js
 
