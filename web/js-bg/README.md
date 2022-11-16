@@ -20,6 +20,14 @@ Hex School JS 課程 2022 基礎
 
 - https://weij0.github.io/Web/docs/tags/json-server
 
+- jQuery 也可以做到的互動效果 : https://hackmd.io/@hexschool/SydNNNIri
+
+- https://www.youtube.com/watch?v=-ViXWhy7FW0
+
+- https://github.com/simeydotme/pokemon-cards-css
+
+- https://github.com/kancheng/pokemon-cards-css
+
 
 ## Week 1 - JS
 
