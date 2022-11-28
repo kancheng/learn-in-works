@@ -2211,6 +2211,124 @@ if(item.paid){
 
 * 深入 JS 核心常見面試題目 : https://www.hexschool.com/courses/js-core.html
 
-* 2021轉職前端工程師之旅 面試篇：為自己選的路堅持下去 : https://ithelp.ithome.com.tw/articles/10256018?sc=rss.qu
+* 2021 轉職前端工程師之旅 面試篇：為自己選的路堅持下去 : https://ithelp.ithome.com.tw/articles/10256018?sc=rss.qu
+
+
+## 前後端工程師協作方案 - Server Side Render、Client Side Render
+
+
+> 前端與後端工程師(伺服器、資料庫)的協作方式
+> 1.Client Side Render(瀏覽器端渲染)
+>  a. 輸入網路請求(/),伺服器回傳JSON格式
+>  b. SPA單式網應用前後端
+>  c. ES6 、Vue 、 React 、 Angular
+> 2. Server Side Render(伺服器端渲染)
+>  a.輸入網路請求(/),伺服器回傳整個網頁內容
+>  EX: <html><ul><li>a產品</li></html>
+
+
+1. Server Side render、Client Side ender 差異 
+
+* Server Side render：由後端渲染資料
+
+* Client Side render：由前端渲染資料
+
+* 懶人包判斷方式：按右鍵檢視原始碼
+
+2. 範例程式碼 Live Demo
+
+* 轉址：res.redirect
+
+* 傳送文字：res.send
+
+* 顯示網頁 EJS：res.render
+
+3. Server Side Render 後端工程師合作方式
+
+- 前端做好 HTML 頁面
+
+- 提交給後端變成動態語言
+
+4. Client Side Render 後端合作方式
+
+- 後端提供給前端 API 列表
+
+- 前端依照 API 列表設計網頁介面
+
+5. 範例網站練習
+
+* JS 核心篇 : https://www.hexschool.com/courses/js-core.html
+
+* W3Hexschool 部落格 : https://w3c.hexschool.com/category/blog
+
+* 帳號註冊登入 : https://codepen.io/HexSchool_yuko/pen/jONaWbN
+
+* The F2E 第二屆 : https://challenge.thef2e.com/works
+
+* layorder : https://lay-order.rocket-coding.com/index.html#/
+
+* 始壯哥健身中心 :https://wen0720.github.io/vueShop/#/
+
+* 挖栽 : https://chaoyuping.github.io/plantstore/#/
+
+* Facebook : https://www.facebook.com/
+
+* Pinkoi : https://www.pinkoi.com/
+
+6. 延伸閱讀
+
+* 前後端分離與 SPA : https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/
+
+## json-server 環境教學
+
+1. POSTMAN 官網 : https://www.postman.com/
+
+2. json-server 官網 : https://github.com/typicode/json-server
+
+3. json-server 篩選功能 :
+
+```
+{
+    "products": [
+      {
+        "name": "A產品",
+        "price":500,
+        "language":{
+          "zh-tw":"A產品",
+          "en-us":"A product"
+        },
+        "id": 1
+      },
+      {
+          "name": "B產品",
+          "price":100,
+          "language":{
+            "zh-tw":"B產品",
+            "en-us":"B product"
+          },
+          "id": 2
+        }
+        ,
+        {
+            "name": "C產品",
+            "price":900,
+            "language":{
+              "zh-tw":"C產品",
+              "en-us":"C product"
+            },
+            "id": 3
+          }
+    ]
+  }
+```
+
+4. 本地端 Codepen 代辦事項練習 : https://codepen.io/hexschool/pen/OJWRqrN?editors=1010
+
+5. APIcode
+
+## json-server 資料關聯教學
+
+
+
 
 
