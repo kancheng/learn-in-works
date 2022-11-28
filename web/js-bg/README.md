@@ -2326,7 +2326,24 @@ if(item.paid){
 
 5. APIcode
 
+## json-server-auth-divide
+
+- https://github.com/Aya-X/json-server-auth-divide
+
+- https://github.com/kancheng/json-server-auth-divide
+
 ## json-server 資料關聯教學
+
+1. json-server 官網 : https://github.com/typicode/json-server
+
+## json-server vercel 部署流程
+
+- https://github.com/gonsakon/json-server-vercel
+
+- https://github.com/kancheng/json-server-vercel
+
+- https://www.youtube.com/watch?v=UhxcJh5oIHo
+
 
 
 
