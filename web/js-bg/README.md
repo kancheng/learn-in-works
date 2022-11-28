@@ -1595,5 +1595,622 @@ const form = document.querySelector("#myForm");
 - https://codepen.io/kancheng/pen/gOKWxKp
 
 
+## Week 8 - API 開發流程
+
+1. API 介紹
+
+- API Wiki 介紹 : https://zh.wikipedia.org/wiki/%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%8E%A5%E5%8F%A3
+
+ **發出網路請求 web API ，獲得你要的資訊**，例：
+    * JSON：
+    我要用 2021 前端工程師薪資資料 : https://raw.githubusercontent.com/hexschool/2021-ui-frontend-job/master/frontend_data.json?token=AAQWFQDSNRRXC6FBW7PDSETBOESVW
+    
+    來源 : https://github.com/hexschool/2021-ui-frontend-job
+
+    取得所有人的 薪資 練功資訊
+    * JSON：我要用 TDX API 服務，取得景點資料: https://tdx.transportdata.tw/data-service/basic
+    * JSON：我要**申請** ，獲得相關新聞資訊 - NEWS API: https://newsapi.org/
+    * 介面服務：我要**申請** Google Map : https://developers.google.com/maps/documentation/javascript/get-api-key?authuser=2
+
+    服務，取得地圖資訊 - 定價 : https://cloud.google.com/maps-platform/pricing?hl=zh-tw
+    
+    限制方式 : https://mile.cloud/zh/resources/blog/195/Google%20Maps%20Platform%20%E7%9A%84%E6%9C%80%E4%BD%B3%E5%81%9A%E6%B3%95%EF%BC%9A%E9%99%90%E5%88%B6%20API%20%E9%87%91%E9%91%B0%20
+    
+    * 前後端介接：我要介接後端 API，開發前端介面功能
+
+2. API 服務申請流程
+
+3. API 種類
+
+- 可以在瀏覽器端(JS)讀取使用，
+
+- 不需申請帳號：2021 前端工程師薪資資料 : https://raw.githubusercontent.com/hexschool/2021-ui-frontend-job/master/frontend_data.json?token=AAQWFQDSNRRXC6FBW7PDSETBOESVW
+
+- 可以在瀏覽器端(JS)讀取使用，需要申請帳號獲得金鑰： Google Map : https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key
+
+- 只能在**後端伺服器**讀取，不需申請帳號：台南旅遊人數 : https://data.tainan.gov.tw/dataset/tourists-statis
+
+- 只能在**後端伺服器**讀取，需要申請帳號獲得金鑰：NEWS API : https://newsapi.org/
+
+> 1.用 text-cors 觀察是否能介接 : https://www.test-cors.org/ 
+> 2.瀏覽器端讀取關鍵 header 參數：Access-Control-Allow-Origin: *
+
+4. API Key TOKEN 夾帶送出種類
+
+- 網址：例如：Google Map : https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key
+
+- NEWS API : https://newsapi.org/
+
+- request header，例如 故宮 OPEN DATA API 、六角最終關卡管理者端 API: https://openapiweb.npm.gov.tw/APP_Prog/cht/overview_cht.aspx
+
+5. API 複習
+
+- 高雄市輕軌 : https://data.kcg.gov.tw/dataset/lightrail-trafficvolume/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3
+
+- 2021 前端工程師薪資資料 : https://raw.githubusercontent.com/hexschool/2021-ui-frontend-job/master/frontend_data.json?token=AAQWFQDSNRRXC6FBW7PDSETBOESVW
+
+- 台南旅遊人數](https://data.tainan.gov.tw/dataset/tourists-statis
+
+- 故宮 OPEN DATA API : http://210.69.170.105/popendata/APP_Prog/cht/overview_cht.aspx
+
+- 旅館訂房網 API : https://challenge.thef2e.com/news/17
+
+> 六角最終關卡是屬於哪一種？
+
+6. 為什麼上面有些 API 資料都會有 ID 資訊？TDX API : https://ptx.transportdata.tw/MOTC?t=Tourism&v=2#!/Tourism/TourismApi_ScenicSpot_0
+
+* 避免資料撞名，以身份證為例子
+```
+* 最終關卡有三種 ID
+    * 產品 ID
+    * 購物車 ID
+    * 訂單 ID
+```
+
+7.  詳細講解最終關卡 API 例子
+
+* API 教學文件 : https://www.notion.so/API-8b5b74eb052b451faf28013d76811fac#7598a1040d4f4c4aab5dec30f621d2b8
+
+* API 申請平台 : https://livejs-api.hexschool.io/
+
+* API 線上測試文件 : https://hexschool.github.io/hexschoolliveswagger/
+
+* 最終關卡 XD 設計稿 : https://xd.adobe.com/view/a48b8617-4588-4817-9062-b62130dce916-f1d8/
+
+* Codepen 範例程式碼 : https://codepen.io/hexschool/pen/JjERgYq?editors=0010
+
+8. API 介紹
+
+* API 前台規則流程圖 : https://whimsical.com/Eg1f7MCzy9UcBJjkpq8TLP
+
+9. axios 網路請求
+
+* MDN HTTP 請求方法 : https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Methods
+
+* 同個網址可以擁有多個方法請求
+
+10. axios 請求規則
+
+```
+axios.request(config)
+axios.get(url[, config])
+axios.delete(url[, config])
+axios.head(url[, config])
+axios.options(url[, config])
+axios.post(url[, data[, config]])
+axios.put(url[, data[, config]])
+axios.patch(url[, data[, config]])
+```
+
+> request config 規則 : https://github.com/axios/axios#request-config
+
+
+11. 最終關卡任務練習步驟 API 網址 : https://hexschool.github.io/hexschoolliveswagger/
+
+> 前台一隻 app.js，後台為 admin.js，前後台拆開
+
+- 步驟一：初始化，取得產品與購物車列表
+
+- 取得產品列表(Get)：`/api/livejs/v1/customer/{api_path}/products`/get_api_livejs_v1_customer__api_path__products
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E7%94%A2%E5%93%81%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 取得購物車列表(Get)：`/api/livejs/v1/customer/{api_path}/carts`/get_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+```
+//取得產品列表(Get)：/api/livejs/v1/customer/{api_path}/products
+{
+  "status": true,
+  "products": [
+    {
+      "category": "產品分類 (String)",
+      "image": "產品圖片 (String)",
+      "id": "產品ID  (String)",
+      "title": "產品名稱  (String)",
+      "origin_price": "產品原始價錢 (Number)",
+      "price": "產品銷售價錢 (Number)"
+    }
+  ]
+}
+```
+
+> 新帳號預設購物車會有一筆資料
+
+- 步驟二：新增購物車品項，並再次初始化購物車列表
+
+- 加入購物車(POST)：`/api/livejs/v1/customer/{api_path}/carts`/post_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+
+- 步驟三：修改購物車狀態刪除全部、刪除單筆，並再次初始化購物車列表
+
+- 清除購物車內全部產品(DELETE)：`/api/livejs/v1/customer/{api_path}/carts`/delete_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 刪除購物車內特定產品(DELETE)：`/api/livejs/v1/customer/{api_path}/carts/{id}`/delete_api_livejs_v1_customer__api_path__carts__id_
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 步驟四：送出購買訂單，並再次初始化購物車列表
+
+- 送出購買訂單(POST)：`/api/livejs/v1/customer/{api_path}/orders`/post_api_livejs_v1_customer__api_path__orders
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%A8%82%E5%96%AE%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 步驟五：觀看後台訂單
+
+- 取得訂單列表(GET)： `/api/livejs/v1/admin/{api_path}/orders`
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%A8%82%E5%96%AE%E7%9B%B8%E9%97%9C(%E7%AE%A1%E7%90%86%E8%80%85)/get_api_livejs_v1_admin__api_path__orders
+
+- Codepen 範例 : https://codepen.io/hexschool/pen/yLgaBWV?editors=1010
+
+
+### Week 8 sub.
+
+- https://quip.com/oo9MAb3DbQya
+
+- API 文件網址：https://hexschool.github.io/hexschoolliveswagger/
+
+- API 文件說明：https://www.notion.so/API-8b5b74eb052b451faf28013d76811fac#7598a1040d4f4c4aab5dec30f621d2b8
+
+1. 文件部分
+
+```
+* Base URL
+* GET PUT PATCH DELETE POST
+* GET、DELETE 回傳格式 （請求時不需帶資料）
+```
+
+```
+{
+  "status": true,
+  "products": [
+    {
+      "title": "Antony 床邊桌",
+      "category": "收納",
+      "description": "安東尼可調高度床邊桌。",
+      "origin_price": 3200,
+      "images": "<https://hexschool-api.s3.us-west-2.amazonaws.com/custom/XWnC8Of71WeSvCbkGy5MvZSyCrim50F9njuwHypcbiimd8tWscxGdecRAyaNheboQkqQAiCWK12GwuwMBvEtAarU2Y7mKTwKZIqhIExyQzbAbls7NTOdN2vX1OAyEaAN.png>",
+      "price": 1890,
+      "id": "HMUyW5KrTMLyMu6FBQJs"
+    },
+    {
+      "description": "法式古典Louvre單人床架，經典百年手工浮雕工藝，床架宮廷式紡錘腳，與法式鄉村家具手工刷舊工藝，展現仿舊典雅質感～且床腳筆直設計，床架寬敞床底可收納儲物。",
+      "title": "Louvre 單人床架",
+      "images": "<https://hexschool-api.s3.us-west-2.amazonaws.com/custom/dp6gW6u5hkUxxCuNi8RjbfgufygamNzdVHWb15lHZTxqZQs0gdDunQBS7F6M3MdegcQmKfLLoxHGgV3kYunUF37DNn6coPH6NqzZwRfhbsmEblpJQLqXLg4yCqUwP3IE.png>",
+      "origin_price": 5780,
+      "id": "K09K6AHxi3w8DEo9c69T",
+      "category": "床架",
+      "price": 3780
+    },
+    {
+      "category": "床架",
+      "price": 9000,
+      "id": "KAFSFLqkRFrRHuvjKPRm",
+      "origin_price": 12000,
+      "images": "<https://hexschool-api.s3.us-west-2.amazonaws.com/custom/Zr4h1Oqvc6NtAnpe5pNqJfGYyBJshAlKctfv0BTAZBqVAuvfSAWk4bcidBd8qBu1lRn5TWvib6O3UbmIAEt5w8SdB94GuFplZn6IM4SBvtxWJA2VnOqvQOsKungCPDXv.png>",
+      "title": "Jordan 雙人床架／雙人加大",
+      "description": "喬丹6尺雙人加大床頭片"
+    },
+    ]
+}
+```
+
+EX : 前端取資料時：以 axios 為串接的方法，想要拿到 products
+
+```
+response.data.products
+```
+
+- POST、PUT、PATCH 帶入的資料格式 （需帶資料）
+
+```
+{
+  "data": {
+    "id": "產品 ID (String)",
+    "paid": true
+  }
+}
+```
+
+- 實際寫的時候： 參數順序：axios.put(*url, 要帶的資料, 其他設定*)
+
+```
+axios.put('https://livejs-api.hexschool.io/api/livejs/v1/admin/yinmin/orders',
+    {
+      data: {
+        id: e.target.dataset.id,
+        paid: true
+      },
+    },
+    {
+      headers: {
+        'Authorization': '637po6yzi2bXojmEob5TAMnaZk93'
+      }
+    })
+    .then(() => {
+      getOrder();
+
+    })
+    .catch(function (err) {
+      console.log(err);
+    })
+```
+
+```
+const config = {
+   headers: {'名稱'：'...'},
+   methods: 'PUT',
+   ...
+}
+```
+
+回傳：status, orders(一整個訂單列表)
+
+```
+{
+    "status": true,  
+    "orders": [
+        {      
+        "updatedAt": 1615185656813,      
+        "id": "6kMabBcg11u75Rx8Ochg",      
+        "user": {        
+            "email": "123@gmail.com",        
+            "tel": "0912345678",        
+            "payment": "Google Pay",        
+            "name": "ray",        
+            "address": "xxxx"      
+        },      
+        "total": 500,      
+        "createdAt": 1615185204,      
+        "paid": true,      
+        "quantity": 10,      
+        "orders": [        
+            {          
+                "category": "測試分類",          
+                "price": 500,          
+                "title": "測試商品",          
+                "image": "https://images.unsplash.com/photo-1516550135131-fe3dcb0bedc7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=621e8231a4e714c2e85f5acbbcc6a730&auto=format&fit=crop&w=1352&q=80",          
+                "id": "yhHU0M0Aad1bTiA7ITHm",          
+                "origin_price": 1000        
+            }
+      ]
+    }
+  ]
+}
+```
+
+```
+當在寫程式的時候遇到錯誤，而測試可以通過的話，代表程式碼寫錯了
+```
+
+2. 基本錯誤
+
+* customer & admin (404)
+
+* API PATH
+
+* HTTP method 不要打錯
+
+* 需要帶 token 的不要忘記
+
+* 傳入的格式
+
+* 傳入的物件的屬性名稱、型別需與文件相同
+
+```
+若回傳錯誤碼，可以去文件中對照錯誤解釋
+```
+
+3. 分享自己在寫的時候會怎麼做
+
+* 寫註解
+
+```
+// GET 後台取得訂單
+```
+
+* axios 一開始的架構都會留著，等確定 console.log 拿到東西才繼續寫賦予
+
+```
+let products = []
+
+axios.get('https://livejs-api.hexschool.io/api/livejs/v1/customer/yinmin/products')
+    .then(function (response) {
+      //console.log(response.data.products);
+      products = response.data.products;
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+```
+
+* 遇到錯誤的話可以看 console 確認，或是直接使用 Network 看錯誤訊息（篩選Fetch/XHR） 
+
+* 不知道要怎麼拿 item. 的資料 可以先把 item 弄出來看或是比對文件看結構
+
+* 命名很重要，例如：不要按鈕全部用 .btn 
+
+* 善用 command f 快速移動位置
+
+* 可以將 API PATH 、 UID 、回傳 data、headers 物件獨立
+
+```
+// 全域設定
+const api_path = "yinmin";
+const baseUrl = "https://livejs-api.hexschool.io";
+const config = {
+      headers: {
+       'Authorization': '637po6yzi2bXojmEob5TAMnaZk93'
+      }
+    };
+
+
+//串接後台某隻 put 的 API
+function xxx(e){
+    const url = `${baseUrl}/api/livejs/v1/customer/${api_path}/orders`;
+    
+    const data = {
+      data: {
+        id: e.target.dataset.id,
+        paid: true
+      }
+    };
+    
+    
+
+   axios.put(url, data, config)
+   .then(()=>{
+        ...
+   })
+   .catch(()=>{
+        ...
+   })
+}
+```
+
+大家來找碴：
+
+```
+axios.put('https://hexschoollivejs.herokuapp.com/api/livejs/v1/admin/yinmin/orders',
+    {
+      data: {
+        id: e.target.dataset.id,
+        paid: true
+      }
+     },
+     {
+      headers: {
+        Authorization: '637po6yzi2bXojmEob5TAMnaZk93'
+      }
+    })
+    .then(function (response) {
+      console.log(response.data);
+
+    })
+    .catch(function (err) {
+      console.log(err);
+    })
+```
+
+4. 後台
+
+- *流程：*
+
+(1) 建立訂單 → 查看訂單列表 → 編輯訂單狀態 → 刪除單一訂單 → 刪除全部訂單
+
+(2) 從看設計稿也可以得知，有 GET, PUT, DELETE 三種請求方法
+
+> 若先做後台，可以透過 API 文件去完成前台的購物流程
+
+實作補充：
+
+- `data-*`用法： https://courses.hexschool.com/courses/20201113/lectures/34094845
+
+- 日期轉換 - 先換成毫秒 (13個數字)再轉為看得懂的日期格式 :
+
+- 兩種方法 - 方法一 :
+
+```
+let date = new Date(*timestamp* * 1000); // 先換成毫秒
+
+const year = date.getFullYear()      // 2021
+const month = date.getMonth() + 1     // 11
+const day = date.getDate()          // 30
+
+date.getHours()
+date.getMinutes()
+date.getSeconds()
+
+const dateFull = `${year}/${month}/${day}` // '2021/11/30'
+```
+
+- 方法二 :
+
+```
+let date = new Date(*timestamp* * 1000); 
+
+date.toLocaleDateString(); // '2021/9/14'
+```
+
+- 三元運算 ： https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+```
+${item.paid ? '已處理' : '未處理'}
+
+if(item.paid){
+    console.log('已處理');
+} else {
+    console.log('未處理');
+}
+```
+
+
+## Week 9 - DOM + API 操控
+
+1. DOM 範例
+
+- todoList : https://codepen.io/hexschool/pen/OJWRqrN
+
+2. 最終關卡 API 資訊
+
+* API 教學文件 : https://www.notion.so/API-8b5b74eb052b451faf28013d76811fac#7598a1040d4f4c4aab5dec30f621d2b8
+
+* API 申請平台 : https://livejs-api.hexschool.io/
+
+* API 線上測試文件 : https://hexschool.github.io/hexschoolliveswagger/
+
+* 最終關卡 XD 設計稿 : https://xd.adobe.com/view/a48b8617-4588-4817-9062-b62130dce916-f1d8/
+
+* Codepen 範例程式碼 : https://codepen.io/hexschool/pen/JjERgYq?editors=0010
+
+3. API 介紹
+
+* 最終關卡流程圖 : https://whimsical.com/dom-api-ULyBu5TbMJG9v2tvnkgCFf
+
+* API 前台規則流程圖 : https://whimsical.com/Eg1f7MCzy9UcBJjkpq8TLP
+
+4. 最終關卡 kata - 請壓在 6hr 內，能用自己的邏輯寫出來
+
+5. 最終關卡任務練習步驟 :
+
+- API 網址 : https://hexschool.github.io/hexschoolliveswagger/#
+
+> 前台一隻 app.js，後台為 admin.js，前後台拆開
+
+6. 步驟一：初始化，取得產品與購物車列表
+
+- 取得產品列表(Get)：/api/livejs/v1/customer/{api_path}/products/get_api_livejs_v1_customer__api_path__products
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E7%94%A2%E5%93%81%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 取得購物車列表(Get)：/api/livejs/v1/customer/{api_path}/carts/get_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+```
+//取得產品列表(Get)：/api/livejs/v1/customer/{api_path}/products
+{
+  "status": true,
+  "products": [
+    {
+      "category": "產品分類 (String)",
+      "image": "產品圖片 (String)",
+      "id": "產品ID  (String)",
+      "title": "產品名稱  (String)",
+      "origin_price": "產品原始價錢 (Number)",
+      "price": "產品銷售價錢 (Number)"
+    }
+  ]
+}
+```
+
+> 新帳號預設購物車會有一筆資料
+
+7. 步驟二：新增購物車品項，並再次初始化購物車列表
+
+- 加入購物車(POST)：/api/livejs/v1/customer/{api_path}/carts/post_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+8. 步驟三：修改購物車狀態(刪除全部、刪除單筆)，並再次初始化購物車列表
+
+- 清除購物車內全部產品(DELETE)：/api/livejs/v1/customer/{api_path}/carts/delete_api_livejs_v1_customer__api_path__carts
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- 刪除購物車內特定產品(DELETE)：/api/livejs/v1/customer/{api_path}/carts/{id}/delete_api_livejs_v1_customer__api_path__carts__id_
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%B3%BC%E7%89%A9%E8%BB%8A%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+
+9. 步驟四：送出購買訂單，並再次初始化購物車列表
+
+- 送出購買訂單(POST)：/api/livejs/v1/customer/{api_path}/orders/post_api_livejs_v1_customer__api_path__orders
+
+- https://hexschoollivejs.herokuapp.com/api-docs/#/%E8%A8%82%E5%96%AE%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+10. 步驟五：觀看後台訂單
+
+- 取得訂單列表(GET)：/api/livejs/v1/admin/{api_path}/orders/post_api_livejs_v1_customer__api_path__orders
+
+- https://hexschool.github.io/hexschoolliveswagger/#/%E8%A8%82%E5%96%AE%E7%9B%B8%E9%97%9C(%E5%AE%A2%E6%88%B6
+
+- Codepen 範例 : https://codepen.io/hexschool/pen/yLgaBWV?editors=1010
+
+11. DOM 與 API 規劃
+
+- 最終關卡前台 : https://codepen.io/hexschool/pen/qBRPByd
+
+- 最終關卡後台 : https://codepen.io/hexschool/pen/PoWJoBK
+
+
+12. 重新複習
+
+```
+1. **變數**：基礎型別
+2. **流程判斷**：流程圖設計
+3. **陣列與物件**：資料定義
+4. **函式設計**：讓程式能重複呼叫執行、消除重複的程式碼
+5. **資料處理**：陣列與物件資料處理，例如 ForEach 、Object.keys
+6. **AJAX 取得資料**： Axios 取得網路請求
+7. **套件整合**： C3 資料處理
+8. **第三方線上服務串接**：API 服務
+```
+
+13. 下方服務有用到哪幾個編號？
+
+- Swiper : https://swiperjs.com/
+
+- SUANKAN - 算算看要上線多久 : https://superawei.github.io/SUANKAN/
+
+- 六角學院 : https://www.hexschool.com/
+
+- EX : 小明想做口罩地圖，他去查 OPEN DATA : https://data.gov.tw/dataset/116285
+
+發現是 csv 格式，於是到網路查到有佛心工程師提供 CORS JSON API : 
+
+- https://g0v.hackmd.io/@kiang/mask-info#%E9%96%8B%E7%99%BC%E8%B3%87%E6%BA%90%EF%BC%9A
+
+- 小明很高興，於是他用 axios 接了他的口罩剩餘數量 API，並搭配 Google Map 顯示地圖資訊。
+
+- 小華的老師出了個題目給他，他希望小華寫個「離線版的高雄停車場」網頁，於是小華到 高雄 OPEN DATA 下載 JSON 檔案，因為會用到圖表，所以他用了 C3.js 服務。方便老師能夠離線就能開啟小華的程式，看到高雄市停車場的網頁資訊。
+
+- https://data.kcg.gov.tw/dataset/department-of-transportation30
+
+![](https://i.imgur.com/x2Dk90B.png)
+
+14. 下一步？
+
+* 學 SPA 框架，整合 API 資訊 (Vue、React、Angular)
+
+* 深入 JS 核心常見面試題目 : https://www.hexschool.com/courses/js-core.html
+
+* 2021轉職前端工程師之旅 面試篇：為自己選的路堅持下去 : https://ithelp.ithome.com.tw/articles/10256018?sc=rss.qu
 
 

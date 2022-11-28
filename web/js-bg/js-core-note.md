@@ -8,7 +8,7 @@
 Hex School JS 課程 2022 核心
 ```
 
-## Week 1
+## Week 1 - 變數的宣告與提升
 
 1.  為什麼要學核心知識
 
@@ -388,7 +388,7 @@ Object.keys(family).forEach(key => {
     - 函式建構子
 
 
-## Week 6
+## Week 6 - this 與原型鏈
 
 1. 關於 This
 
@@ -421,5 +421,77 @@ Object.keys(family).forEach(key => {
 - 原型繼承
 - class
 
-## Week 7
+## Week 7 - 非同步與 Promise
+
+1. 同步語言 與 非同步行為
+
+- 什麼是同步？逐行執行的 JavaScript
+
+- 非同步事件是什麼
+   
+- https://www.casper.tw/javascript/2017/12/07/javascript-event-queue/
+
+ - ![](core-7-1.png)
+
+2. 前端與伺服器的關係
+
+- setTimeout 與 Web API
+
+- 瀏覽器與資料庫
+
+3.  Promise
+
+示範 AJAX API ： https://randomuser.me/
+
+- 為何要使用 Promise
+
+- Promise 的寫法
+    - 串接
+    - 錯誤
+
+- 建立自己的 Promise
+- Promise 實戰方法
+- Promise 物件方法
+    - all
+
+4. Async / Await
+
+- 使用 async 取代 promise
+- async function 就是 Promise
+- async 如何捕捉錯誤
+- async function 如何回傳值
+- async function 限制
+    - await 只能將 Promise 函式轉為同步，非 Promise 則無法轉為同步
+
+## Week 8 - 模組開發
+
+1. 如何進行模組化
+
+- 具名匯出：
+    - 通常最為方法封裝使用
+- 預設匯出：
+    - 在框架中，通常作為元件使用
+    - 每個檔案只能有一個
+- 具名匯入
+- 預設匯入
+- sideEffect：不需 Export，可直接使用
+
+2. 模組化小知識
+
+- 作用域變化
+    - 不同 module 屬於獨立作用域
+- await 獨立使用
+
+3. 模組化複習
+
+- 將 Class 模組化
+- 閉包模組化
+
+4. 哪邊可以看到模組化
+
+- lodash
+- Vue
+- Webpack, Vite
+
+
 
