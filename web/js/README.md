@@ -79,9 +79,6 @@
 
 3. react router : https://hackmd.io/qijzvN_YQUCIYz4cADe4_w
 
-
-
-
 ## Angular
 
 1. Angular 深入淺出三十天：表單與測試 : https://ithelp.ithome.com.tw/users/20090728/ironman/3881
@@ -107,3 +104,16 @@
 11. React 快速入門 : https://www.youtube.com/watch?v=zqV7NIFGDrQ
 
 12. Angular Developer Roadmap : https://medium.com/@venkateshb-03/angular-developer-roadmap-2025-things-every-budding-angular-developer-should-know-86061c84a0f9
+
+
+## draggable.js
+
+- https://www.youtube.com/watch?v=iUMlk_eHkzE
+
+- https://lilac-quail-103.notion.site/F2E-2022-draggable-js-3e363b729ef348b3bc0369115516e769
+
+- https://hackmd.io/@hexschool/Bk0XjLy8i
+
+- draggable.js Demo : https://ayugioh2003.github.io/survey-draggablejs/#/
+
+
