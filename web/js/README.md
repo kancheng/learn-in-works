@@ -106,7 +106,7 @@
 12. Angular Developer Roadmap : https://medium.com/@venkateshb-03/angular-developer-roadmap-2025-things-every-budding-angular-developer-should-know-86061c84a0f9
 
 
-## draggable.js
+## dnd & draggable.js
 
 - https://www.youtube.com/watch?v=iUMlk_eHkzE
 
@@ -116,4 +116,11 @@
 
 - draggable.js Demo : https://ayugioh2003.github.io/survey-draggablejs/#/
 
+- [Draggable.js-sortable - StackBlitz](https://stackblitz.com/edit/vitejs-vite-pfhwqx?file=style.css,index.html,main.js&terminal=dev) Vanilla JS, Vite
+
+- [Draggable.js-sortable vue - StackBlitz](https://stackblitz.com/edit/vitejs-vite-pfkmre?file=src%2FApp.vue&terminal=dev) Vue
+
+- [https://stackblitz.com/?starters=vite](https://stackblitz.com/?starters=vite) 空的模板
+
+- https://github.com/atlassian/react-beautiful-dnd
 
