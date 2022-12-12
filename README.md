@@ -1323,3 +1323,27 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 - MutationObserver: 用來偵測 DOM 變化## API
 
+## ChatGPT
+
+- https://www.youtube.com/@VivianMiuLab
+
+- https://www.youtube.com/@HungyiLeeNTU
+
+- https://www.youtube.com/@hsuantien
+
+1. 台大資訊 深度學習之應用 | ADL 17.1: Issues in Pre-Trained Models 預訓練模型的問題
+
+- https://www.youtube.com/watch?v=SOAbgV07IH8
+
+2. 台大資訊 深度學習之應用 | ADL 17.2: OpenAI InstructGPT 從人類回饋中學習 ChatGPT 的前身
+
+- https://www.youtube.com/watch?v=ORHv8yKAV2Q
+
+3. 台大資訊 深度學習之應用 | ADL 17.3: OpenAI ChatGPT 驚驗眾人的對話互動式AI
+
+- https://www.youtube.com/watch?v=TnGPmlONfI8
+
+4. Chat GPT (可能)是怎麼煉成的 - GPT 社會化的過程
+
+- https://www.youtube.com/watch?v=e0aKI2GGZNg
+
