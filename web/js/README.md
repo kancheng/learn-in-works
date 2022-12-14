@@ -124,3 +124,40 @@
 
 - https://github.com/atlassian/react-beautiful-dnd
 
+## 互動式網頁設計
+
+- https://hackmd.io/@hexschool/SJZTk7Q8j
+
+- https://www.youtube.com/watch?v=YY8l4qPoAqo
+
+### 互動網頁工程需要的技能
+
+* CSS 視覺物件形塑能力
+
+* 動畫製作 - Jquery, [Framer-Motion](https://www.framer.com/motion/), [ScrollMagic](https://scrollmagic.io/)…等
+
+* 轉場能力 - Component 的生命週期 (transition)
+
+* 銜接設計流程 - [Lottie.js](https://airbnb.io/lottie/#/) + [BodyMovin](https://aescripts.com/bodymovin/) + After Effects
+
+* 畫布 Canvas 與 簡易WebGL / [p5.js](https://p5js.org/) 
+
+* 網頁的聲音操作 - [Tone.js](https://tonejs.github.io/)  [Music Lab](https://musiclab.chromeexperiments.com/)
+
+* 3D 網頁製作與微調能力 - [Three.js](https://threejs.org/), [Babylon.js](https://www.babylonjs.com/) 與產製流程
+
+* 進階特效 [Pixi](https://pixijs.com/), [WebGL Shader](https://thebookofshaders.com/) - GLSL
+
+* 引入即時使用者視訊與音訊 Media Capture & Stream API
+
+* 引入機器學習 Model - [Tensorflow.js](https://www.tensorflow.org/js) 的機器學習 / ml5.js / [Human](https://github.com/vladmandic/human) 
+
+* [Creative Coding](https://course.creativecoding.in/) (程式創作)的概念
+
+* 跨平台媒介與軟硬體的整合操作 / 通訊協議連結硬體 [OSC 與 socket](https://github.com/adzialocha/osc-js)  [serialport](https://www.npmjs.com/package/serialport)
+
+* WASM 與瀏覽器虛擬機化 (e.g. Figma)
+
+* 所見即所得時代的逆襲 (WYSWYG)
+
+
