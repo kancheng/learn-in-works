@@ -1347,3 +1347,12 @@ Docker ELK Filebeat 教學 - Log files and journals : https://www.youtube.com/wa
 
 - https://www.youtube.com/watch?v=e0aKI2GGZNg
 
+
+## Functional Programming
+
+Functional Programming - 入門篇 : https://www.youtube.com/watch?v=V-zunDXzA2g
+
+Functional Programming - 應用篇 : https://www.youtube.com/watch?v=1y9Rz3LZdJQ
+
+Functional Programming - 其他語言篇 : https://www.youtube.com/watch?v=ClLjXmv7eo4
+
